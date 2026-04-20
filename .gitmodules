@@ -1,0 +1,6 @@
+[submodule "mquickjs"]
+	path = mquickjs
+	url = https://github.com/bellard/mquickjs
+[submodule "pico-sdk"]
+	path = pico-sdk
+	url = https://github.com/raspberrypi/pico-sdk
