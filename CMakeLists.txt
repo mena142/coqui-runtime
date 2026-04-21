@@ -2,7 +2,6 @@ cmake_minimum_required(VERSION 3.13)
 include(pico_sdk_import.cmake)
 project(coqui_mjs C CXX ASM)
 
-# Enable ccache
 find_program(CCACHE_PROGRAM ccache)
 if(CCACHE_PROGRAM)
     set(CMAKE_C_COMPILER_LAUNCHER "${CCACHE_PROGRAM}")
@@ -18,7 +17,6 @@ add_executable(coqui_mjs
     mquickjs/cutils.c
 )
 
-# This tells the compiler to look inside the mquickjs folder for headers
 target_include_directories(coqui_mjs PRIVATE 
     ${CMAKE_CURRENT_SOURCE_DIR}
     ${CMAKE_CURRENT_SOURCE_DIR}/mquickjs
@@ -28,8 +26,6 @@ target_compile_definitions(coqui_mjs PRIVATE
     CONFIG_TINY_JS=1
     CONFIG_NO_REGEXP=1
     CONFIG_NO_BIGINT=1
-    PICO_FLOAT_PROPAGATE_NANS=1
-    PICO_DOUBLE_PROPAGATE_NANS=1
 )
 
 target_compile_options(coqui_mjs PRIVATE

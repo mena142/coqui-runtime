@@ -1,0 +1,37 @@
+# --- Build Artifacts ---
+build/
+bin/
+obj/
+*.elf
+*.bin
+*.map
+*.hex
+*.uf2
+*.dis
+
+# --- Logs & Performance Metrics ---
+logs/
+*.log
+
+# --- Pico SDK & Submodules ---
+# We ignore these because you are using a global PICO_SDK_PATH
+# or they are managed as external dependencies
+pico-sdk/
+_deps/
+pico_sdk_import.cmake
+
+# --- Toolchain & IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# --- Python (if used for scripts) ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- ccache ---
+.ccache/
