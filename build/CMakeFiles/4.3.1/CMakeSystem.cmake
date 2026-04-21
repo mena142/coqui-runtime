@@ -3,7 +3,7 @@ set(CMAKE_HOST_SYSTEM_NAME "Darwin")
 set(CMAKE_HOST_SYSTEM_VERSION "22.6.0")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
 
-include("/Users/arturomena/coqui-runtime/pico-sdk/cmake/preload/toolchains/pico_arm_cortex_m0plus_gcc.cmake")
+include("/Users/arturomena/pico-sdk/cmake/preload/toolchains/pico_arm_cortex_m0plus_gcc.cmake")
 
 set(CMAKE_SYSTEM "PICO")
 set(CMAKE_SYSTEM_NAME "PICO")

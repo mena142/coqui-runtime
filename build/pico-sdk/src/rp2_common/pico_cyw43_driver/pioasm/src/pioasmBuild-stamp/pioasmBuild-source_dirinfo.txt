@@ -4,6 +4,6 @@
 
 method=source_dir
 command=
-source_dir=/Users/arturomena/coqui-runtime/pico-sdk/tools/pioasm
+source_dir=/Users/arturomena/pico-sdk/tools/pioasm
 work_dir=
 

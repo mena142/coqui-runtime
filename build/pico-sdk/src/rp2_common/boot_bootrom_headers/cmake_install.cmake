@@ -1,4 +1,4 @@
-# Install script for directory: /Users/arturomena/coqui-runtime/pico-sdk/src/rp2_common/boot_bootrom_headers
+# Install script for directory: /Users/arturomena/pico-sdk/src/rp2_common/boot_bootrom_headers
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

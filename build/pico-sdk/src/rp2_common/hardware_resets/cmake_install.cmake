@@ -1,4 +1,4 @@
-# Install script for directory: /Users/arturomena/coqui-runtime/pico-sdk/src/rp2_common/hardware_resets
+# Install script for directory: /Users/arturomena/pico-sdk/src/rp2_common/hardware_resets
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -207,6 +207,1798 @@ pico_status_led_ws2812_pio_h/fast:
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h.dir/build.make pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h.dir/build
 .PHONY : pico_status_led_ws2812_pio_h/fast
 
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/audio/audio_device.o: Users/arturomena/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/audio/audio_device.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
+
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i: Users/arturomena/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s: Users/arturomena/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.o: Users/arturomena/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
+
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i: Users/arturomena/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s: Users/arturomena/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.o: Users/arturomena/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
+
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i: Users/arturomena/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s: Users/arturomena/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.o: Users/arturomena/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
+
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i: Users/arturomena/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s: Users/arturomena/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/hid/hid_device.o: Users/arturomena/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/hid/hid_device.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
+
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i: Users/arturomena/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s: Users/arturomena/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/midi/midi_device.o: Users/arturomena/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/midi/midi_device.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
+
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i: Users/arturomena/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s: Users/arturomena/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/msc/msc_device.o: Users/arturomena/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/msc/msc_device.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
+
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i: Users/arturomena/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s: Users/arturomena/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.o: Users/arturomena/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
+
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i: Users/arturomena/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s: Users/arturomena/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/net/ncm_device.o: Users/arturomena/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/net/ncm_device.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
+
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i: Users/arturomena/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s: Users/arturomena/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.o: Users/arturomena/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
+
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i: Users/arturomena/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s: Users/arturomena/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.o: Users/arturomena/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
+
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i: Users/arturomena/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s: Users/arturomena/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/video/video_device.o: Users/arturomena/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/video/video_device.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
+
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/video/video_device.i: Users/arturomena/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/video/video_device.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/video/video_device.s: Users/arturomena/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/video/video_device.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+
+Users/arturomena/pico-sdk/lib/tinyusb/src/common/tusb_fifo.o: Users/arturomena/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/common/tusb_fifo.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
+
+Users/arturomena/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i: Users/arturomena/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+
+Users/arturomena/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s: Users/arturomena/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+
+Users/arturomena/pico-sdk/lib/tinyusb/src/device/usbd.o: Users/arturomena/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/device/usbd.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/lib/tinyusb/src/device/usbd.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+
+Users/arturomena/pico-sdk/lib/tinyusb/src/device/usbd.i: Users/arturomena/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/device/usbd.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/lib/tinyusb/src/device/usbd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+
+Users/arturomena/pico-sdk/lib/tinyusb/src/device/usbd.s: Users/arturomena/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/device/usbd.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/lib/tinyusb/src/device/usbd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+
+Users/arturomena/pico-sdk/lib/tinyusb/src/device/usbd_control.o: Users/arturomena/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/device/usbd_control.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
+
+Users/arturomena/pico-sdk/lib/tinyusb/src/device/usbd_control.i: Users/arturomena/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/device/usbd_control.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+
+Users/arturomena/pico-sdk/lib/tinyusb/src/device/usbd_control.s: Users/arturomena/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/device/usbd_control.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+
+Users/arturomena/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.o: Users/arturomena/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+
+Users/arturomena/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i: Users/arturomena/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+
+Users/arturomena/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s: Users/arturomena/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+
+Users/arturomena/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.o: Users/arturomena/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
+
+Users/arturomena/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i: Users/arturomena/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+
+Users/arturomena/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s: Users/arturomena/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+
+Users/arturomena/pico-sdk/lib/tinyusb/src/tusb.o: Users/arturomena/pico-sdk/lib/tinyusb/src/tusb.c.o
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/tusb.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/lib/tinyusb/src/tusb.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/tusb.c.o
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/tusb.c.o
+
+Users/arturomena/pico-sdk/lib/tinyusb/src/tusb.i: Users/arturomena/pico-sdk/lib/tinyusb/src/tusb.c.i
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/tusb.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/lib/tinyusb/src/tusb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/tusb.c.i
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/tusb.c.i
+
+Users/arturomena/pico-sdk/lib/tinyusb/src/tusb.s: Users/arturomena/pico-sdk/lib/tinyusb/src/tusb.c.s
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/tusb.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/lib/tinyusb/src/tusb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/tusb.c.s
+.PHONY : Users/arturomena/pico-sdk/lib/tinyusb/src/tusb.c.s
+
+Users/arturomena/pico-sdk/src/common/hardware_claim/claim.o: Users/arturomena/pico-sdk/src/common/hardware_claim/claim.c.o
+.PHONY : Users/arturomena/pico-sdk/src/common/hardware_claim/claim.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/common/hardware_claim/claim.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/common/hardware_claim/claim.c.o
+.PHONY : Users/arturomena/pico-sdk/src/common/hardware_claim/claim.c.o
+
+Users/arturomena/pico-sdk/src/common/hardware_claim/claim.i: Users/arturomena/pico-sdk/src/common/hardware_claim/claim.c.i
+.PHONY : Users/arturomena/pico-sdk/src/common/hardware_claim/claim.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/src/common/hardware_claim/claim.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/common/hardware_claim/claim.c.i
+.PHONY : Users/arturomena/pico-sdk/src/common/hardware_claim/claim.c.i
+
+Users/arturomena/pico-sdk/src/common/hardware_claim/claim.s: Users/arturomena/pico-sdk/src/common/hardware_claim/claim.c.s
+.PHONY : Users/arturomena/pico-sdk/src/common/hardware_claim/claim.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/src/common/hardware_claim/claim.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/common/hardware_claim/claim.c.s
+.PHONY : Users/arturomena/pico-sdk/src/common/hardware_claim/claim.c.s
+
+Users/arturomena/pico-sdk/src/common/pico_sync/critical_section.o: Users/arturomena/pico-sdk/src/common/pico_sync/critical_section.c.o
+.PHONY : Users/arturomena/pico-sdk/src/common/pico_sync/critical_section.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/common/pico_sync/critical_section.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/common/pico_sync/critical_section.c.o
+.PHONY : Users/arturomena/pico-sdk/src/common/pico_sync/critical_section.c.o
+
+Users/arturomena/pico-sdk/src/common/pico_sync/critical_section.i: Users/arturomena/pico-sdk/src/common/pico_sync/critical_section.c.i
+.PHONY : Users/arturomena/pico-sdk/src/common/pico_sync/critical_section.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/src/common/pico_sync/critical_section.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/common/pico_sync/critical_section.c.i
+.PHONY : Users/arturomena/pico-sdk/src/common/pico_sync/critical_section.c.i
+
+Users/arturomena/pico-sdk/src/common/pico_sync/critical_section.s: Users/arturomena/pico-sdk/src/common/pico_sync/critical_section.c.s
+.PHONY : Users/arturomena/pico-sdk/src/common/pico_sync/critical_section.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/src/common/pico_sync/critical_section.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/common/pico_sync/critical_section.c.s
+.PHONY : Users/arturomena/pico-sdk/src/common/pico_sync/critical_section.c.s
+
+Users/arturomena/pico-sdk/src/common/pico_sync/lock_core.o: Users/arturomena/pico-sdk/src/common/pico_sync/lock_core.c.o
+.PHONY : Users/arturomena/pico-sdk/src/common/pico_sync/lock_core.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/common/pico_sync/lock_core.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/common/pico_sync/lock_core.c.o
+.PHONY : Users/arturomena/pico-sdk/src/common/pico_sync/lock_core.c.o
+
+Users/arturomena/pico-sdk/src/common/pico_sync/lock_core.i: Users/arturomena/pico-sdk/src/common/pico_sync/lock_core.c.i
+.PHONY : Users/arturomena/pico-sdk/src/common/pico_sync/lock_core.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/src/common/pico_sync/lock_core.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/common/pico_sync/lock_core.c.i
+.PHONY : Users/arturomena/pico-sdk/src/common/pico_sync/lock_core.c.i
+
+Users/arturomena/pico-sdk/src/common/pico_sync/lock_core.s: Users/arturomena/pico-sdk/src/common/pico_sync/lock_core.c.s
+.PHONY : Users/arturomena/pico-sdk/src/common/pico_sync/lock_core.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/src/common/pico_sync/lock_core.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/common/pico_sync/lock_core.c.s
+.PHONY : Users/arturomena/pico-sdk/src/common/pico_sync/lock_core.c.s
+
+Users/arturomena/pico-sdk/src/common/pico_sync/mutex.o: Users/arturomena/pico-sdk/src/common/pico_sync/mutex.c.o
+.PHONY : Users/arturomena/pico-sdk/src/common/pico_sync/mutex.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/common/pico_sync/mutex.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/common/pico_sync/mutex.c.o
+.PHONY : Users/arturomena/pico-sdk/src/common/pico_sync/mutex.c.o
+
+Users/arturomena/pico-sdk/src/common/pico_sync/mutex.i: Users/arturomena/pico-sdk/src/common/pico_sync/mutex.c.i
+.PHONY : Users/arturomena/pico-sdk/src/common/pico_sync/mutex.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/src/common/pico_sync/mutex.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/common/pico_sync/mutex.c.i
+.PHONY : Users/arturomena/pico-sdk/src/common/pico_sync/mutex.c.i
+
+Users/arturomena/pico-sdk/src/common/pico_sync/mutex.s: Users/arturomena/pico-sdk/src/common/pico_sync/mutex.c.s
+.PHONY : Users/arturomena/pico-sdk/src/common/pico_sync/mutex.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/src/common/pico_sync/mutex.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/common/pico_sync/mutex.c.s
+.PHONY : Users/arturomena/pico-sdk/src/common/pico_sync/mutex.c.s
+
+Users/arturomena/pico-sdk/src/common/pico_sync/sem.o: Users/arturomena/pico-sdk/src/common/pico_sync/sem.c.o
+.PHONY : Users/arturomena/pico-sdk/src/common/pico_sync/sem.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/common/pico_sync/sem.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/common/pico_sync/sem.c.o
+.PHONY : Users/arturomena/pico-sdk/src/common/pico_sync/sem.c.o
+
+Users/arturomena/pico-sdk/src/common/pico_sync/sem.i: Users/arturomena/pico-sdk/src/common/pico_sync/sem.c.i
+.PHONY : Users/arturomena/pico-sdk/src/common/pico_sync/sem.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/src/common/pico_sync/sem.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/common/pico_sync/sem.c.i
+.PHONY : Users/arturomena/pico-sdk/src/common/pico_sync/sem.c.i
+
+Users/arturomena/pico-sdk/src/common/pico_sync/sem.s: Users/arturomena/pico-sdk/src/common/pico_sync/sem.c.s
+.PHONY : Users/arturomena/pico-sdk/src/common/pico_sync/sem.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/src/common/pico_sync/sem.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/common/pico_sync/sem.c.s
+.PHONY : Users/arturomena/pico-sdk/src/common/pico_sync/sem.c.s
+
+Users/arturomena/pico-sdk/src/common/pico_time/time.o: Users/arturomena/pico-sdk/src/common/pico_time/time.c.o
+.PHONY : Users/arturomena/pico-sdk/src/common/pico_time/time.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/common/pico_time/time.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/common/pico_time/time.c.o
+.PHONY : Users/arturomena/pico-sdk/src/common/pico_time/time.c.o
+
+Users/arturomena/pico-sdk/src/common/pico_time/time.i: Users/arturomena/pico-sdk/src/common/pico_time/time.c.i
+.PHONY : Users/arturomena/pico-sdk/src/common/pico_time/time.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/src/common/pico_time/time.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/common/pico_time/time.c.i
+.PHONY : Users/arturomena/pico-sdk/src/common/pico_time/time.c.i
+
+Users/arturomena/pico-sdk/src/common/pico_time/time.s: Users/arturomena/pico-sdk/src/common/pico_time/time.c.s
+.PHONY : Users/arturomena/pico-sdk/src/common/pico_time/time.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/src/common/pico_time/time.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/common/pico_time/time.c.s
+.PHONY : Users/arturomena/pico-sdk/src/common/pico_time/time.c.s
+
+Users/arturomena/pico-sdk/src/common/pico_time/timeout_helper.o: Users/arturomena/pico-sdk/src/common/pico_time/timeout_helper.c.o
+.PHONY : Users/arturomena/pico-sdk/src/common/pico_time/timeout_helper.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/common/pico_time/timeout_helper.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/common/pico_time/timeout_helper.c.o
+.PHONY : Users/arturomena/pico-sdk/src/common/pico_time/timeout_helper.c.o
+
+Users/arturomena/pico-sdk/src/common/pico_time/timeout_helper.i: Users/arturomena/pico-sdk/src/common/pico_time/timeout_helper.c.i
+.PHONY : Users/arturomena/pico-sdk/src/common/pico_time/timeout_helper.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/src/common/pico_time/timeout_helper.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/common/pico_time/timeout_helper.c.i
+.PHONY : Users/arturomena/pico-sdk/src/common/pico_time/timeout_helper.c.i
+
+Users/arturomena/pico-sdk/src/common/pico_time/timeout_helper.s: Users/arturomena/pico-sdk/src/common/pico_time/timeout_helper.c.s
+.PHONY : Users/arturomena/pico-sdk/src/common/pico_time/timeout_helper.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/src/common/pico_time/timeout_helper.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/common/pico_time/timeout_helper.c.s
+.PHONY : Users/arturomena/pico-sdk/src/common/pico_time/timeout_helper.c.s
+
+Users/arturomena/pico-sdk/src/common/pico_util/datetime.o: Users/arturomena/pico-sdk/src/common/pico_util/datetime.c.o
+.PHONY : Users/arturomena/pico-sdk/src/common/pico_util/datetime.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/common/pico_util/datetime.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/common/pico_util/datetime.c.o
+.PHONY : Users/arturomena/pico-sdk/src/common/pico_util/datetime.c.o
+
+Users/arturomena/pico-sdk/src/common/pico_util/datetime.i: Users/arturomena/pico-sdk/src/common/pico_util/datetime.c.i
+.PHONY : Users/arturomena/pico-sdk/src/common/pico_util/datetime.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/src/common/pico_util/datetime.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/common/pico_util/datetime.c.i
+.PHONY : Users/arturomena/pico-sdk/src/common/pico_util/datetime.c.i
+
+Users/arturomena/pico-sdk/src/common/pico_util/datetime.s: Users/arturomena/pico-sdk/src/common/pico_util/datetime.c.s
+.PHONY : Users/arturomena/pico-sdk/src/common/pico_util/datetime.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/src/common/pico_util/datetime.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/common/pico_util/datetime.c.s
+.PHONY : Users/arturomena/pico-sdk/src/common/pico_util/datetime.c.s
+
+Users/arturomena/pico-sdk/src/common/pico_util/pheap.o: Users/arturomena/pico-sdk/src/common/pico_util/pheap.c.o
+.PHONY : Users/arturomena/pico-sdk/src/common/pico_util/pheap.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/common/pico_util/pheap.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/common/pico_util/pheap.c.o
+.PHONY : Users/arturomena/pico-sdk/src/common/pico_util/pheap.c.o
+
+Users/arturomena/pico-sdk/src/common/pico_util/pheap.i: Users/arturomena/pico-sdk/src/common/pico_util/pheap.c.i
+.PHONY : Users/arturomena/pico-sdk/src/common/pico_util/pheap.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/src/common/pico_util/pheap.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/common/pico_util/pheap.c.i
+.PHONY : Users/arturomena/pico-sdk/src/common/pico_util/pheap.c.i
+
+Users/arturomena/pico-sdk/src/common/pico_util/pheap.s: Users/arturomena/pico-sdk/src/common/pico_util/pheap.c.s
+.PHONY : Users/arturomena/pico-sdk/src/common/pico_util/pheap.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/src/common/pico_util/pheap.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/common/pico_util/pheap.c.s
+.PHONY : Users/arturomena/pico-sdk/src/common/pico_util/pheap.c.s
+
+Users/arturomena/pico-sdk/src/common/pico_util/queue.o: Users/arturomena/pico-sdk/src/common/pico_util/queue.c.o
+.PHONY : Users/arturomena/pico-sdk/src/common/pico_util/queue.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/common/pico_util/queue.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/common/pico_util/queue.c.o
+.PHONY : Users/arturomena/pico-sdk/src/common/pico_util/queue.c.o
+
+Users/arturomena/pico-sdk/src/common/pico_util/queue.i: Users/arturomena/pico-sdk/src/common/pico_util/queue.c.i
+.PHONY : Users/arturomena/pico-sdk/src/common/pico_util/queue.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/src/common/pico_util/queue.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/common/pico_util/queue.c.i
+.PHONY : Users/arturomena/pico-sdk/src/common/pico_util/queue.c.i
+
+Users/arturomena/pico-sdk/src/common/pico_util/queue.s: Users/arturomena/pico-sdk/src/common/pico_util/queue.c.s
+.PHONY : Users/arturomena/pico-sdk/src/common/pico_util/queue.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/src/common/pico_util/queue.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/common/pico_util/queue.c.s
+.PHONY : Users/arturomena/pico-sdk/src/common/pico_util/queue.c.s
+
+Users/arturomena/pico-sdk/src/rp2040/pico_platform/platform.o: Users/arturomena/pico-sdk/src/rp2040/pico_platform/platform.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2040/pico_platform/platform.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/rp2040/pico_platform/platform.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2040/pico_platform/platform.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2040/pico_platform/platform.c.o
+
+Users/arturomena/pico-sdk/src/rp2040/pico_platform/platform.i: Users/arturomena/pico-sdk/src/rp2040/pico_platform/platform.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2040/pico_platform/platform.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/src/rp2040/pico_platform/platform.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2040/pico_platform/platform.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2040/pico_platform/platform.c.i
+
+Users/arturomena/pico-sdk/src/rp2040/pico_platform/platform.s: Users/arturomena/pico-sdk/src/rp2040/pico_platform/platform.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2040/pico_platform/platform.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/src/rp2040/pico_platform/platform.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2040/pico_platform/platform.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2040/pico_platform/platform.c.s
+
+Users/arturomena/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.o: Users/arturomena/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
+
+Users/arturomena/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.i: Users/arturomena/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
+
+Users/arturomena/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.s: Users/arturomena/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
+
+Users/arturomena/pico-sdk/src/rp2_common/hardware_clocks/clocks.o: Users/arturomena/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_clocks/clocks.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+
+Users/arturomena/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: Users/arturomena/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_clocks/clocks.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+
+Users/arturomena/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: Users/arturomena/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_clocks/clocks.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+
+Users/arturomena/pico-sdk/src/rp2_common/hardware_divider/divider.o: Users/arturomena/pico-sdk/src/rp2_common/hardware_divider/divider.S.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_divider/divider.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/rp2_common/hardware_divider/divider.S.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_divider/divider.S.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_divider/divider.S.o
+
+Users/arturomena/pico-sdk/src/rp2_common/hardware_flash/flash.o: Users/arturomena/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_flash/flash.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/rp2_common/hardware_flash/flash.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
+
+Users/arturomena/pico-sdk/src/rp2_common/hardware_flash/flash.i: Users/arturomena/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_flash/flash.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/src/rp2_common/hardware_flash/flash.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+
+Users/arturomena/pico-sdk/src/rp2_common/hardware_flash/flash.s: Users/arturomena/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_flash/flash.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/src/rp2_common/hardware_flash/flash.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+
+Users/arturomena/pico-sdk/src/rp2_common/hardware_gpio/gpio.o: Users/arturomena/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_gpio/gpio.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
+
+Users/arturomena/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: Users/arturomena/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_gpio/gpio.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+
+Users/arturomena/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: Users/arturomena/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_gpio/gpio.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+
+Users/arturomena/pico-sdk/src/rp2_common/hardware_irq/irq.o: Users/arturomena/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_irq/irq.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/rp2_common/hardware_irq/irq.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+
+Users/arturomena/pico-sdk/src/rp2_common/hardware_irq/irq.i: Users/arturomena/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_irq/irq.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/src/rp2_common/hardware_irq/irq.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+
+Users/arturomena/pico-sdk/src/rp2_common/hardware_irq/irq.s: Users/arturomena/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_irq/irq.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/src/rp2_common/hardware_irq/irq.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+
+Users/arturomena/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.o: Users/arturomena/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
+
+Users/arturomena/pico-sdk/src/rp2_common/hardware_pll/pll.o: Users/arturomena/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_pll/pll.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/rp2_common/hardware_pll/pll.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+
+Users/arturomena/pico-sdk/src/rp2_common/hardware_pll/pll.i: Users/arturomena/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_pll/pll.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/src/rp2_common/hardware_pll/pll.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+
+Users/arturomena/pico-sdk/src/rp2_common/hardware_pll/pll.s: Users/arturomena/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_pll/pll.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+
+Users/arturomena/pico-sdk/src/rp2_common/hardware_sync/sync.o: Users/arturomena/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_sync/sync.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/rp2_common/hardware_sync/sync.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+
+Users/arturomena/pico-sdk/src/rp2_common/hardware_sync/sync.i: Users/arturomena/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_sync/sync.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/src/rp2_common/hardware_sync/sync.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+
+Users/arturomena/pico-sdk/src/rp2_common/hardware_sync/sync.s: Users/arturomena/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_sync/sync.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/src/rp2_common/hardware_sync/sync.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+
+Users/arturomena/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.o: Users/arturomena/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+
+Users/arturomena/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.i: Users/arturomena/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
+
+Users/arturomena/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.s: Users/arturomena/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
+
+Users/arturomena/pico-sdk/src/rp2_common/hardware_ticks/ticks.o: Users/arturomena/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_ticks/ticks.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
+
+Users/arturomena/pico-sdk/src/rp2_common/hardware_ticks/ticks.i: Users/arturomena/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_ticks/ticks.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
+
+Users/arturomena/pico-sdk/src/rp2_common/hardware_ticks/ticks.s: Users/arturomena/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_ticks/ticks.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
+
+Users/arturomena/pico-sdk/src/rp2_common/hardware_timer/timer.o: Users/arturomena/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_timer/timer.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/rp2_common/hardware_timer/timer.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+
+Users/arturomena/pico-sdk/src/rp2_common/hardware_timer/timer.i: Users/arturomena/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_timer/timer.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/src/rp2_common/hardware_timer/timer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+
+Users/arturomena/pico-sdk/src/rp2_common/hardware_timer/timer.s: Users/arturomena/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_timer/timer.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/src/rp2_common/hardware_timer/timer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+
+Users/arturomena/pico-sdk/src/rp2_common/hardware_uart/uart.o: Users/arturomena/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_uart/uart.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/rp2_common/hardware_uart/uart.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
+
+Users/arturomena/pico-sdk/src/rp2_common/hardware_uart/uart.i: Users/arturomena/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_uart/uart.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/src/rp2_common/hardware_uart/uart.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+
+Users/arturomena/pico-sdk/src/rp2_common/hardware_uart/uart.s: Users/arturomena/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_uart/uart.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/src/rp2_common/hardware_uart/uart.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+
+Users/arturomena/pico-sdk/src/rp2_common/hardware_vreg/vreg.o: Users/arturomena/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_vreg/vreg.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
+
+Users/arturomena/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: Users/arturomena/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_vreg/vreg.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+
+Users/arturomena/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: Users/arturomena/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_vreg/vreg.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+
+Users/arturomena/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.o: Users/arturomena/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
+
+Users/arturomena/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: Users/arturomena/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+
+Users/arturomena/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: Users/arturomena/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+
+Users/arturomena/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.o: Users/arturomena/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o
+
+Users/arturomena/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.i: Users/arturomena/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i
+
+Users/arturomena/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.s: Users/arturomena/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s
+
+Users/arturomena/pico-sdk/src/rp2_common/hardware_xosc/xosc.o: Users/arturomena/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_xosc/xosc.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+
+Users/arturomena/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: Users/arturomena/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_xosc/xosc.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+
+Users/arturomena/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: Users/arturomena/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_xosc/xosc.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_atomic/atomic.o: Users/arturomena/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_atomic/atomic.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_atomic/atomic.i: Users/arturomena/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_atomic/atomic.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_atomic/atomic.s: Users/arturomena/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_atomic/atomic.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.o: Users/arturomena/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_bootrom/bootrom.o: Users/arturomena/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_bootrom/bootrom.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: Users/arturomena/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: Users/arturomena/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.o: Users/arturomena/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.i: Users/arturomena/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.s: Users/arturomena/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.o: Users/arturomena/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.i: Users/arturomena/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.s: Users/arturomena/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_crt0/crt0.o: Users/arturomena/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_crt0/crt0.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.o: Users/arturomena/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.i: Users/arturomena/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.s: Users/arturomena/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_divider/divider_hardware.o: Users/arturomena/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_divider/divider_hardware.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.o: Users/arturomena/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.o: Users/arturomena/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.i: Users/arturomena/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.s: Users/arturomena/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_double/double_math.o: Users/arturomena/pico-sdk/src/rp2_common/pico_double/double_math.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_double/double_math.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/rp2_common/pico_double/double_math.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_double/double_math.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_double/double_math.c.o
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_double/double_math.i: Users/arturomena/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_double/double_math.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/src/rp2_common/pico_double/double_math.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_double/double_math.s: Users/arturomena/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_double/double_math.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/src/rp2_common/pico_double/double_math.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.o: Users/arturomena/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.o: Users/arturomena/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i: Users/arturomena/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s: Users/arturomena/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_flash/flash.o: Users/arturomena/pico-sdk/src/rp2_common/pico_flash/flash.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_flash/flash.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/rp2_common/pico_flash/flash.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_flash/flash.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_flash/flash.c.o
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_flash/flash.i: Users/arturomena/pico-sdk/src/rp2_common/pico_flash/flash.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_flash/flash.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/src/rp2_common/pico_flash/flash.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_flash/flash.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_flash/flash.c.i
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_flash/flash.s: Users/arturomena/pico-sdk/src/rp2_common/pico_flash/flash.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_flash/flash.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/src/rp2_common/pico_flash/flash.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_flash/flash.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_flash/flash.c.s
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.o: Users/arturomena/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.o: Users/arturomena/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.i: Users/arturomena/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.s: Users/arturomena/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_float/float_math.o: Users/arturomena/pico-sdk/src/rp2_common/pico_float/float_math.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_float/float_math.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/rp2_common/pico_float/float_math.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_float/float_math.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_float/float_math.c.o
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_float/float_math.i: Users/arturomena/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_float/float_math.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/src/rp2_common/pico_float/float_math.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_float/float_math.s: Users/arturomena/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_float/float_math.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/src/rp2_common/pico_float/float_math.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.o: Users/arturomena/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.o: Users/arturomena/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_malloc/malloc.o: Users/arturomena/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_malloc/malloc.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_malloc/malloc.i: Users/arturomena/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_malloc/malloc.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_malloc/malloc.s: Users/arturomena/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_malloc/malloc.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.o: Users/arturomena/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_platform_common/common.o: Users/arturomena/pico-sdk/src/rp2_common/pico_platform_common/common.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_platform_common/common.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/rp2_common/pico_platform_common/common.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_platform_common/common.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_platform_common/common.c.o
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_platform_common/common.i: Users/arturomena/pico-sdk/src/rp2_common/pico_platform_common/common.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_platform_common/common.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/src/rp2_common/pico_platform_common/common.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_platform_common/common.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_platform_common/common.c.i
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_platform_common/common.s: Users/arturomena/pico-sdk/src/rp2_common/pico_platform_common/common.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_platform_common/common.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/src/rp2_common/pico_platform_common/common.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_platform_common/common.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_platform_common/common.c.s
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_platform_panic/panic.o: Users/arturomena/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_platform_panic/panic.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_platform_panic/panic.i: Users/arturomena/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_platform_panic/panic.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_platform_panic/panic.s: Users/arturomena/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_platform_panic/panic.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_printf/printf.o: Users/arturomena/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_printf/printf.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/rp2_common/pico_printf/printf.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_printf/printf.i: Users/arturomena/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_printf/printf.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/src/rp2_common/pico_printf/printf.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_printf/printf.s: Users/arturomena/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_printf/printf.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/src/rp2_common/pico_printf/printf.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_runtime/runtime.o: Users/arturomena/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_runtime/runtime.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_runtime/runtime.i: Users/arturomena/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_runtime/runtime.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_runtime/runtime.s: Users/arturomena/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_runtime/runtime.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.o: Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.i: Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.s: Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.o: Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.i: Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.s: Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.o: Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.i: Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.s: Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.o: Users/arturomena/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.i: Users/arturomena/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.s: Users/arturomena/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_stdio/stdio.o: Users/arturomena/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_stdio/stdio.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_stdio/stdio.i: Users/arturomena/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_stdio/stdio.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_stdio/stdio.s: Users/arturomena/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_stdio/stdio.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.o: Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i: Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s: Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.o: Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i: Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s: Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.o: Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i: Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s: Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.o: Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i: Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s: Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_stdlib/stdlib.o: Users/arturomena/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_stdlib/stdlib.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: Users/arturomena/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: Users/arturomena/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_unique_id/unique_id.o: Users/arturomena/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_unique_id/unique_id.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i: Users/arturomena/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+
+Users/arturomena/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s: Users/arturomena/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+
 hardware.o: hardware.c.o
 .PHONY : hardware.o
 
@@ -279,30 +2071,6 @@ mquickjs/cutils.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/mquickjs/cutils.c.s
 .PHONY : mquickjs/cutils.c.s
 
-mquickjs/libm.o: mquickjs/libm.c.o
-.PHONY : mquickjs/libm.o
-
-# target to build an object file
-mquickjs/libm.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/mquickjs/libm.c.o
-.PHONY : mquickjs/libm.c.o
-
-mquickjs/libm.i: mquickjs/libm.c.i
-.PHONY : mquickjs/libm.i
-
-# target to preprocess a source file
-mquickjs/libm.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/mquickjs/libm.c.i
-.PHONY : mquickjs/libm.c.i
-
-mquickjs/libm.s: mquickjs/libm.c.s
-.PHONY : mquickjs/libm.s
-
-# target to generate assembly for a file
-mquickjs/libm.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/mquickjs/libm.c.s
-.PHONY : mquickjs/libm.c.s
-
 mquickjs/mquickjs.o: mquickjs/mquickjs.c.o
 .PHONY : mquickjs/mquickjs.o
 
@@ -326,1798 +2094,6 @@ mquickjs/mquickjs.s: mquickjs/mquickjs.c.s
 mquickjs/mquickjs.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/mquickjs/mquickjs.c.s
 .PHONY : mquickjs/mquickjs.c.s
-
-pico-sdk/lib/tinyusb/src/class/audio/audio_device.o: pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
-.PHONY : pico-sdk/lib/tinyusb/src/class/audio/audio_device.o
-
-# target to build an object file
-pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
-.PHONY : pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
-
-pico-sdk/lib/tinyusb/src/class/audio/audio_device.i: pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
-.PHONY : pico-sdk/lib/tinyusb/src/class/audio/audio_device.i
-
-# target to preprocess a source file
-pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
-.PHONY : pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
-
-pico-sdk/lib/tinyusb/src/class/audio/audio_device.s: pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
-.PHONY : pico-sdk/lib/tinyusb/src/class/audio/audio_device.s
-
-# target to generate assembly for a file
-pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
-.PHONY : pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
-
-pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.o: pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
-.PHONY : pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.o
-
-# target to build an object file
-pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
-.PHONY : pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
-
-pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i: pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
-.PHONY : pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i
-
-# target to preprocess a source file
-pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
-.PHONY : pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
-
-pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s: pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
-.PHONY : pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s
-
-# target to generate assembly for a file
-pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
-.PHONY : pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
-
-pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.o: pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
-.PHONY : pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.o
-
-# target to build an object file
-pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
-.PHONY : pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
-
-pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i: pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
-.PHONY : pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i
-
-# target to preprocess a source file
-pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
-.PHONY : pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
-
-pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s: pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
-.PHONY : pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s
-
-# target to generate assembly for a file
-pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
-.PHONY : pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
-
-pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.o: pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
-.PHONY : pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.o
-
-# target to build an object file
-pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
-.PHONY : pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
-
-pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i: pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
-.PHONY : pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i
-
-# target to preprocess a source file
-pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
-.PHONY : pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
-
-pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s: pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
-.PHONY : pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s
-
-# target to generate assembly for a file
-pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
-.PHONY : pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
-
-pico-sdk/lib/tinyusb/src/class/hid/hid_device.o: pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
-.PHONY : pico-sdk/lib/tinyusb/src/class/hid/hid_device.o
-
-# target to build an object file
-pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
-.PHONY : pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
-
-pico-sdk/lib/tinyusb/src/class/hid/hid_device.i: pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
-.PHONY : pico-sdk/lib/tinyusb/src/class/hid/hid_device.i
-
-# target to preprocess a source file
-pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
-.PHONY : pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
-
-pico-sdk/lib/tinyusb/src/class/hid/hid_device.s: pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
-.PHONY : pico-sdk/lib/tinyusb/src/class/hid/hid_device.s
-
-# target to generate assembly for a file
-pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
-.PHONY : pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
-
-pico-sdk/lib/tinyusb/src/class/midi/midi_device.o: pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
-.PHONY : pico-sdk/lib/tinyusb/src/class/midi/midi_device.o
-
-# target to build an object file
-pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
-.PHONY : pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
-
-pico-sdk/lib/tinyusb/src/class/midi/midi_device.i: pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
-.PHONY : pico-sdk/lib/tinyusb/src/class/midi/midi_device.i
-
-# target to preprocess a source file
-pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
-.PHONY : pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
-
-pico-sdk/lib/tinyusb/src/class/midi/midi_device.s: pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
-.PHONY : pico-sdk/lib/tinyusb/src/class/midi/midi_device.s
-
-# target to generate assembly for a file
-pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
-.PHONY : pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
-
-pico-sdk/lib/tinyusb/src/class/msc/msc_device.o: pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
-.PHONY : pico-sdk/lib/tinyusb/src/class/msc/msc_device.o
-
-# target to build an object file
-pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
-.PHONY : pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
-
-pico-sdk/lib/tinyusb/src/class/msc/msc_device.i: pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
-.PHONY : pico-sdk/lib/tinyusb/src/class/msc/msc_device.i
-
-# target to preprocess a source file
-pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
-.PHONY : pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
-
-pico-sdk/lib/tinyusb/src/class/msc/msc_device.s: pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
-.PHONY : pico-sdk/lib/tinyusb/src/class/msc/msc_device.s
-
-# target to generate assembly for a file
-pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
-.PHONY : pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
-
-pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.o: pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
-.PHONY : pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.o
-
-# target to build an object file
-pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
-.PHONY : pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
-
-pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i: pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
-.PHONY : pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i
-
-# target to preprocess a source file
-pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
-.PHONY : pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
-
-pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s: pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
-.PHONY : pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s
-
-# target to generate assembly for a file
-pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
-.PHONY : pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
-
-pico-sdk/lib/tinyusb/src/class/net/ncm_device.o: pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
-.PHONY : pico-sdk/lib/tinyusb/src/class/net/ncm_device.o
-
-# target to build an object file
-pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
-.PHONY : pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
-
-pico-sdk/lib/tinyusb/src/class/net/ncm_device.i: pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
-.PHONY : pico-sdk/lib/tinyusb/src/class/net/ncm_device.i
-
-# target to preprocess a source file
-pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
-.PHONY : pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
-
-pico-sdk/lib/tinyusb/src/class/net/ncm_device.s: pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
-.PHONY : pico-sdk/lib/tinyusb/src/class/net/ncm_device.s
-
-# target to generate assembly for a file
-pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
-.PHONY : pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
-
-pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.o: pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
-.PHONY : pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.o
-
-# target to build an object file
-pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
-.PHONY : pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
-
-pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i: pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
-.PHONY : pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i
-
-# target to preprocess a source file
-pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
-.PHONY : pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
-
-pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s: pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
-.PHONY : pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s
-
-# target to generate assembly for a file
-pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
-.PHONY : pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
-
-pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.o: pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
-.PHONY : pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.o
-
-# target to build an object file
-pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
-.PHONY : pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
-
-pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i: pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
-.PHONY : pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i
-
-# target to preprocess a source file
-pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
-.PHONY : pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
-
-pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s: pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
-.PHONY : pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s
-
-# target to generate assembly for a file
-pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
-.PHONY : pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
-
-pico-sdk/lib/tinyusb/src/class/video/video_device.o: pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
-.PHONY : pico-sdk/lib/tinyusb/src/class/video/video_device.o
-
-# target to build an object file
-pico-sdk/lib/tinyusb/src/class/video/video_device.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
-.PHONY : pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
-
-pico-sdk/lib/tinyusb/src/class/video/video_device.i: pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
-.PHONY : pico-sdk/lib/tinyusb/src/class/video/video_device.i
-
-# target to preprocess a source file
-pico-sdk/lib/tinyusb/src/class/video/video_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
-.PHONY : pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
-
-pico-sdk/lib/tinyusb/src/class/video/video_device.s: pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
-.PHONY : pico-sdk/lib/tinyusb/src/class/video/video_device.s
-
-# target to generate assembly for a file
-pico-sdk/lib/tinyusb/src/class/video/video_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
-.PHONY : pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
-
-pico-sdk/lib/tinyusb/src/common/tusb_fifo.o: pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
-.PHONY : pico-sdk/lib/tinyusb/src/common/tusb_fifo.o
-
-# target to build an object file
-pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
-.PHONY : pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
-
-pico-sdk/lib/tinyusb/src/common/tusb_fifo.i: pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
-.PHONY : pico-sdk/lib/tinyusb/src/common/tusb_fifo.i
-
-# target to preprocess a source file
-pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
-.PHONY : pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
-
-pico-sdk/lib/tinyusb/src/common/tusb_fifo.s: pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
-.PHONY : pico-sdk/lib/tinyusb/src/common/tusb_fifo.s
-
-# target to generate assembly for a file
-pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
-.PHONY : pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
-
-pico-sdk/lib/tinyusb/src/device/usbd.o: pico-sdk/lib/tinyusb/src/device/usbd.c.o
-.PHONY : pico-sdk/lib/tinyusb/src/device/usbd.o
-
-# target to build an object file
-pico-sdk/lib/tinyusb/src/device/usbd.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.o
-.PHONY : pico-sdk/lib/tinyusb/src/device/usbd.c.o
-
-pico-sdk/lib/tinyusb/src/device/usbd.i: pico-sdk/lib/tinyusb/src/device/usbd.c.i
-.PHONY : pico-sdk/lib/tinyusb/src/device/usbd.i
-
-# target to preprocess a source file
-pico-sdk/lib/tinyusb/src/device/usbd.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.i
-.PHONY : pico-sdk/lib/tinyusb/src/device/usbd.c.i
-
-pico-sdk/lib/tinyusb/src/device/usbd.s: pico-sdk/lib/tinyusb/src/device/usbd.c.s
-.PHONY : pico-sdk/lib/tinyusb/src/device/usbd.s
-
-# target to generate assembly for a file
-pico-sdk/lib/tinyusb/src/device/usbd.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.s
-.PHONY : pico-sdk/lib/tinyusb/src/device/usbd.c.s
-
-pico-sdk/lib/tinyusb/src/device/usbd_control.o: pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
-.PHONY : pico-sdk/lib/tinyusb/src/device/usbd_control.o
-
-# target to build an object file
-pico-sdk/lib/tinyusb/src/device/usbd_control.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
-.PHONY : pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
-
-pico-sdk/lib/tinyusb/src/device/usbd_control.i: pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
-.PHONY : pico-sdk/lib/tinyusb/src/device/usbd_control.i
-
-# target to preprocess a source file
-pico-sdk/lib/tinyusb/src/device/usbd_control.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
-.PHONY : pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
-
-pico-sdk/lib/tinyusb/src/device/usbd_control.s: pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
-.PHONY : pico-sdk/lib/tinyusb/src/device/usbd_control.s
-
-# target to generate assembly for a file
-pico-sdk/lib/tinyusb/src/device/usbd_control.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
-.PHONY : pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
-
-pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.o: pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
-.PHONY : pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.o
-
-# target to build an object file
-pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
-.PHONY : pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
-
-pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i: pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
-.PHONY : pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i
-
-# target to preprocess a source file
-pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
-.PHONY : pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
-
-pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s: pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
-.PHONY : pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s
-
-# target to generate assembly for a file
-pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
-.PHONY : pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
-
-pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.o: pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
-.PHONY : pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.o
-
-# target to build an object file
-pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
-.PHONY : pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
-
-pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i: pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
-.PHONY : pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i
-
-# target to preprocess a source file
-pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
-.PHONY : pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
-
-pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s: pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
-.PHONY : pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s
-
-# target to generate assembly for a file
-pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
-.PHONY : pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
-
-pico-sdk/lib/tinyusb/src/tusb.o: pico-sdk/lib/tinyusb/src/tusb.c.o
-.PHONY : pico-sdk/lib/tinyusb/src/tusb.o
-
-# target to build an object file
-pico-sdk/lib/tinyusb/src/tusb.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/lib/tinyusb/src/tusb.c.o
-.PHONY : pico-sdk/lib/tinyusb/src/tusb.c.o
-
-pico-sdk/lib/tinyusb/src/tusb.i: pico-sdk/lib/tinyusb/src/tusb.c.i
-.PHONY : pico-sdk/lib/tinyusb/src/tusb.i
-
-# target to preprocess a source file
-pico-sdk/lib/tinyusb/src/tusb.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/lib/tinyusb/src/tusb.c.i
-.PHONY : pico-sdk/lib/tinyusb/src/tusb.c.i
-
-pico-sdk/lib/tinyusb/src/tusb.s: pico-sdk/lib/tinyusb/src/tusb.c.s
-.PHONY : pico-sdk/lib/tinyusb/src/tusb.s
-
-# target to generate assembly for a file
-pico-sdk/lib/tinyusb/src/tusb.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/lib/tinyusb/src/tusb.c.s
-.PHONY : pico-sdk/lib/tinyusb/src/tusb.c.s
-
-pico-sdk/src/common/hardware_claim/claim.o: pico-sdk/src/common/hardware_claim/claim.c.o
-.PHONY : pico-sdk/src/common/hardware_claim/claim.o
-
-# target to build an object file
-pico-sdk/src/common/hardware_claim/claim.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/common/hardware_claim/claim.c.o
-.PHONY : pico-sdk/src/common/hardware_claim/claim.c.o
-
-pico-sdk/src/common/hardware_claim/claim.i: pico-sdk/src/common/hardware_claim/claim.c.i
-.PHONY : pico-sdk/src/common/hardware_claim/claim.i
-
-# target to preprocess a source file
-pico-sdk/src/common/hardware_claim/claim.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/common/hardware_claim/claim.c.i
-.PHONY : pico-sdk/src/common/hardware_claim/claim.c.i
-
-pico-sdk/src/common/hardware_claim/claim.s: pico-sdk/src/common/hardware_claim/claim.c.s
-.PHONY : pico-sdk/src/common/hardware_claim/claim.s
-
-# target to generate assembly for a file
-pico-sdk/src/common/hardware_claim/claim.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/common/hardware_claim/claim.c.s
-.PHONY : pico-sdk/src/common/hardware_claim/claim.c.s
-
-pico-sdk/src/common/pico_sync/critical_section.o: pico-sdk/src/common/pico_sync/critical_section.c.o
-.PHONY : pico-sdk/src/common/pico_sync/critical_section.o
-
-# target to build an object file
-pico-sdk/src/common/pico_sync/critical_section.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/common/pico_sync/critical_section.c.o
-.PHONY : pico-sdk/src/common/pico_sync/critical_section.c.o
-
-pico-sdk/src/common/pico_sync/critical_section.i: pico-sdk/src/common/pico_sync/critical_section.c.i
-.PHONY : pico-sdk/src/common/pico_sync/critical_section.i
-
-# target to preprocess a source file
-pico-sdk/src/common/pico_sync/critical_section.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/common/pico_sync/critical_section.c.i
-.PHONY : pico-sdk/src/common/pico_sync/critical_section.c.i
-
-pico-sdk/src/common/pico_sync/critical_section.s: pico-sdk/src/common/pico_sync/critical_section.c.s
-.PHONY : pico-sdk/src/common/pico_sync/critical_section.s
-
-# target to generate assembly for a file
-pico-sdk/src/common/pico_sync/critical_section.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/common/pico_sync/critical_section.c.s
-.PHONY : pico-sdk/src/common/pico_sync/critical_section.c.s
-
-pico-sdk/src/common/pico_sync/lock_core.o: pico-sdk/src/common/pico_sync/lock_core.c.o
-.PHONY : pico-sdk/src/common/pico_sync/lock_core.o
-
-# target to build an object file
-pico-sdk/src/common/pico_sync/lock_core.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/common/pico_sync/lock_core.c.o
-.PHONY : pico-sdk/src/common/pico_sync/lock_core.c.o
-
-pico-sdk/src/common/pico_sync/lock_core.i: pico-sdk/src/common/pico_sync/lock_core.c.i
-.PHONY : pico-sdk/src/common/pico_sync/lock_core.i
-
-# target to preprocess a source file
-pico-sdk/src/common/pico_sync/lock_core.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/common/pico_sync/lock_core.c.i
-.PHONY : pico-sdk/src/common/pico_sync/lock_core.c.i
-
-pico-sdk/src/common/pico_sync/lock_core.s: pico-sdk/src/common/pico_sync/lock_core.c.s
-.PHONY : pico-sdk/src/common/pico_sync/lock_core.s
-
-# target to generate assembly for a file
-pico-sdk/src/common/pico_sync/lock_core.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/common/pico_sync/lock_core.c.s
-.PHONY : pico-sdk/src/common/pico_sync/lock_core.c.s
-
-pico-sdk/src/common/pico_sync/mutex.o: pico-sdk/src/common/pico_sync/mutex.c.o
-.PHONY : pico-sdk/src/common/pico_sync/mutex.o
-
-# target to build an object file
-pico-sdk/src/common/pico_sync/mutex.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/common/pico_sync/mutex.c.o
-.PHONY : pico-sdk/src/common/pico_sync/mutex.c.o
-
-pico-sdk/src/common/pico_sync/mutex.i: pico-sdk/src/common/pico_sync/mutex.c.i
-.PHONY : pico-sdk/src/common/pico_sync/mutex.i
-
-# target to preprocess a source file
-pico-sdk/src/common/pico_sync/mutex.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/common/pico_sync/mutex.c.i
-.PHONY : pico-sdk/src/common/pico_sync/mutex.c.i
-
-pico-sdk/src/common/pico_sync/mutex.s: pico-sdk/src/common/pico_sync/mutex.c.s
-.PHONY : pico-sdk/src/common/pico_sync/mutex.s
-
-# target to generate assembly for a file
-pico-sdk/src/common/pico_sync/mutex.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/common/pico_sync/mutex.c.s
-.PHONY : pico-sdk/src/common/pico_sync/mutex.c.s
-
-pico-sdk/src/common/pico_sync/sem.o: pico-sdk/src/common/pico_sync/sem.c.o
-.PHONY : pico-sdk/src/common/pico_sync/sem.o
-
-# target to build an object file
-pico-sdk/src/common/pico_sync/sem.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/common/pico_sync/sem.c.o
-.PHONY : pico-sdk/src/common/pico_sync/sem.c.o
-
-pico-sdk/src/common/pico_sync/sem.i: pico-sdk/src/common/pico_sync/sem.c.i
-.PHONY : pico-sdk/src/common/pico_sync/sem.i
-
-# target to preprocess a source file
-pico-sdk/src/common/pico_sync/sem.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/common/pico_sync/sem.c.i
-.PHONY : pico-sdk/src/common/pico_sync/sem.c.i
-
-pico-sdk/src/common/pico_sync/sem.s: pico-sdk/src/common/pico_sync/sem.c.s
-.PHONY : pico-sdk/src/common/pico_sync/sem.s
-
-# target to generate assembly for a file
-pico-sdk/src/common/pico_sync/sem.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/common/pico_sync/sem.c.s
-.PHONY : pico-sdk/src/common/pico_sync/sem.c.s
-
-pico-sdk/src/common/pico_time/time.o: pico-sdk/src/common/pico_time/time.c.o
-.PHONY : pico-sdk/src/common/pico_time/time.o
-
-# target to build an object file
-pico-sdk/src/common/pico_time/time.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/common/pico_time/time.c.o
-.PHONY : pico-sdk/src/common/pico_time/time.c.o
-
-pico-sdk/src/common/pico_time/time.i: pico-sdk/src/common/pico_time/time.c.i
-.PHONY : pico-sdk/src/common/pico_time/time.i
-
-# target to preprocess a source file
-pico-sdk/src/common/pico_time/time.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/common/pico_time/time.c.i
-.PHONY : pico-sdk/src/common/pico_time/time.c.i
-
-pico-sdk/src/common/pico_time/time.s: pico-sdk/src/common/pico_time/time.c.s
-.PHONY : pico-sdk/src/common/pico_time/time.s
-
-# target to generate assembly for a file
-pico-sdk/src/common/pico_time/time.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/common/pico_time/time.c.s
-.PHONY : pico-sdk/src/common/pico_time/time.c.s
-
-pico-sdk/src/common/pico_time/timeout_helper.o: pico-sdk/src/common/pico_time/timeout_helper.c.o
-.PHONY : pico-sdk/src/common/pico_time/timeout_helper.o
-
-# target to build an object file
-pico-sdk/src/common/pico_time/timeout_helper.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/common/pico_time/timeout_helper.c.o
-.PHONY : pico-sdk/src/common/pico_time/timeout_helper.c.o
-
-pico-sdk/src/common/pico_time/timeout_helper.i: pico-sdk/src/common/pico_time/timeout_helper.c.i
-.PHONY : pico-sdk/src/common/pico_time/timeout_helper.i
-
-# target to preprocess a source file
-pico-sdk/src/common/pico_time/timeout_helper.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/common/pico_time/timeout_helper.c.i
-.PHONY : pico-sdk/src/common/pico_time/timeout_helper.c.i
-
-pico-sdk/src/common/pico_time/timeout_helper.s: pico-sdk/src/common/pico_time/timeout_helper.c.s
-.PHONY : pico-sdk/src/common/pico_time/timeout_helper.s
-
-# target to generate assembly for a file
-pico-sdk/src/common/pico_time/timeout_helper.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/common/pico_time/timeout_helper.c.s
-.PHONY : pico-sdk/src/common/pico_time/timeout_helper.c.s
-
-pico-sdk/src/common/pico_util/datetime.o: pico-sdk/src/common/pico_util/datetime.c.o
-.PHONY : pico-sdk/src/common/pico_util/datetime.o
-
-# target to build an object file
-pico-sdk/src/common/pico_util/datetime.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/common/pico_util/datetime.c.o
-.PHONY : pico-sdk/src/common/pico_util/datetime.c.o
-
-pico-sdk/src/common/pico_util/datetime.i: pico-sdk/src/common/pico_util/datetime.c.i
-.PHONY : pico-sdk/src/common/pico_util/datetime.i
-
-# target to preprocess a source file
-pico-sdk/src/common/pico_util/datetime.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/common/pico_util/datetime.c.i
-.PHONY : pico-sdk/src/common/pico_util/datetime.c.i
-
-pico-sdk/src/common/pico_util/datetime.s: pico-sdk/src/common/pico_util/datetime.c.s
-.PHONY : pico-sdk/src/common/pico_util/datetime.s
-
-# target to generate assembly for a file
-pico-sdk/src/common/pico_util/datetime.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/common/pico_util/datetime.c.s
-.PHONY : pico-sdk/src/common/pico_util/datetime.c.s
-
-pico-sdk/src/common/pico_util/pheap.o: pico-sdk/src/common/pico_util/pheap.c.o
-.PHONY : pico-sdk/src/common/pico_util/pheap.o
-
-# target to build an object file
-pico-sdk/src/common/pico_util/pheap.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/common/pico_util/pheap.c.o
-.PHONY : pico-sdk/src/common/pico_util/pheap.c.o
-
-pico-sdk/src/common/pico_util/pheap.i: pico-sdk/src/common/pico_util/pheap.c.i
-.PHONY : pico-sdk/src/common/pico_util/pheap.i
-
-# target to preprocess a source file
-pico-sdk/src/common/pico_util/pheap.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/common/pico_util/pheap.c.i
-.PHONY : pico-sdk/src/common/pico_util/pheap.c.i
-
-pico-sdk/src/common/pico_util/pheap.s: pico-sdk/src/common/pico_util/pheap.c.s
-.PHONY : pico-sdk/src/common/pico_util/pheap.s
-
-# target to generate assembly for a file
-pico-sdk/src/common/pico_util/pheap.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/common/pico_util/pheap.c.s
-.PHONY : pico-sdk/src/common/pico_util/pheap.c.s
-
-pico-sdk/src/common/pico_util/queue.o: pico-sdk/src/common/pico_util/queue.c.o
-.PHONY : pico-sdk/src/common/pico_util/queue.o
-
-# target to build an object file
-pico-sdk/src/common/pico_util/queue.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/common/pico_util/queue.c.o
-.PHONY : pico-sdk/src/common/pico_util/queue.c.o
-
-pico-sdk/src/common/pico_util/queue.i: pico-sdk/src/common/pico_util/queue.c.i
-.PHONY : pico-sdk/src/common/pico_util/queue.i
-
-# target to preprocess a source file
-pico-sdk/src/common/pico_util/queue.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/common/pico_util/queue.c.i
-.PHONY : pico-sdk/src/common/pico_util/queue.c.i
-
-pico-sdk/src/common/pico_util/queue.s: pico-sdk/src/common/pico_util/queue.c.s
-.PHONY : pico-sdk/src/common/pico_util/queue.s
-
-# target to generate assembly for a file
-pico-sdk/src/common/pico_util/queue.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/common/pico_util/queue.c.s
-.PHONY : pico-sdk/src/common/pico_util/queue.c.s
-
-pico-sdk/src/rp2040/pico_platform/platform.o: pico-sdk/src/rp2040/pico_platform/platform.c.o
-.PHONY : pico-sdk/src/rp2040/pico_platform/platform.o
-
-# target to build an object file
-pico-sdk/src/rp2040/pico_platform/platform.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2040/pico_platform/platform.c.o
-.PHONY : pico-sdk/src/rp2040/pico_platform/platform.c.o
-
-pico-sdk/src/rp2040/pico_platform/platform.i: pico-sdk/src/rp2040/pico_platform/platform.c.i
-.PHONY : pico-sdk/src/rp2040/pico_platform/platform.i
-
-# target to preprocess a source file
-pico-sdk/src/rp2040/pico_platform/platform.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2040/pico_platform/platform.c.i
-.PHONY : pico-sdk/src/rp2040/pico_platform/platform.c.i
-
-pico-sdk/src/rp2040/pico_platform/platform.s: pico-sdk/src/rp2040/pico_platform/platform.c.s
-.PHONY : pico-sdk/src/rp2040/pico_platform/platform.s
-
-# target to generate assembly for a file
-pico-sdk/src/rp2040/pico_platform/platform.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2040/pico_platform/platform.c.s
-.PHONY : pico-sdk/src/rp2040/pico_platform/platform.c.s
-
-pico-sdk/src/rp2_common/hardware_adc/adc.o: pico-sdk/src/rp2_common/hardware_adc/adc.c.o
-.PHONY : pico-sdk/src/rp2_common/hardware_adc/adc.o
-
-# target to build an object file
-pico-sdk/src/rp2_common/hardware_adc/adc.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/hardware_adc/adc.c.o
-.PHONY : pico-sdk/src/rp2_common/hardware_adc/adc.c.o
-
-pico-sdk/src/rp2_common/hardware_adc/adc.i: pico-sdk/src/rp2_common/hardware_adc/adc.c.i
-.PHONY : pico-sdk/src/rp2_common/hardware_adc/adc.i
-
-# target to preprocess a source file
-pico-sdk/src/rp2_common/hardware_adc/adc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
-.PHONY : pico-sdk/src/rp2_common/hardware_adc/adc.c.i
-
-pico-sdk/src/rp2_common/hardware_adc/adc.s: pico-sdk/src/rp2_common/hardware_adc/adc.c.s
-.PHONY : pico-sdk/src/rp2_common/hardware_adc/adc.s
-
-# target to generate assembly for a file
-pico-sdk/src/rp2_common/hardware_adc/adc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
-.PHONY : pico-sdk/src/rp2_common/hardware_adc/adc.c.s
-
-pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.o: pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
-.PHONY : pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.o
-
-# target to build an object file
-pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
-.PHONY : pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
-
-pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.i: pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
-.PHONY : pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.i
-
-# target to preprocess a source file
-pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
-.PHONY : pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
-
-pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.s: pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
-.PHONY : pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.s
-
-# target to generate assembly for a file
-pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
-.PHONY : pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
-
-pico-sdk/src/rp2_common/hardware_clocks/clocks.o: pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
-.PHONY : pico-sdk/src/rp2_common/hardware_clocks/clocks.o
-
-# target to build an object file
-pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
-.PHONY : pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
-
-pico-sdk/src/rp2_common/hardware_clocks/clocks.i: pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
-.PHONY : pico-sdk/src/rp2_common/hardware_clocks/clocks.i
-
-# target to preprocess a source file
-pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
-.PHONY : pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
-
-pico-sdk/src/rp2_common/hardware_clocks/clocks.s: pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
-.PHONY : pico-sdk/src/rp2_common/hardware_clocks/clocks.s
-
-# target to generate assembly for a file
-pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
-.PHONY : pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
-
-pico-sdk/src/rp2_common/hardware_divider/divider.o: pico-sdk/src/rp2_common/hardware_divider/divider.S.o
-.PHONY : pico-sdk/src/rp2_common/hardware_divider/divider.o
-
-# target to build an object file
-pico-sdk/src/rp2_common/hardware_divider/divider.S.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/hardware_divider/divider.S.o
-.PHONY : pico-sdk/src/rp2_common/hardware_divider/divider.S.o
-
-pico-sdk/src/rp2_common/hardware_flash/flash.o: pico-sdk/src/rp2_common/hardware_flash/flash.c.o
-.PHONY : pico-sdk/src/rp2_common/hardware_flash/flash.o
-
-# target to build an object file
-pico-sdk/src/rp2_common/hardware_flash/flash.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
-.PHONY : pico-sdk/src/rp2_common/hardware_flash/flash.c.o
-
-pico-sdk/src/rp2_common/hardware_flash/flash.i: pico-sdk/src/rp2_common/hardware_flash/flash.c.i
-.PHONY : pico-sdk/src/rp2_common/hardware_flash/flash.i
-
-# target to preprocess a source file
-pico-sdk/src/rp2_common/hardware_flash/flash.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
-.PHONY : pico-sdk/src/rp2_common/hardware_flash/flash.c.i
-
-pico-sdk/src/rp2_common/hardware_flash/flash.s: pico-sdk/src/rp2_common/hardware_flash/flash.c.s
-.PHONY : pico-sdk/src/rp2_common/hardware_flash/flash.s
-
-# target to generate assembly for a file
-pico-sdk/src/rp2_common/hardware_flash/flash.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
-.PHONY : pico-sdk/src/rp2_common/hardware_flash/flash.c.s
-
-pico-sdk/src/rp2_common/hardware_gpio/gpio.o: pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
-.PHONY : pico-sdk/src/rp2_common/hardware_gpio/gpio.o
-
-# target to build an object file
-pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
-.PHONY : pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
-
-pico-sdk/src/rp2_common/hardware_gpio/gpio.i: pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
-.PHONY : pico-sdk/src/rp2_common/hardware_gpio/gpio.i
-
-# target to preprocess a source file
-pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
-.PHONY : pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
-
-pico-sdk/src/rp2_common/hardware_gpio/gpio.s: pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
-.PHONY : pico-sdk/src/rp2_common/hardware_gpio/gpio.s
-
-# target to generate assembly for a file
-pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
-.PHONY : pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
-
-pico-sdk/src/rp2_common/hardware_irq/irq.o: pico-sdk/src/rp2_common/hardware_irq/irq.c.o
-.PHONY : pico-sdk/src/rp2_common/hardware_irq/irq.o
-
-# target to build an object file
-pico-sdk/src/rp2_common/hardware_irq/irq.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
-.PHONY : pico-sdk/src/rp2_common/hardware_irq/irq.c.o
-
-pico-sdk/src/rp2_common/hardware_irq/irq.i: pico-sdk/src/rp2_common/hardware_irq/irq.c.i
-.PHONY : pico-sdk/src/rp2_common/hardware_irq/irq.i
-
-# target to preprocess a source file
-pico-sdk/src/rp2_common/hardware_irq/irq.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
-.PHONY : pico-sdk/src/rp2_common/hardware_irq/irq.c.i
-
-pico-sdk/src/rp2_common/hardware_irq/irq.s: pico-sdk/src/rp2_common/hardware_irq/irq.c.s
-.PHONY : pico-sdk/src/rp2_common/hardware_irq/irq.s
-
-# target to generate assembly for a file
-pico-sdk/src/rp2_common/hardware_irq/irq.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
-.PHONY : pico-sdk/src/rp2_common/hardware_irq/irq.c.s
-
-pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.o: pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
-.PHONY : pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.o
-
-# target to build an object file
-pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
-.PHONY : pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
-
-pico-sdk/src/rp2_common/hardware_pll/pll.o: pico-sdk/src/rp2_common/hardware_pll/pll.c.o
-.PHONY : pico-sdk/src/rp2_common/hardware_pll/pll.o
-
-# target to build an object file
-pico-sdk/src/rp2_common/hardware_pll/pll.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
-.PHONY : pico-sdk/src/rp2_common/hardware_pll/pll.c.o
-
-pico-sdk/src/rp2_common/hardware_pll/pll.i: pico-sdk/src/rp2_common/hardware_pll/pll.c.i
-.PHONY : pico-sdk/src/rp2_common/hardware_pll/pll.i
-
-# target to preprocess a source file
-pico-sdk/src/rp2_common/hardware_pll/pll.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
-.PHONY : pico-sdk/src/rp2_common/hardware_pll/pll.c.i
-
-pico-sdk/src/rp2_common/hardware_pll/pll.s: pico-sdk/src/rp2_common/hardware_pll/pll.c.s
-.PHONY : pico-sdk/src/rp2_common/hardware_pll/pll.s
-
-# target to generate assembly for a file
-pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
-.PHONY : pico-sdk/src/rp2_common/hardware_pll/pll.c.s
-
-pico-sdk/src/rp2_common/hardware_sync/sync.o: pico-sdk/src/rp2_common/hardware_sync/sync.c.o
-.PHONY : pico-sdk/src/rp2_common/hardware_sync/sync.o
-
-# target to build an object file
-pico-sdk/src/rp2_common/hardware_sync/sync.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
-.PHONY : pico-sdk/src/rp2_common/hardware_sync/sync.c.o
-
-pico-sdk/src/rp2_common/hardware_sync/sync.i: pico-sdk/src/rp2_common/hardware_sync/sync.c.i
-.PHONY : pico-sdk/src/rp2_common/hardware_sync/sync.i
-
-# target to preprocess a source file
-pico-sdk/src/rp2_common/hardware_sync/sync.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
-.PHONY : pico-sdk/src/rp2_common/hardware_sync/sync.c.i
-
-pico-sdk/src/rp2_common/hardware_sync/sync.s: pico-sdk/src/rp2_common/hardware_sync/sync.c.s
-.PHONY : pico-sdk/src/rp2_common/hardware_sync/sync.s
-
-# target to generate assembly for a file
-pico-sdk/src/rp2_common/hardware_sync/sync.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
-.PHONY : pico-sdk/src/rp2_common/hardware_sync/sync.c.s
-
-pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.o: pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
-.PHONY : pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.o
-
-# target to build an object file
-pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
-.PHONY : pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
-
-pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.i: pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
-.PHONY : pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.i
-
-# target to preprocess a source file
-pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
-.PHONY : pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
-
-pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.s: pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
-.PHONY : pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.s
-
-# target to generate assembly for a file
-pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
-.PHONY : pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
-
-pico-sdk/src/rp2_common/hardware_ticks/ticks.o: pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
-.PHONY : pico-sdk/src/rp2_common/hardware_ticks/ticks.o
-
-# target to build an object file
-pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
-.PHONY : pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
-
-pico-sdk/src/rp2_common/hardware_ticks/ticks.i: pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
-.PHONY : pico-sdk/src/rp2_common/hardware_ticks/ticks.i
-
-# target to preprocess a source file
-pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
-.PHONY : pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
-
-pico-sdk/src/rp2_common/hardware_ticks/ticks.s: pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
-.PHONY : pico-sdk/src/rp2_common/hardware_ticks/ticks.s
-
-# target to generate assembly for a file
-pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
-.PHONY : pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
-
-pico-sdk/src/rp2_common/hardware_timer/timer.o: pico-sdk/src/rp2_common/hardware_timer/timer.c.o
-.PHONY : pico-sdk/src/rp2_common/hardware_timer/timer.o
-
-# target to build an object file
-pico-sdk/src/rp2_common/hardware_timer/timer.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
-.PHONY : pico-sdk/src/rp2_common/hardware_timer/timer.c.o
-
-pico-sdk/src/rp2_common/hardware_timer/timer.i: pico-sdk/src/rp2_common/hardware_timer/timer.c.i
-.PHONY : pico-sdk/src/rp2_common/hardware_timer/timer.i
-
-# target to preprocess a source file
-pico-sdk/src/rp2_common/hardware_timer/timer.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
-.PHONY : pico-sdk/src/rp2_common/hardware_timer/timer.c.i
-
-pico-sdk/src/rp2_common/hardware_timer/timer.s: pico-sdk/src/rp2_common/hardware_timer/timer.c.s
-.PHONY : pico-sdk/src/rp2_common/hardware_timer/timer.s
-
-# target to generate assembly for a file
-pico-sdk/src/rp2_common/hardware_timer/timer.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
-.PHONY : pico-sdk/src/rp2_common/hardware_timer/timer.c.s
-
-pico-sdk/src/rp2_common/hardware_uart/uart.o: pico-sdk/src/rp2_common/hardware_uart/uart.c.o
-.PHONY : pico-sdk/src/rp2_common/hardware_uart/uart.o
-
-# target to build an object file
-pico-sdk/src/rp2_common/hardware_uart/uart.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
-.PHONY : pico-sdk/src/rp2_common/hardware_uart/uart.c.o
-
-pico-sdk/src/rp2_common/hardware_uart/uart.i: pico-sdk/src/rp2_common/hardware_uart/uart.c.i
-.PHONY : pico-sdk/src/rp2_common/hardware_uart/uart.i
-
-# target to preprocess a source file
-pico-sdk/src/rp2_common/hardware_uart/uart.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
-.PHONY : pico-sdk/src/rp2_common/hardware_uart/uart.c.i
-
-pico-sdk/src/rp2_common/hardware_uart/uart.s: pico-sdk/src/rp2_common/hardware_uart/uart.c.s
-.PHONY : pico-sdk/src/rp2_common/hardware_uart/uart.s
-
-# target to generate assembly for a file
-pico-sdk/src/rp2_common/hardware_uart/uart.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
-.PHONY : pico-sdk/src/rp2_common/hardware_uart/uart.c.s
-
-pico-sdk/src/rp2_common/hardware_vreg/vreg.o: pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
-.PHONY : pico-sdk/src/rp2_common/hardware_vreg/vreg.o
-
-# target to build an object file
-pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
-.PHONY : pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
-
-pico-sdk/src/rp2_common/hardware_vreg/vreg.i: pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
-.PHONY : pico-sdk/src/rp2_common/hardware_vreg/vreg.i
-
-# target to preprocess a source file
-pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
-.PHONY : pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
-
-pico-sdk/src/rp2_common/hardware_vreg/vreg.s: pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
-.PHONY : pico-sdk/src/rp2_common/hardware_vreg/vreg.s
-
-# target to generate assembly for a file
-pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
-.PHONY : pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
-
-pico-sdk/src/rp2_common/hardware_watchdog/watchdog.o: pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
-.PHONY : pico-sdk/src/rp2_common/hardware_watchdog/watchdog.o
-
-# target to build an object file
-pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
-.PHONY : pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
-
-pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
-.PHONY : pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i
-
-# target to preprocess a source file
-pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
-.PHONY : pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
-
-pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
-.PHONY : pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s
-
-# target to generate assembly for a file
-pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
-.PHONY : pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
-
-pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.o: pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o
-.PHONY : pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.o
-
-# target to build an object file
-pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o
-.PHONY : pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o
-
-pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.i: pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i
-.PHONY : pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.i
-
-# target to preprocess a source file
-pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i
-.PHONY : pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i
-
-pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.s: pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s
-.PHONY : pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.s
-
-# target to generate assembly for a file
-pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s
-.PHONY : pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s
-
-pico-sdk/src/rp2_common/hardware_xosc/xosc.o: pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
-.PHONY : pico-sdk/src/rp2_common/hardware_xosc/xosc.o
-
-# target to build an object file
-pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
-.PHONY : pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
-
-pico-sdk/src/rp2_common/hardware_xosc/xosc.i: pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
-.PHONY : pico-sdk/src/rp2_common/hardware_xosc/xosc.i
-
-# target to preprocess a source file
-pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
-.PHONY : pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
-
-pico-sdk/src/rp2_common/hardware_xosc/xosc.s: pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
-.PHONY : pico-sdk/src/rp2_common/hardware_xosc/xosc.s
-
-# target to generate assembly for a file
-pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
-.PHONY : pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
-
-pico-sdk/src/rp2_common/pico_atomic/atomic.o: pico-sdk/src/rp2_common/pico_atomic/atomic.c.o
-.PHONY : pico-sdk/src/rp2_common/pico_atomic/atomic.o
-
-# target to build an object file
-pico-sdk/src/rp2_common/pico_atomic/atomic.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o
-.PHONY : pico-sdk/src/rp2_common/pico_atomic/atomic.c.o
-
-pico-sdk/src/rp2_common/pico_atomic/atomic.i: pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_atomic/atomic.i
-
-# target to preprocess a source file
-pico-sdk/src/rp2_common/pico_atomic/atomic.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
-
-pico-sdk/src/rp2_common/pico_atomic/atomic.s: pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_atomic/atomic.s
-
-# target to generate assembly for a file
-pico-sdk/src/rp2_common/pico_atomic/atomic.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
-
-pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.o: pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
-.PHONY : pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.o
-
-# target to build an object file
-pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
-.PHONY : pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
-
-pico-sdk/src/rp2_common/pico_bootrom/bootrom.o: pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
-.PHONY : pico-sdk/src/rp2_common/pico_bootrom/bootrom.o
-
-# target to build an object file
-pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
-.PHONY : pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
-
-pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_bootrom/bootrom.i
-
-# target to preprocess a source file
-pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
-
-pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_bootrom/bootrom.s
-
-# target to generate assembly for a file
-pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
-
-pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.o: pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
-.PHONY : pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.o
-
-# target to build an object file
-pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
-.PHONY : pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
-
-pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.i: pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.i
-
-# target to preprocess a source file
-pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
-
-pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.s: pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.s
-
-# target to generate assembly for a file
-pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
-
-pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.o: pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
-.PHONY : pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.o
-
-# target to build an object file
-pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
-.PHONY : pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
-
-pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.i: pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.i
-
-# target to preprocess a source file
-pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
-
-pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.s: pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.s
-
-# target to generate assembly for a file
-pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
-
-pico-sdk/src/rp2_common/pico_crt0/crt0.o: pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
-.PHONY : pico-sdk/src/rp2_common/pico_crt0/crt0.o
-
-# target to build an object file
-pico-sdk/src/rp2_common/pico_crt0/crt0.S.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
-.PHONY : pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
-
-pico-sdk/src/rp2_common/pico_cxx_options/new_delete.o: pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o
-.PHONY : pico-sdk/src/rp2_common/pico_cxx_options/new_delete.o
-
-# target to build an object file
-pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o
-.PHONY : pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o
-
-pico-sdk/src/rp2_common/pico_cxx_options/new_delete.i: pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
-.PHONY : pico-sdk/src/rp2_common/pico_cxx_options/new_delete.i
-
-# target to preprocess a source file
-pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
-.PHONY : pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
-
-pico-sdk/src/rp2_common/pico_cxx_options/new_delete.s: pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
-.PHONY : pico-sdk/src/rp2_common/pico_cxx_options/new_delete.s
-
-# target to generate assembly for a file
-pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
-.PHONY : pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
-
-pico-sdk/src/rp2_common/pico_divider/divider_hardware.o: pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
-.PHONY : pico-sdk/src/rp2_common/pico_divider/divider_hardware.o
-
-# target to build an object file
-pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
-.PHONY : pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
-
-pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.o: pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
-.PHONY : pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.o
-
-# target to build an object file
-pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
-.PHONY : pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
-
-pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.o: pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
-.PHONY : pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.o
-
-# target to build an object file
-pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
-.PHONY : pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
-
-pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.i: pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.i
-
-# target to preprocess a source file
-pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i
-
-pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.s: pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.s
-
-# target to generate assembly for a file
-pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
-
-pico-sdk/src/rp2_common/pico_double/double_math.o: pico-sdk/src/rp2_common/pico_double/double_math.c.o
-.PHONY : pico-sdk/src/rp2_common/pico_double/double_math.o
-
-# target to build an object file
-pico-sdk/src/rp2_common/pico_double/double_math.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.o
-.PHONY : pico-sdk/src/rp2_common/pico_double/double_math.c.o
-
-pico-sdk/src/rp2_common/pico_double/double_math.i: pico-sdk/src/rp2_common/pico_double/double_math.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_double/double_math.i
-
-# target to preprocess a source file
-pico-sdk/src/rp2_common/pico_double/double_math.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_double/double_math.c.i
-
-pico-sdk/src/rp2_common/pico_double/double_math.s: pico-sdk/src/rp2_common/pico_double/double_math.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_double/double_math.s
-
-# target to generate assembly for a file
-pico-sdk/src/rp2_common/pico_double/double_math.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_double/double_math.c.s
-
-pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.o: pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
-.PHONY : pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.o
-
-# target to build an object file
-pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
-.PHONY : pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
-
-pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.o: pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
-.PHONY : pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.o
-
-# target to build an object file
-pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
-.PHONY : pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
-
-pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i: pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i
-
-# target to preprocess a source file
-pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
-
-pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s: pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s
-
-# target to generate assembly for a file
-pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
-
-pico-sdk/src/rp2_common/pico_flash/flash.o: pico-sdk/src/rp2_common/pico_flash/flash.c.o
-.PHONY : pico-sdk/src/rp2_common/pico_flash/flash.o
-
-# target to build an object file
-pico-sdk/src/rp2_common/pico_flash/flash.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_flash/flash.c.o
-.PHONY : pico-sdk/src/rp2_common/pico_flash/flash.c.o
-
-pico-sdk/src/rp2_common/pico_flash/flash.i: pico-sdk/src/rp2_common/pico_flash/flash.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_flash/flash.i
-
-# target to preprocess a source file
-pico-sdk/src/rp2_common/pico_flash/flash.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_flash/flash.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_flash/flash.c.i
-
-pico-sdk/src/rp2_common/pico_flash/flash.s: pico-sdk/src/rp2_common/pico_flash/flash.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_flash/flash.s
-
-# target to generate assembly for a file
-pico-sdk/src/rp2_common/pico_flash/flash.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_flash/flash.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_flash/flash.c.s
-
-pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.o: pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
-.PHONY : pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.o
-
-# target to build an object file
-pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
-.PHONY : pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
-
-pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.o: pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
-.PHONY : pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.o
-
-# target to build an object file
-pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
-.PHONY : pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
-
-pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.i: pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.i
-
-# target to preprocess a source file
-pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i
-
-pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.s: pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.s
-
-# target to generate assembly for a file
-pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
-
-pico-sdk/src/rp2_common/pico_float/float_math.o: pico-sdk/src/rp2_common/pico_float/float_math.c.o
-.PHONY : pico-sdk/src/rp2_common/pico_float/float_math.o
-
-# target to build an object file
-pico-sdk/src/rp2_common/pico_float/float_math.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.o
-.PHONY : pico-sdk/src/rp2_common/pico_float/float_math.c.o
-
-pico-sdk/src/rp2_common/pico_float/float_math.i: pico-sdk/src/rp2_common/pico_float/float_math.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_float/float_math.i
-
-# target to preprocess a source file
-pico-sdk/src/rp2_common/pico_float/float_math.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_float/float_math.c.i
-
-pico-sdk/src/rp2_common/pico_float/float_math.s: pico-sdk/src/rp2_common/pico_float/float_math.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_float/float_math.s
-
-# target to generate assembly for a file
-pico-sdk/src/rp2_common/pico_float/float_math.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_float/float_math.c.s
-
-pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.o: pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
-.PHONY : pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.o
-
-# target to build an object file
-pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
-.PHONY : pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
-
-pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.o: pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
-.PHONY : pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.o
-
-# target to build an object file
-pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
-.PHONY : pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
-
-pico-sdk/src/rp2_common/pico_malloc/malloc.o: pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
-.PHONY : pico-sdk/src/rp2_common/pico_malloc/malloc.o
-
-# target to build an object file
-pico-sdk/src/rp2_common/pico_malloc/malloc.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
-.PHONY : pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
-
-pico-sdk/src/rp2_common/pico_malloc/malloc.i: pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_malloc/malloc.i
-
-# target to preprocess a source file
-pico-sdk/src/rp2_common/pico_malloc/malloc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
-
-pico-sdk/src/rp2_common/pico_malloc/malloc.s: pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_malloc/malloc.s
-
-# target to generate assembly for a file
-pico-sdk/src/rp2_common/pico_malloc/malloc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
-
-pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.o: pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
-.PHONY : pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.o
-
-# target to build an object file
-pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
-.PHONY : pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
-
-pico-sdk/src/rp2_common/pico_platform_common/common.o: pico-sdk/src/rp2_common/pico_platform_common/common.c.o
-.PHONY : pico-sdk/src/rp2_common/pico_platform_common/common.o
-
-# target to build an object file
-pico-sdk/src/rp2_common/pico_platform_common/common.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_platform_common/common.c.o
-.PHONY : pico-sdk/src/rp2_common/pico_platform_common/common.c.o
-
-pico-sdk/src/rp2_common/pico_platform_common/common.i: pico-sdk/src/rp2_common/pico_platform_common/common.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_platform_common/common.i
-
-# target to preprocess a source file
-pico-sdk/src/rp2_common/pico_platform_common/common.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_platform_common/common.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_platform_common/common.c.i
-
-pico-sdk/src/rp2_common/pico_platform_common/common.s: pico-sdk/src/rp2_common/pico_platform_common/common.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_platform_common/common.s
-
-# target to generate assembly for a file
-pico-sdk/src/rp2_common/pico_platform_common/common.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_platform_common/common.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_platform_common/common.c.s
-
-pico-sdk/src/rp2_common/pico_platform_panic/panic.o: pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
-.PHONY : pico-sdk/src/rp2_common/pico_platform_panic/panic.o
-
-# target to build an object file
-pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
-.PHONY : pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
-
-pico-sdk/src/rp2_common/pico_platform_panic/panic.i: pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_platform_panic/panic.i
-
-# target to preprocess a source file
-pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
-
-pico-sdk/src/rp2_common/pico_platform_panic/panic.s: pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_platform_panic/panic.s
-
-# target to generate assembly for a file
-pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
-
-pico-sdk/src/rp2_common/pico_printf/printf.o: pico-sdk/src/rp2_common/pico_printf/printf.c.o
-.PHONY : pico-sdk/src/rp2_common/pico_printf/printf.o
-
-# target to build an object file
-pico-sdk/src/rp2_common/pico_printf/printf.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.o
-.PHONY : pico-sdk/src/rp2_common/pico_printf/printf.c.o
-
-pico-sdk/src/rp2_common/pico_printf/printf.i: pico-sdk/src/rp2_common/pico_printf/printf.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_printf/printf.i
-
-# target to preprocess a source file
-pico-sdk/src/rp2_common/pico_printf/printf.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_printf/printf.c.i
-
-pico-sdk/src/rp2_common/pico_printf/printf.s: pico-sdk/src/rp2_common/pico_printf/printf.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_printf/printf.s
-
-# target to generate assembly for a file
-pico-sdk/src/rp2_common/pico_printf/printf.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_printf/printf.c.s
-
-pico-sdk/src/rp2_common/pico_runtime/runtime.o: pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
-.PHONY : pico-sdk/src/rp2_common/pico_runtime/runtime.o
-
-# target to build an object file
-pico-sdk/src/rp2_common/pico_runtime/runtime.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
-.PHONY : pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
-
-pico-sdk/src/rp2_common/pico_runtime/runtime.i: pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_runtime/runtime.i
-
-# target to preprocess a source file
-pico-sdk/src/rp2_common/pico_runtime/runtime.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
-
-pico-sdk/src/rp2_common/pico_runtime/runtime.s: pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_runtime/runtime.s
-
-# target to generate assembly for a file
-pico-sdk/src/rp2_common/pico_runtime/runtime.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
-
-pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.o: pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
-.PHONY : pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.o
-
-# target to build an object file
-pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
-.PHONY : pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
-
-pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.i: pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.i
-
-# target to preprocess a source file
-pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
-
-pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.s: pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.s
-
-# target to generate assembly for a file
-pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
-
-pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.o: pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
-.PHONY : pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.o
-
-# target to build an object file
-pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
-.PHONY : pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
-
-pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.i: pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.i
-
-# target to preprocess a source file
-pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
-
-pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.s: pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.s
-
-# target to generate assembly for a file
-pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
-
-pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.o: pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
-.PHONY : pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.o
-
-# target to build an object file
-pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
-.PHONY : pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
-
-pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.i: pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.i
-
-# target to preprocess a source file
-pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
-
-pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.s: pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.s
-
-# target to generate assembly for a file
-pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
-
-pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.o: pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
-.PHONY : pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.o
-
-# target to build an object file
-pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
-.PHONY : pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
-
-pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.i: pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.i
-
-# target to preprocess a source file
-pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
-
-pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.s: pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.s
-
-# target to generate assembly for a file
-pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
-
-pico-sdk/src/rp2_common/pico_stdio/stdio.o: pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
-.PHONY : pico-sdk/src/rp2_common/pico_stdio/stdio.o
-
-# target to build an object file
-pico-sdk/src/rp2_common/pico_stdio/stdio.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
-.PHONY : pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
-
-pico-sdk/src/rp2_common/pico_stdio/stdio.i: pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_stdio/stdio.i
-
-# target to preprocess a source file
-pico-sdk/src/rp2_common/pico_stdio/stdio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
-
-pico-sdk/src/rp2_common/pico_stdio/stdio.s: pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_stdio/stdio.s
-
-# target to generate assembly for a file
-pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
-
-pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.o: pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
-.PHONY : pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.o
-
-# target to build an object file
-pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
-.PHONY : pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
-
-pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i: pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i
-
-# target to preprocess a source file
-pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
-
-pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s: pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s
-
-# target to generate assembly for a file
-pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
-
-pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.o: pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
-.PHONY : pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.o
-
-# target to build an object file
-pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
-.PHONY : pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
-
-pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i: pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i
-
-# target to preprocess a source file
-pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
-
-pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s: pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s
-
-# target to generate assembly for a file
-pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
-
-pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.o: pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
-.PHONY : pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.o
-
-# target to build an object file
-pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
-.PHONY : pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
-
-pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i: pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i
-
-# target to preprocess a source file
-pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
-
-pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s: pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s
-
-# target to generate assembly for a file
-pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
-
-pico-sdk/src/rp2_common/pico_stdlib/stdlib.o: pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
-.PHONY : pico-sdk/src/rp2_common/pico_stdlib/stdlib.o
-
-# target to build an object file
-pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
-.PHONY : pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
-
-pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_stdlib/stdlib.i
-
-# target to preprocess a source file
-pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
-
-pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_stdlib/stdlib.s
-
-# target to generate assembly for a file
-pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
-
-pico-sdk/src/rp2_common/pico_unique_id/unique_id.o: pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
-.PHONY : pico-sdk/src/rp2_common/pico_unique_id/unique_id.o
-
-# target to build an object file
-pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
-.PHONY : pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
-
-pico-sdk/src/rp2_common/pico_unique_id/unique_id.i: pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_unique_id/unique_id.i
-
-# target to preprocess a source file
-pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
-
-pico-sdk/src/rp2_common/pico_unique_id/unique_id.s: pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_unique_id/unique_id.s
-
-# target to generate assembly for a file
-pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 
 stubs.o: stubs.c.o
 .PHONY : stubs.o
@@ -2158,6 +2134,230 @@ help:
 	@echo "... bs2_default"
 	@echo "... bs2_default_library"
 	@echo "... coqui_mjs"
+	@echo "... Users/arturomena/pico-sdk/lib/tinyusb/src/class/audio/audio_device.o"
+	@echo "... Users/arturomena/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i"
+	@echo "... Users/arturomena/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s"
+	@echo "... Users/arturomena/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.o"
+	@echo "... Users/arturomena/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i"
+	@echo "... Users/arturomena/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s"
+	@echo "... Users/arturomena/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.o"
+	@echo "... Users/arturomena/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i"
+	@echo "... Users/arturomena/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s"
+	@echo "... Users/arturomena/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.o"
+	@echo "... Users/arturomena/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i"
+	@echo "... Users/arturomena/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s"
+	@echo "... Users/arturomena/pico-sdk/lib/tinyusb/src/class/hid/hid_device.o"
+	@echo "... Users/arturomena/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i"
+	@echo "... Users/arturomena/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s"
+	@echo "... Users/arturomena/pico-sdk/lib/tinyusb/src/class/midi/midi_device.o"
+	@echo "... Users/arturomena/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i"
+	@echo "... Users/arturomena/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s"
+	@echo "... Users/arturomena/pico-sdk/lib/tinyusb/src/class/msc/msc_device.o"
+	@echo "... Users/arturomena/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i"
+	@echo "... Users/arturomena/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s"
+	@echo "... Users/arturomena/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.o"
+	@echo "... Users/arturomena/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i"
+	@echo "... Users/arturomena/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s"
+	@echo "... Users/arturomena/pico-sdk/lib/tinyusb/src/class/net/ncm_device.o"
+	@echo "... Users/arturomena/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i"
+	@echo "... Users/arturomena/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s"
+	@echo "... Users/arturomena/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.o"
+	@echo "... Users/arturomena/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i"
+	@echo "... Users/arturomena/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s"
+	@echo "... Users/arturomena/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.o"
+	@echo "... Users/arturomena/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i"
+	@echo "... Users/arturomena/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s"
+	@echo "... Users/arturomena/pico-sdk/lib/tinyusb/src/class/video/video_device.o"
+	@echo "... Users/arturomena/pico-sdk/lib/tinyusb/src/class/video/video_device.i"
+	@echo "... Users/arturomena/pico-sdk/lib/tinyusb/src/class/video/video_device.s"
+	@echo "... Users/arturomena/pico-sdk/lib/tinyusb/src/common/tusb_fifo.o"
+	@echo "... Users/arturomena/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i"
+	@echo "... Users/arturomena/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s"
+	@echo "... Users/arturomena/pico-sdk/lib/tinyusb/src/device/usbd.o"
+	@echo "... Users/arturomena/pico-sdk/lib/tinyusb/src/device/usbd.i"
+	@echo "... Users/arturomena/pico-sdk/lib/tinyusb/src/device/usbd.s"
+	@echo "... Users/arturomena/pico-sdk/lib/tinyusb/src/device/usbd_control.o"
+	@echo "... Users/arturomena/pico-sdk/lib/tinyusb/src/device/usbd_control.i"
+	@echo "... Users/arturomena/pico-sdk/lib/tinyusb/src/device/usbd_control.s"
+	@echo "... Users/arturomena/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.o"
+	@echo "... Users/arturomena/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i"
+	@echo "... Users/arturomena/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s"
+	@echo "... Users/arturomena/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.o"
+	@echo "... Users/arturomena/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i"
+	@echo "... Users/arturomena/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s"
+	@echo "... Users/arturomena/pico-sdk/lib/tinyusb/src/tusb.o"
+	@echo "... Users/arturomena/pico-sdk/lib/tinyusb/src/tusb.i"
+	@echo "... Users/arturomena/pico-sdk/lib/tinyusb/src/tusb.s"
+	@echo "... Users/arturomena/pico-sdk/src/common/hardware_claim/claim.o"
+	@echo "... Users/arturomena/pico-sdk/src/common/hardware_claim/claim.i"
+	@echo "... Users/arturomena/pico-sdk/src/common/hardware_claim/claim.s"
+	@echo "... Users/arturomena/pico-sdk/src/common/pico_sync/critical_section.o"
+	@echo "... Users/arturomena/pico-sdk/src/common/pico_sync/critical_section.i"
+	@echo "... Users/arturomena/pico-sdk/src/common/pico_sync/critical_section.s"
+	@echo "... Users/arturomena/pico-sdk/src/common/pico_sync/lock_core.o"
+	@echo "... Users/arturomena/pico-sdk/src/common/pico_sync/lock_core.i"
+	@echo "... Users/arturomena/pico-sdk/src/common/pico_sync/lock_core.s"
+	@echo "... Users/arturomena/pico-sdk/src/common/pico_sync/mutex.o"
+	@echo "... Users/arturomena/pico-sdk/src/common/pico_sync/mutex.i"
+	@echo "... Users/arturomena/pico-sdk/src/common/pico_sync/mutex.s"
+	@echo "... Users/arturomena/pico-sdk/src/common/pico_sync/sem.o"
+	@echo "... Users/arturomena/pico-sdk/src/common/pico_sync/sem.i"
+	@echo "... Users/arturomena/pico-sdk/src/common/pico_sync/sem.s"
+	@echo "... Users/arturomena/pico-sdk/src/common/pico_time/time.o"
+	@echo "... Users/arturomena/pico-sdk/src/common/pico_time/time.i"
+	@echo "... Users/arturomena/pico-sdk/src/common/pico_time/time.s"
+	@echo "... Users/arturomena/pico-sdk/src/common/pico_time/timeout_helper.o"
+	@echo "... Users/arturomena/pico-sdk/src/common/pico_time/timeout_helper.i"
+	@echo "... Users/arturomena/pico-sdk/src/common/pico_time/timeout_helper.s"
+	@echo "... Users/arturomena/pico-sdk/src/common/pico_util/datetime.o"
+	@echo "... Users/arturomena/pico-sdk/src/common/pico_util/datetime.i"
+	@echo "... Users/arturomena/pico-sdk/src/common/pico_util/datetime.s"
+	@echo "... Users/arturomena/pico-sdk/src/common/pico_util/pheap.o"
+	@echo "... Users/arturomena/pico-sdk/src/common/pico_util/pheap.i"
+	@echo "... Users/arturomena/pico-sdk/src/common/pico_util/pheap.s"
+	@echo "... Users/arturomena/pico-sdk/src/common/pico_util/queue.o"
+	@echo "... Users/arturomena/pico-sdk/src/common/pico_util/queue.i"
+	@echo "... Users/arturomena/pico-sdk/src/common/pico_util/queue.s"
+	@echo "... Users/arturomena/pico-sdk/src/rp2040/pico_platform/platform.o"
+	@echo "... Users/arturomena/pico-sdk/src/rp2040/pico_platform/platform.i"
+	@echo "... Users/arturomena/pico-sdk/src/rp2040/pico_platform/platform.s"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.o"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.i"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.s"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/hardware_clocks/clocks.o"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/hardware_clocks/clocks.i"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/hardware_clocks/clocks.s"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/hardware_divider/divider.o"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/hardware_flash/flash.o"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/hardware_flash/flash.i"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/hardware_flash/flash.s"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/hardware_gpio/gpio.o"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/hardware_gpio/gpio.i"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/hardware_gpio/gpio.s"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/hardware_irq/irq.o"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/hardware_irq/irq.i"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/hardware_irq/irq.s"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.o"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/hardware_pll/pll.o"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/hardware_pll/pll.i"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/hardware_pll/pll.s"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/hardware_sync/sync.o"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/hardware_sync/sync.i"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/hardware_sync/sync.s"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.o"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.i"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.s"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/hardware_ticks/ticks.o"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/hardware_ticks/ticks.i"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/hardware_ticks/ticks.s"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/hardware_timer/timer.o"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/hardware_timer/timer.i"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/hardware_timer/timer.s"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/hardware_uart/uart.o"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/hardware_uart/uart.i"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/hardware_uart/uart.s"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/hardware_vreg/vreg.o"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/hardware_vreg/vreg.i"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/hardware_vreg/vreg.s"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.o"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.o"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.i"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.s"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/hardware_xosc/xosc.o"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/hardware_xosc/xosc.i"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/hardware_xosc/xosc.s"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_atomic/atomic.o"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_atomic/atomic.i"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_atomic/atomic.s"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.o"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_bootrom/bootrom.o"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.o"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.i"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.s"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.o"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.i"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.s"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_crt0/crt0.o"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.o"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.i"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.s"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_divider/divider_hardware.o"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.o"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.o"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.i"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.s"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_double/double_math.o"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_double/double_math.i"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_double/double_math.s"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.o"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.o"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_flash/flash.o"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_flash/flash.i"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_flash/flash.s"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.o"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.o"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.i"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.s"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_float/float_math.o"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_float/float_math.i"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_float/float_math.s"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.o"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.o"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_malloc/malloc.o"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_malloc/malloc.i"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_malloc/malloc.s"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.o"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_platform_common/common.o"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_platform_common/common.i"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_platform_common/common.s"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_platform_panic/panic.o"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_platform_panic/panic.i"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_platform_panic/panic.s"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_printf/printf.o"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_printf/printf.i"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_printf/printf.s"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_runtime/runtime.o"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_runtime/runtime.i"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_runtime/runtime.s"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.o"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.i"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.s"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.o"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.i"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.s"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.o"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.i"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.s"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.o"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.i"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.s"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_stdio/stdio.o"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_stdio/stdio.i"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_stdio/stdio.s"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.o"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.o"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.o"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.o"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_stdlib/stdlib.o"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_unique_id/unique_id.o"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s"
 	@echo "... hardware.o"
 	@echo "... hardware.i"
 	@echo "... hardware.s"
@@ -2167,236 +2367,9 @@ help:
 	@echo "... mquickjs/cutils.o"
 	@echo "... mquickjs/cutils.i"
 	@echo "... mquickjs/cutils.s"
-	@echo "... mquickjs/libm.o"
-	@echo "... mquickjs/libm.i"
-	@echo "... mquickjs/libm.s"
 	@echo "... mquickjs/mquickjs.o"
 	@echo "... mquickjs/mquickjs.i"
 	@echo "... mquickjs/mquickjs.s"
-	@echo "... pico-sdk/lib/tinyusb/src/class/audio/audio_device.o"
-	@echo "... pico-sdk/lib/tinyusb/src/class/audio/audio_device.i"
-	@echo "... pico-sdk/lib/tinyusb/src/class/audio/audio_device.s"
-	@echo "... pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.o"
-	@echo "... pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i"
-	@echo "... pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s"
-	@echo "... pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.o"
-	@echo "... pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i"
-	@echo "... pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s"
-	@echo "... pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.o"
-	@echo "... pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i"
-	@echo "... pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s"
-	@echo "... pico-sdk/lib/tinyusb/src/class/hid/hid_device.o"
-	@echo "... pico-sdk/lib/tinyusb/src/class/hid/hid_device.i"
-	@echo "... pico-sdk/lib/tinyusb/src/class/hid/hid_device.s"
-	@echo "... pico-sdk/lib/tinyusb/src/class/midi/midi_device.o"
-	@echo "... pico-sdk/lib/tinyusb/src/class/midi/midi_device.i"
-	@echo "... pico-sdk/lib/tinyusb/src/class/midi/midi_device.s"
-	@echo "... pico-sdk/lib/tinyusb/src/class/msc/msc_device.o"
-	@echo "... pico-sdk/lib/tinyusb/src/class/msc/msc_device.i"
-	@echo "... pico-sdk/lib/tinyusb/src/class/msc/msc_device.s"
-	@echo "... pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.o"
-	@echo "... pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i"
-	@echo "... pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s"
-	@echo "... pico-sdk/lib/tinyusb/src/class/net/ncm_device.o"
-	@echo "... pico-sdk/lib/tinyusb/src/class/net/ncm_device.i"
-	@echo "... pico-sdk/lib/tinyusb/src/class/net/ncm_device.s"
-	@echo "... pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.o"
-	@echo "... pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i"
-	@echo "... pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s"
-	@echo "... pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.o"
-	@echo "... pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i"
-	@echo "... pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s"
-	@echo "... pico-sdk/lib/tinyusb/src/class/video/video_device.o"
-	@echo "... pico-sdk/lib/tinyusb/src/class/video/video_device.i"
-	@echo "... pico-sdk/lib/tinyusb/src/class/video/video_device.s"
-	@echo "... pico-sdk/lib/tinyusb/src/common/tusb_fifo.o"
-	@echo "... pico-sdk/lib/tinyusb/src/common/tusb_fifo.i"
-	@echo "... pico-sdk/lib/tinyusb/src/common/tusb_fifo.s"
-	@echo "... pico-sdk/lib/tinyusb/src/device/usbd.o"
-	@echo "... pico-sdk/lib/tinyusb/src/device/usbd.i"
-	@echo "... pico-sdk/lib/tinyusb/src/device/usbd.s"
-	@echo "... pico-sdk/lib/tinyusb/src/device/usbd_control.o"
-	@echo "... pico-sdk/lib/tinyusb/src/device/usbd_control.i"
-	@echo "... pico-sdk/lib/tinyusb/src/device/usbd_control.s"
-	@echo "... pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.o"
-	@echo "... pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i"
-	@echo "... pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s"
-	@echo "... pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.o"
-	@echo "... pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i"
-	@echo "... pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s"
-	@echo "... pico-sdk/lib/tinyusb/src/tusb.o"
-	@echo "... pico-sdk/lib/tinyusb/src/tusb.i"
-	@echo "... pico-sdk/lib/tinyusb/src/tusb.s"
-	@echo "... pico-sdk/src/common/hardware_claim/claim.o"
-	@echo "... pico-sdk/src/common/hardware_claim/claim.i"
-	@echo "... pico-sdk/src/common/hardware_claim/claim.s"
-	@echo "... pico-sdk/src/common/pico_sync/critical_section.o"
-	@echo "... pico-sdk/src/common/pico_sync/critical_section.i"
-	@echo "... pico-sdk/src/common/pico_sync/critical_section.s"
-	@echo "... pico-sdk/src/common/pico_sync/lock_core.o"
-	@echo "... pico-sdk/src/common/pico_sync/lock_core.i"
-	@echo "... pico-sdk/src/common/pico_sync/lock_core.s"
-	@echo "... pico-sdk/src/common/pico_sync/mutex.o"
-	@echo "... pico-sdk/src/common/pico_sync/mutex.i"
-	@echo "... pico-sdk/src/common/pico_sync/mutex.s"
-	@echo "... pico-sdk/src/common/pico_sync/sem.o"
-	@echo "... pico-sdk/src/common/pico_sync/sem.i"
-	@echo "... pico-sdk/src/common/pico_sync/sem.s"
-	@echo "... pico-sdk/src/common/pico_time/time.o"
-	@echo "... pico-sdk/src/common/pico_time/time.i"
-	@echo "... pico-sdk/src/common/pico_time/time.s"
-	@echo "... pico-sdk/src/common/pico_time/timeout_helper.o"
-	@echo "... pico-sdk/src/common/pico_time/timeout_helper.i"
-	@echo "... pico-sdk/src/common/pico_time/timeout_helper.s"
-	@echo "... pico-sdk/src/common/pico_util/datetime.o"
-	@echo "... pico-sdk/src/common/pico_util/datetime.i"
-	@echo "... pico-sdk/src/common/pico_util/datetime.s"
-	@echo "... pico-sdk/src/common/pico_util/pheap.o"
-	@echo "... pico-sdk/src/common/pico_util/pheap.i"
-	@echo "... pico-sdk/src/common/pico_util/pheap.s"
-	@echo "... pico-sdk/src/common/pico_util/queue.o"
-	@echo "... pico-sdk/src/common/pico_util/queue.i"
-	@echo "... pico-sdk/src/common/pico_util/queue.s"
-	@echo "... pico-sdk/src/rp2040/pico_platform/platform.o"
-	@echo "... pico-sdk/src/rp2040/pico_platform/platform.i"
-	@echo "... pico-sdk/src/rp2040/pico_platform/platform.s"
-	@echo "... pico-sdk/src/rp2_common/hardware_adc/adc.o"
-	@echo "... pico-sdk/src/rp2_common/hardware_adc/adc.i"
-	@echo "... pico-sdk/src/rp2_common/hardware_adc/adc.s"
-	@echo "... pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.o"
-	@echo "... pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.i"
-	@echo "... pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.s"
-	@echo "... pico-sdk/src/rp2_common/hardware_clocks/clocks.o"
-	@echo "... pico-sdk/src/rp2_common/hardware_clocks/clocks.i"
-	@echo "... pico-sdk/src/rp2_common/hardware_clocks/clocks.s"
-	@echo "... pico-sdk/src/rp2_common/hardware_divider/divider.o"
-	@echo "... pico-sdk/src/rp2_common/hardware_flash/flash.o"
-	@echo "... pico-sdk/src/rp2_common/hardware_flash/flash.i"
-	@echo "... pico-sdk/src/rp2_common/hardware_flash/flash.s"
-	@echo "... pico-sdk/src/rp2_common/hardware_gpio/gpio.o"
-	@echo "... pico-sdk/src/rp2_common/hardware_gpio/gpio.i"
-	@echo "... pico-sdk/src/rp2_common/hardware_gpio/gpio.s"
-	@echo "... pico-sdk/src/rp2_common/hardware_irq/irq.o"
-	@echo "... pico-sdk/src/rp2_common/hardware_irq/irq.i"
-	@echo "... pico-sdk/src/rp2_common/hardware_irq/irq.s"
-	@echo "... pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.o"
-	@echo "... pico-sdk/src/rp2_common/hardware_pll/pll.o"
-	@echo "... pico-sdk/src/rp2_common/hardware_pll/pll.i"
-	@echo "... pico-sdk/src/rp2_common/hardware_pll/pll.s"
-	@echo "... pico-sdk/src/rp2_common/hardware_sync/sync.o"
-	@echo "... pico-sdk/src/rp2_common/hardware_sync/sync.i"
-	@echo "... pico-sdk/src/rp2_common/hardware_sync/sync.s"
-	@echo "... pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.o"
-	@echo "... pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.i"
-	@echo "... pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.s"
-	@echo "... pico-sdk/src/rp2_common/hardware_ticks/ticks.o"
-	@echo "... pico-sdk/src/rp2_common/hardware_ticks/ticks.i"
-	@echo "... pico-sdk/src/rp2_common/hardware_ticks/ticks.s"
-	@echo "... pico-sdk/src/rp2_common/hardware_timer/timer.o"
-	@echo "... pico-sdk/src/rp2_common/hardware_timer/timer.i"
-	@echo "... pico-sdk/src/rp2_common/hardware_timer/timer.s"
-	@echo "... pico-sdk/src/rp2_common/hardware_uart/uart.o"
-	@echo "... pico-sdk/src/rp2_common/hardware_uart/uart.i"
-	@echo "... pico-sdk/src/rp2_common/hardware_uart/uart.s"
-	@echo "... pico-sdk/src/rp2_common/hardware_vreg/vreg.o"
-	@echo "... pico-sdk/src/rp2_common/hardware_vreg/vreg.i"
-	@echo "... pico-sdk/src/rp2_common/hardware_vreg/vreg.s"
-	@echo "... pico-sdk/src/rp2_common/hardware_watchdog/watchdog.o"
-	@echo "... pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i"
-	@echo "... pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s"
-	@echo "... pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.o"
-	@echo "... pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.i"
-	@echo "... pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.s"
-	@echo "... pico-sdk/src/rp2_common/hardware_xosc/xosc.o"
-	@echo "... pico-sdk/src/rp2_common/hardware_xosc/xosc.i"
-	@echo "... pico-sdk/src/rp2_common/hardware_xosc/xosc.s"
-	@echo "... pico-sdk/src/rp2_common/pico_atomic/atomic.o"
-	@echo "... pico-sdk/src/rp2_common/pico_atomic/atomic.i"
-	@echo "... pico-sdk/src/rp2_common/pico_atomic/atomic.s"
-	@echo "... pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.o"
-	@echo "... pico-sdk/src/rp2_common/pico_bootrom/bootrom.o"
-	@echo "... pico-sdk/src/rp2_common/pico_bootrom/bootrom.i"
-	@echo "... pico-sdk/src/rp2_common/pico_bootrom/bootrom.s"
-	@echo "... pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.o"
-	@echo "... pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.i"
-	@echo "... pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.s"
-	@echo "... pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.o"
-	@echo "... pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.i"
-	@echo "... pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.s"
-	@echo "... pico-sdk/src/rp2_common/pico_crt0/crt0.o"
-	@echo "... pico-sdk/src/rp2_common/pico_cxx_options/new_delete.o"
-	@echo "... pico-sdk/src/rp2_common/pico_cxx_options/new_delete.i"
-	@echo "... pico-sdk/src/rp2_common/pico_cxx_options/new_delete.s"
-	@echo "... pico-sdk/src/rp2_common/pico_divider/divider_hardware.o"
-	@echo "... pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.o"
-	@echo "... pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.o"
-	@echo "... pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.i"
-	@echo "... pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.s"
-	@echo "... pico-sdk/src/rp2_common/pico_double/double_math.o"
-	@echo "... pico-sdk/src/rp2_common/pico_double/double_math.i"
-	@echo "... pico-sdk/src/rp2_common/pico_double/double_math.s"
-	@echo "... pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.o"
-	@echo "... pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.o"
-	@echo "... pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i"
-	@echo "... pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s"
-	@echo "... pico-sdk/src/rp2_common/pico_flash/flash.o"
-	@echo "... pico-sdk/src/rp2_common/pico_flash/flash.i"
-	@echo "... pico-sdk/src/rp2_common/pico_flash/flash.s"
-	@echo "... pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.o"
-	@echo "... pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.o"
-	@echo "... pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.i"
-	@echo "... pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.s"
-	@echo "... pico-sdk/src/rp2_common/pico_float/float_math.o"
-	@echo "... pico-sdk/src/rp2_common/pico_float/float_math.i"
-	@echo "... pico-sdk/src/rp2_common/pico_float/float_math.s"
-	@echo "... pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.o"
-	@echo "... pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.o"
-	@echo "... pico-sdk/src/rp2_common/pico_malloc/malloc.o"
-	@echo "... pico-sdk/src/rp2_common/pico_malloc/malloc.i"
-	@echo "... pico-sdk/src/rp2_common/pico_malloc/malloc.s"
-	@echo "... pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.o"
-	@echo "... pico-sdk/src/rp2_common/pico_platform_common/common.o"
-	@echo "... pico-sdk/src/rp2_common/pico_platform_common/common.i"
-	@echo "... pico-sdk/src/rp2_common/pico_platform_common/common.s"
-	@echo "... pico-sdk/src/rp2_common/pico_platform_panic/panic.o"
-	@echo "... pico-sdk/src/rp2_common/pico_platform_panic/panic.i"
-	@echo "... pico-sdk/src/rp2_common/pico_platform_panic/panic.s"
-	@echo "... pico-sdk/src/rp2_common/pico_printf/printf.o"
-	@echo "... pico-sdk/src/rp2_common/pico_printf/printf.i"
-	@echo "... pico-sdk/src/rp2_common/pico_printf/printf.s"
-	@echo "... pico-sdk/src/rp2_common/pico_runtime/runtime.o"
-	@echo "... pico-sdk/src/rp2_common/pico_runtime/runtime.i"
-	@echo "... pico-sdk/src/rp2_common/pico_runtime/runtime.s"
-	@echo "... pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.o"
-	@echo "... pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.i"
-	@echo "... pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.s"
-	@echo "... pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.o"
-	@echo "... pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.i"
-	@echo "... pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.s"
-	@echo "... pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.o"
-	@echo "... pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.i"
-	@echo "... pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.s"
-	@echo "... pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.o"
-	@echo "... pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.i"
-	@echo "... pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.s"
-	@echo "... pico-sdk/src/rp2_common/pico_stdio/stdio.o"
-	@echo "... pico-sdk/src/rp2_common/pico_stdio/stdio.i"
-	@echo "... pico-sdk/src/rp2_common/pico_stdio/stdio.s"
-	@echo "... pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.o"
-	@echo "... pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i"
-	@echo "... pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s"
-	@echo "... pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.o"
-	@echo "... pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i"
-	@echo "... pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s"
-	@echo "... pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.o"
-	@echo "... pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i"
-	@echo "... pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s"
-	@echo "... pico-sdk/src/rp2_common/pico_stdlib/stdlib.o"
-	@echo "... pico-sdk/src/rp2_common/pico_stdlib/stdlib.i"
-	@echo "... pico-sdk/src/rp2_common/pico_stdlib/stdlib.s"
-	@echo "... pico-sdk/src/rp2_common/pico_unique_id/unique_id.o"
-	@echo "... pico-sdk/src/rp2_common/pico_unique_id/unique_id.i"
-	@echo "... pico-sdk/src/rp2_common/pico_unique_id/unique_id.s"
 	@echo "... stubs.o"
 	@echo "... stubs.i"
 	@echo "... stubs.s"

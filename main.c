@@ -1,53 +1,41 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include <string.h>
 #include "pico/stdlib.h"
 #include "mquickjs.h"
-#include "hardware.h"
 
-// 32KB is plenty for a "Hello World"
-#define JS_POOL_SIZE (32 * 1024)
+// Guaranteed 8-byte alignment by the compiler
+#define JS_POOL_SIZE (12 * 1024)
+static uint64_t js_pool_aligned[JS_POOL_SIZE / 8]; 
 
-// Force 16-byte alignment. This will ensure the address ends in '0' (e.g., ...1370 or ...1380)
-static uint8_t __attribute__((aligned(16))) js_pool_final[JS_POOL_SIZE];
-
-int main(void)
-{
+int main(void) {
     stdio_init_all();
-    for(int i = 3; i > 0; i--) { printf("..%d\n", i); sleep_ms(1000); }
+    gpio_init(25);
+    gpio_set_dir(25, GPIO_OUT);
 
-    printf("\n=== RP2040 QuickJS Strict Alignment Test ===\n");
-
-    // Clear memory
-    memset(js_pool_final, 0, JS_POOL_SIZE);
-    
-    printf("Pool Address: %p\n", (void*)js_pool_final);
-    
-    if (((uintptr_t)js_pool_final % 16) != 0) {
-        printf("[WARNING] Address is NOT 16-byte aligned!\n");
+    // USB Wait
+    for(int i=0; i<5; i++) {
+        gpio_put(25, 1); sleep_ms(100);
+        gpio_put(25, 0); sleep_ms(100);
     }
 
-    printf("[Step 1] Calling JS_NewContext...\n");
+    printf("=== RP2040 QuickJS: Survivalist Build ===\n");
     
-    // We are passing NULL. If this fails, the issue is internal to the 
-    // library's memory manager or the way it was compiled for Cortex-M0+.
-    JSContext *ctx = JS_NewContext(js_pool_final, JS_POOL_SIZE, NULL);
+    uint8_t *pool_ptr = (uint8_t *)js_pool_aligned;
+    printf("Pool aligned at: %p\n", (void*)pool_ptr);
 
-    if (ctx == NULL) {
-        printf("[FAIL] JS_NewContext returned NULL.\n");
+    // The moment of truth
+    JSContext *ctx = JS_NewContext(pool_ptr, JS_POOL_SIZE, NULL);
+
+    if (ctx) {
+        printf("BOOT SUCCESS!\n");
+        JSValue res = JS_Eval(ctx, "1+1", 3, "m", 0);
+        printf("Result: %d\n", JS_VALUE_GET_INT(res));
     } else {
-        printf("[SUCCESS] Context Created!\n");
-        
-        // Only run hardware_init if context is valid
-        hardware_init(ctx);
-        
-        const char *script = "var a = 1; a;";
-        JSValue res = JS_Eval(ctx, script, strlen(script), "test", 0);
-        printf("Eval finished.\n");
-        
-        JS_FreeContext(ctx);
+        printf("BOOT FAILED: Engine rejected memory.\n");
     }
 
-    printf("=== End ===\n");
-    while (true) { tight_loop_contents(); }
+    while (1) {
+        gpio_put(25, 1); sleep_ms(500);
+        gpio_put(25, 0); sleep_ms(500);
+    }
 }

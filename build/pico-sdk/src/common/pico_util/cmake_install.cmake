@@ -1,4 +1,4 @@
-# Install script for directory: /Users/arturomena/coqui-runtime/pico-sdk/src/common/pico_util
+# Install script for directory: /Users/arturomena/pico-sdk/src/common/pico_util
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

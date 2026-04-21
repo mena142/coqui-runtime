@@ -1,0 +1,134 @@
+=== BUILD START: Tue Apr 21 12:15:51 EDT 2026 ===
+HASH: e1ed6fe
+Using PICO_SDK_PATH from environment ('/Users/arturomena/pico-sdk')
+PICO_SDK_PATH is /Users/arturomena/pico-sdk
+Defaulting platform (PICO_PLATFORM) to 'rp2040' since not specified.
+Defaulting target board (PICO_BOARD) to 'pico' since not specified.
+Using board configuration from /Users/arturomena/pico-sdk/src/boards/include/boards/pico.h
+Pico Platform (PICO_PLATFORM) is 'rp2040'.
+-- Defaulting build type to 'Release' since not specified.
+Defaulting compiler (PICO_COMPILER) to 'pico_arm_cortex_m0plus_gcc' since not specified.
+Configuring toolchain based on PICO_COMPILER 'pico_arm_cortex_m0plus_gcc'
+Defaulting PICO_GCC_TRIPLE to 'arm-none-eabi'
+-- The C compiler identification is GNU 14.2.1
+-- The CXX compiler identification is GNU 14.2.1
+-- The ASM compiler identification is GNU
+-- Found assembler: /usr/local/bin/arm-none-eabi-gcc
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/local/bin/arm-none-eabi-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/local/bin/arm-none-eabi-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+Build type is Release
+-- Found Python3: /usr/local/Frameworks/Python.framework/Versions/3.14/bin/python3.14 (found version "3.14.4") found components: Interpreter
+TinyUSB available at /Users/arturomena/pico-sdk/lib/tinyusb/hw/bsp/rp2040; enabling build support for USB.
+BTstack available at /Users/arturomena/pico-sdk/lib/btstack
+cyw43-driver available at /Users/arturomena/pico-sdk/lib/cyw43-driver
+mbedtls available at /Users/arturomena/pico-sdk/lib/mbedtls
+lwIP available at /Users/arturomena/pico-sdk/lib/lwip
+Using picotool from /usr/local/bin/picotool
+-- Configuring done (1.0s)
+-- Generating done (0.2s)
+-- Build files have been written to: /Users/arturomena/coqui-runtime/build
+--- Compiling ---
+[  0%] Building ASM object pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.o
+[  1%] Linking ASM executable bs2_default.elf
+[  1%] Built target bs2_default
+[  2%] Generating bs2_default.bin
+[  3%] Generating bs2_default_padded_checksummed.S
+[  4%] Building ASM object pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.o
+[  4%] Built target bs2_default_library
+[  6%] Building C object CMakeFiles/coqui_mjs.dir/hardware.c.o
+[  6%] Building C object CMakeFiles/coqui_mjs.dir/main.c.o
+[  7%] Building C object CMakeFiles/coqui_mjs.dir/stubs.c.o
+[  8%] Building C object CMakeFiles/coqui_mjs.dir/mquickjs/mquickjs.c.o
+[ 10%] Building C object CMakeFiles/coqui_mjs.dir/mquickjs/cutils.c.o
+[ 11%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
+[ 13%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2040/pico_platform/platform.c.o
+[ 13%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
+[ 14%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_platform_common/common.c.o
+[ 15%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
+[ 17%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/common/hardware_claim/claim.c.o
+[ 17%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+[ 19%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+[ 20%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+[ 21%] Building ASM object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
+[ 22%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/common/pico_sync/sem.c.o
+[ 24%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/common/pico_sync/lock_core.c.o
+[ 24%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/common/pico_sync/critical_section.c.o
+[ 25%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/common/pico_sync/mutex.c.o
+[ 26%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/common/pico_time/time.c.o
+[ 26%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/common/pico_time/timeout_helper.c.o
+[ 28%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+[ 29%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/common/pico_util/datetime.c.o
+[ 30%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/common/pico_util/pheap.c.o
+[ 31%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/common/pico_util/queue.c.o
+[ 32%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+[ 33%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+[ 34%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
+[ 35%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
+[ 37%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
+[ 38%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
+[ 39%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
+[ 40%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
+[ 41%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+[ 42%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_flash/flash.c.o
+[ 43%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+[ 44%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+[ 46%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+[ 47%] Building ASM object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_divider/divider.S.o
+[ 48%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
+[ 49%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
+[ 50%] Building ASM object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
+[ 51%] Building ASM object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
+[ 52%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
+[ 53%] Building ASM object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
+[ 55%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_double/double_math.c.o
+[ 55%] Building ASM object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
+[ 56%] Building ASM object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
+[ 57%] Building ASM object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
+[ 58%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
+[ 59%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_float/float_math.c.o
+[ 60%] Building ASM object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
+[ 61%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
+[ 62%] Building ASM object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
+[ 64%] Building CXX object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o
+[ 65%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o
+[ 66%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+[ 67%] Building ASM object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
+[ 68%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+[ 69%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+[ 70%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+[ 71%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
+[ 73%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
+[ 74%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
+[ 75%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
+[ 76%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
+[ 77%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
+[ 78%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+[ 79%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o
+[ 80%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+[ 82%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
+[ 83%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
+[ 83%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
+[ 84%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
+[ 85%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
+[ 86%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
+[ 87%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
+[ 88%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
+[ 89%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
+[ 91%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
+[ 92%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
+[ 93%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
+[ 94%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
+[ 95%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
+[ 96%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/tusb.c.o
+[ 97%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
+[ 98%] Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
+[100%] Linking CXX executable coqui_mjs.elf
+[100%] Built target coqui_mjs

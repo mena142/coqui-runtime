@@ -1,0 +1,93 @@
+=== BUILD START: Tue Apr 21 12:11:22 EDT 2026 ===
+HASH: af56df3
+PICO_SDK_PATH is /Users/arturomena/pico-sdk
+Target board (PICO_BOARD) is 'pico'.
+Using board configuration from /Users/arturomena/pico-sdk/src/boards/include/boards/pico.h
+Pico Platform (PICO_PLATFORM) is 'rp2040'.
+Build type is Release
+TinyUSB available at /Users/arturomena/pico-sdk/lib/tinyusb/hw/bsp/rp2040; enabling build support for USB.
+BTstack available at /Users/arturomena/pico-sdk/lib/btstack
+cyw43-driver available at /Users/arturomena/pico-sdk/lib/cyw43-driver
+mbedtls available at /Users/arturomena/pico-sdk/lib/mbedtls
+lwIP available at /Users/arturomena/pico-sdk/lib/lwip
+Using picotool from /Users/arturomena/coqui-runtime/build/_deps/picotool/picotool
+-- Configuring done (0.7s)
+You have changed variables that require your cache to be deleted.
+Configure will be re-run and you may have to reset some variables.
+The following variables have changed:
+CMAKE_C_COMPILER= /Users/arturomena/coqui-runtime/build/arm-none-eabi-gcc
+CMAKE_CXX_COMPILER= /Users/arturomena/coqui-runtime/build/arm-none-eabi-g++
+CMAKE_C_COMPILER= /Users/arturomena/coqui-runtime/build/arm-none-eabi-gcc
+CMAKE_CXX_COMPILER= /Users/arturomena/coqui-runtime/build/arm-none-eabi-g++
+
+Using PICO_SDK_PATH from environment ('/Users/arturomena/pico-sdk')
+PICO_SDK_PATH is /Users/arturomena/pico-sdk
+Defaulting platform (PICO_PLATFORM) to 'rp2040' since not specified.
+Defaulting target board (PICO_BOARD) to 'pico' since not specified.
+Using board configuration from /Users/arturomena/pico-sdk/src/boards/include/boards/pico.h
+Pico Platform (PICO_PLATFORM) is 'rp2040'.
+-- Defaulting build type to 'Release' since not specified.
+Defaulting compiler (PICO_COMPILER) to 'pico_arm_cortex_m0plus_gcc' since not specified.
+Configuring toolchain based on PICO_COMPILER 'pico_arm_cortex_m0plus_gcc'
+-- The C compiler identification is unknown
+-- The CXX compiler identification is unknown
+-- The ASM compiler identification is GNU
+-- Found assembler: /usr/local/bin/arm-none-eabi-gcc
+CMake Error at CMakeLists.txt:3 (project):
+  The CMAKE_C_COMPILER:
+
+    /Users/arturomena/coqui-runtime/build/arm-none-eabi-gcc
+
+  is not a full path to an existing compiler tool.
+
+  Tell CMake where to find the compiler by setting either the environment
+  variable "CC" or the CMake cache entry CMAKE_C_COMPILER to the full path to
+  the compiler, or to the compiler name if it is in the PATH.
+
+
+CMake Error at CMakeLists.txt:3 (project):
+  The CMAKE_CXX_COMPILER:
+
+    /Users/arturomena/coqui-runtime/build/arm-none-eabi-g++
+
+  is not a full path to an existing compiler tool.
+
+  Tell CMake where to find the compiler by setting either the environment
+  variable "CXX" or the CMake cache entry CMAKE_CXX_COMPILER to the full path
+  to the compiler, or to the compiler name if it is in the PATH.
+
+
+-- Configuring incomplete, errors occurred!
+--- Compiling ---
+PICO_SDK_PATH is /Users/arturomena/pico-sdk
+Target board (PICO_BOARD) is 'pico'.
+Using board configuration from /Users/arturomena/pico-sdk/src/boards/include/boards/pico.h
+Pico Platform (PICO_PLATFORM) is 'rp2040'.
+-- The C compiler identification is unknown
+-- The CXX compiler identification is unknown
+CMake Error at CMakeLists.txt:3 (project):
+  The CMAKE_C_COMPILER:
+
+    /Users/arturomena/coqui-runtime/build/arm-none-eabi-gcc
+
+  is not a full path to an existing compiler tool.
+
+  Tell CMake where to find the compiler by setting either the environment
+  variable "CC" or the CMake cache entry CMAKE_C_COMPILER to the full path to
+  the compiler, or to the compiler name if it is in the PATH.
+
+
+CMake Error at CMakeLists.txt:3 (project):
+  The CMAKE_CXX_COMPILER:
+
+    /Users/arturomena/coqui-runtime/build/arm-none-eabi-g++
+
+  is not a full path to an existing compiler tool.
+
+  Tell CMake where to find the compiler by setting either the environment
+  variable "CXX" or the CMake cache entry CMAKE_CXX_COMPILER to the full path
+  to the compiler, or to the compiler name if it is in the PATH.
+
+
+-- Configuring incomplete, errors occurred!
+make: *** [cmake_check_build_system] Error 1

@@ -4,7 +4,7 @@
 
 // based on PICO_CONFIG_HEADER_FILES:
 
-#include "/Users/arturomena/coqui-runtime/pico-sdk/src/boards/include/boards/pico.h"
-#include "/Users/arturomena/coqui-runtime/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h"
+#include "/Users/arturomena/pico-sdk/src/boards/include/boards/pico.h"
+#include "/Users/arturomena/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h"
 
 // based on PICO_RP2040_CONFIG_HEADER_FILES:

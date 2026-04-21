@@ -68,9 +68,9 @@ include pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws281
 
 pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h: pico-sdk/src/rp2_common/pico_status_led/ws2812.pio.h
 
-pico-sdk/src/rp2_common/pico_status_led/ws2812.pio.h: /Users/arturomena/coqui-runtime/pico-sdk/src/rp2_common/pico_status_led/ws2812.pio
+pico-sdk/src/rp2_common/pico_status_led/ws2812.pio.h: /Users/arturomena/pico-sdk/src/rp2_common/pico_status_led/ws2812.pio
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/arturomena/coqui-runtime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ws2812.pio.h"
-	cd /Users/arturomena/coqui-runtime/build/pico-sdk/src/rp2_common/pico_status_led && ../../../../pioasm-install/pioasm/pioasm -o c-sdk -v 0 /Users/arturomena/coqui-runtime/pico-sdk/src/rp2_common/pico_status_led/ws2812.pio /Users/arturomena/coqui-runtime/build/pico-sdk/src/rp2_common/pico_status_led/ws2812.pio.h
+	cd /Users/arturomena/coqui-runtime/build/pico-sdk/src/rp2_common/pico_status_led && ../../../../pioasm-install/pioasm/pioasm -o c-sdk -v 0 /Users/arturomena/pico-sdk/src/rp2_common/pico_status_led/ws2812.pio /Users/arturomena/coqui-runtime/build/pico-sdk/src/rp2_common/pico_status_led/ws2812.pio.h
 
 pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h.dir/codegen:
 .PHONY : pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h.dir/codegen
@@ -89,6 +89,6 @@ pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h.
 .PHONY : pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h.dir/clean
 
 pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h.dir/depend:
-	cd /Users/arturomena/coqui-runtime/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/arturomena/coqui-runtime /Users/arturomena/coqui-runtime/pico-sdk/src/rp2_common/pico_status_led /Users/arturomena/coqui-runtime/build /Users/arturomena/coqui-runtime/build/pico-sdk/src/rp2_common/pico_status_led /Users/arturomena/coqui-runtime/build/pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h.dir/DependInfo.cmake "--color=$(COLOR)" pico_status_led_ws2812_pio_h
+	cd /Users/arturomena/coqui-runtime/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/arturomena/coqui-runtime /Users/arturomena/pico-sdk/src/rp2_common/pico_status_led /Users/arturomena/coqui-runtime/build /Users/arturomena/coqui-runtime/build/pico-sdk/src/rp2_common/pico_status_led /Users/arturomena/coqui-runtime/build/pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h.dir/DependInfo.cmake "--color=$(COLOR)" pico_status_led_ws2812_pio_h
 .PHONY : pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h.dir/depend
 

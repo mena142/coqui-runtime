@@ -1,4 +1,4 @@
-# Install script for directory: /Users/arturomena/coqui-runtime/pico-sdk/src/rp2_common/pico_platform_sections
+# Install script for directory: /Users/arturomena/pico-sdk/src/rp2_common/pico_platform_sections
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

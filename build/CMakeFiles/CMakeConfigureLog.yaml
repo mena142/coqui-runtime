@@ -5,7 +5,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/local/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
-      - "CMakeLists.txt:7 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_UNAME"
     description: "Path to a program."
@@ -21,6 +21,7 @@ events:
       - "uname"
     candidate_directories:
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/"
+      - "/usr/local/opt/ruby/bin/"
       - "/usr/local/Cellar/ruby/3.3.0/bin/"
       - "/Users/arturomena/.rbenv/shims/"
       - "/Users/arturomena/.pyenv/shims/"
@@ -40,6 +41,7 @@ events:
       - "/Users/arturomena/.rvm/bin/"
     searched_directories:
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/uname"
+      - "/usr/local/opt/ruby/bin/uname"
       - "/usr/local/Cellar/ruby/3.3.0/bin/uname"
       - "/Users/arturomena/.rbenv/shims/uname"
       - "/Users/arturomena/.pyenv/shims/uname"
@@ -49,6 +51,8 @@ events:
     found: "/usr/bin/uname"
     search_context:
       ENV{PATH}:
+        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
@@ -72,15 +76,16 @@ events:
         - "/Users/arturomena/.cargo/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
+        - "/Users/arturomena/.rvm/bin"
   -
     kind: "find-v1"
     backtrace:
-      - "pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:12 (find_program)"
-      - "pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:39 (pico_find_compiler)"
-      - "pico-sdk/cmake/preload/toolchains/util/pico_arm_gcc_common.cmake:25 (pico_find_compiler_with_triples)"
-      - "pico-sdk/cmake/preload/toolchains/pico_arm_cortex_m0plus_gcc.cmake:7 (include)"
+      - "/Users/arturomena/pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:12 (find_program)"
+      - "/Users/arturomena/pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:39 (pico_find_compiler)"
+      - "/Users/arturomena/pico-sdk/cmake/preload/toolchains/util/pico_arm_gcc_common.cmake:25 (pico_find_compiler_with_triples)"
+      - "/Users/arturomena/pico-sdk/cmake/preload/toolchains/pico_arm_cortex_m0plus_gcc.cmake:7 (include)"
       - "/usr/local/share/cmake/Modules/CMakeDetermineSystem.cmake:146 (include)"
-      - "CMakeLists.txt:7 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "PICO_COMPILER_CC"
     description: "Path to a program."
@@ -98,6 +103,8 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
+        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Users/arturomena/.pyenv/shims"
@@ -120,15 +127,16 @@ events:
         - "/Users/arturomena/.cargo/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
+        - "/Users/arturomena/.rvm/bin"
   -
     kind: "find-v1"
     backtrace:
-      - "pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:24 (find_program)"
-      - "pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:39 (pico_find_compiler)"
-      - "pico-sdk/cmake/preload/toolchains/util/pico_arm_gcc_common.cmake:25 (pico_find_compiler_with_triples)"
-      - "pico-sdk/cmake/preload/toolchains/pico_arm_cortex_m0plus_gcc.cmake:7 (include)"
+      - "/Users/arturomena/pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:24 (find_program)"
+      - "/Users/arturomena/pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:39 (pico_find_compiler)"
+      - "/Users/arturomena/pico-sdk/cmake/preload/toolchains/util/pico_arm_gcc_common.cmake:25 (pico_find_compiler_with_triples)"
+      - "/Users/arturomena/pico-sdk/cmake/preload/toolchains/pico_arm_cortex_m0plus_gcc.cmake:7 (include)"
       - "/usr/local/share/cmake/Modules/CMakeDetermineSystem.cmake:146 (include)"
-      - "CMakeLists.txt:7 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "PICO_COMPILER_CC"
     description: "Path to a program."
@@ -144,6 +152,7 @@ events:
       - "arm-none-eabi-gcc"
     candidate_directories:
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/"
+      - "/usr/local/opt/ruby/bin/"
       - "/usr/local/Cellar/ruby/3.3.0/bin/"
       - "/Users/arturomena/.rbenv/shims/"
       - "/Users/arturomena/.pyenv/shims/"
@@ -163,6 +172,7 @@ events:
       - "/Users/arturomena/.rvm/bin/"
     searched_directories:
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/arm-none-eabi-gcc"
+      - "/usr/local/opt/ruby/bin/arm-none-eabi-gcc"
       - "/usr/local/Cellar/ruby/3.3.0/bin/arm-none-eabi-gcc"
       - "/Users/arturomena/.rbenv/shims/arm-none-eabi-gcc"
       - "/Users/arturomena/.pyenv/shims/arm-none-eabi-gcc"
@@ -170,6 +180,8 @@ events:
     found: "/usr/local/bin/arm-none-eabi-gcc"
     search_context:
       ENV{PATH}:
+        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
@@ -193,15 +205,16 @@ events:
         - "/Users/arturomena/.cargo/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
+        - "/Users/arturomena/.rvm/bin"
   -
     kind: "find-v1"
     backtrace:
-      - "pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:12 (find_program)"
-      - "pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:39 (pico_find_compiler)"
-      - "pico-sdk/cmake/preload/toolchains/util/pico_arm_gcc_common.cmake:26 (pico_find_compiler_with_triples)"
-      - "pico-sdk/cmake/preload/toolchains/pico_arm_cortex_m0plus_gcc.cmake:7 (include)"
+      - "/Users/arturomena/pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:12 (find_program)"
+      - "/Users/arturomena/pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:39 (pico_find_compiler)"
+      - "/Users/arturomena/pico-sdk/cmake/preload/toolchains/util/pico_arm_gcc_common.cmake:26 (pico_find_compiler_with_triples)"
+      - "/Users/arturomena/pico-sdk/cmake/preload/toolchains/pico_arm_cortex_m0plus_gcc.cmake:7 (include)"
       - "/usr/local/share/cmake/Modules/CMakeDetermineSystem.cmake:146 (include)"
-      - "CMakeLists.txt:7 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "PICO_COMPILER_CXX"
     description: "Path to a program."
@@ -219,6 +232,8 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
+        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Users/arturomena/.pyenv/shims"
@@ -241,15 +256,16 @@ events:
         - "/Users/arturomena/.cargo/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
+        - "/Users/arturomena/.rvm/bin"
   -
     kind: "find-v1"
     backtrace:
-      - "pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:24 (find_program)"
-      - "pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:39 (pico_find_compiler)"
-      - "pico-sdk/cmake/preload/toolchains/util/pico_arm_gcc_common.cmake:26 (pico_find_compiler_with_triples)"
-      - "pico-sdk/cmake/preload/toolchains/pico_arm_cortex_m0plus_gcc.cmake:7 (include)"
+      - "/Users/arturomena/pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:24 (find_program)"
+      - "/Users/arturomena/pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:39 (pico_find_compiler)"
+      - "/Users/arturomena/pico-sdk/cmake/preload/toolchains/util/pico_arm_gcc_common.cmake:26 (pico_find_compiler_with_triples)"
+      - "/Users/arturomena/pico-sdk/cmake/preload/toolchains/pico_arm_cortex_m0plus_gcc.cmake:7 (include)"
       - "/usr/local/share/cmake/Modules/CMakeDetermineSystem.cmake:146 (include)"
-      - "CMakeLists.txt:7 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "PICO_COMPILER_CXX"
     description: "Path to a program."
@@ -265,6 +281,7 @@ events:
       - "arm-none-eabi-g++"
     candidate_directories:
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/"
+      - "/usr/local/opt/ruby/bin/"
       - "/usr/local/Cellar/ruby/3.3.0/bin/"
       - "/Users/arturomena/.rbenv/shims/"
       - "/Users/arturomena/.pyenv/shims/"
@@ -284,6 +301,7 @@ events:
       - "/Users/arturomena/.rvm/bin/"
     searched_directories:
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/arm-none-eabi-g++"
+      - "/usr/local/opt/ruby/bin/arm-none-eabi-g++"
       - "/usr/local/Cellar/ruby/3.3.0/bin/arm-none-eabi-g++"
       - "/Users/arturomena/.rbenv/shims/arm-none-eabi-g++"
       - "/Users/arturomena/.pyenv/shims/arm-none-eabi-g++"
@@ -291,6 +309,8 @@ events:
     found: "/usr/local/bin/arm-none-eabi-g++"
     search_context:
       ENV{PATH}:
+        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
@@ -314,15 +334,16 @@ events:
         - "/Users/arturomena/.cargo/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
+        - "/Users/arturomena/.rvm/bin"
   -
     kind: "find-v1"
     backtrace:
-      - "pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:12 (find_program)"
-      - "pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:39 (pico_find_compiler)"
-      - "pico-sdk/cmake/preload/toolchains/util/pico_arm_gcc_common.cmake:28 (pico_find_compiler_with_triples)"
-      - "pico-sdk/cmake/preload/toolchains/pico_arm_cortex_m0plus_gcc.cmake:7 (include)"
+      - "/Users/arturomena/pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:12 (find_program)"
+      - "/Users/arturomena/pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:39 (pico_find_compiler)"
+      - "/Users/arturomena/pico-sdk/cmake/preload/toolchains/util/pico_arm_gcc_common.cmake:28 (pico_find_compiler_with_triples)"
+      - "/Users/arturomena/pico-sdk/cmake/preload/toolchains/pico_arm_cortex_m0plus_gcc.cmake:7 (include)"
       - "/usr/local/share/cmake/Modules/CMakeDetermineSystem.cmake:146 (include)"
-      - "CMakeLists.txt:7 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "PICO_OBJCOPY"
     description: "Path to a program."
@@ -340,6 +361,8 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
+        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Users/arturomena/.pyenv/shims"
@@ -362,15 +385,16 @@ events:
         - "/Users/arturomena/.cargo/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
+        - "/Users/arturomena/.rvm/bin"
   -
     kind: "find-v1"
     backtrace:
-      - "pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:24 (find_program)"
-      - "pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:39 (pico_find_compiler)"
-      - "pico-sdk/cmake/preload/toolchains/util/pico_arm_gcc_common.cmake:28 (pico_find_compiler_with_triples)"
-      - "pico-sdk/cmake/preload/toolchains/pico_arm_cortex_m0plus_gcc.cmake:7 (include)"
+      - "/Users/arturomena/pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:24 (find_program)"
+      - "/Users/arturomena/pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:39 (pico_find_compiler)"
+      - "/Users/arturomena/pico-sdk/cmake/preload/toolchains/util/pico_arm_gcc_common.cmake:28 (pico_find_compiler_with_triples)"
+      - "/Users/arturomena/pico-sdk/cmake/preload/toolchains/pico_arm_cortex_m0plus_gcc.cmake:7 (include)"
       - "/usr/local/share/cmake/Modules/CMakeDetermineSystem.cmake:146 (include)"
-      - "CMakeLists.txt:7 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "PICO_OBJCOPY"
     description: "Path to a program."
@@ -386,6 +410,7 @@ events:
       - "arm-none-eabi-objcopy"
     candidate_directories:
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/"
+      - "/usr/local/opt/ruby/bin/"
       - "/usr/local/Cellar/ruby/3.3.0/bin/"
       - "/Users/arturomena/.rbenv/shims/"
       - "/Users/arturomena/.pyenv/shims/"
@@ -405,6 +430,7 @@ events:
       - "/Users/arturomena/.rvm/bin/"
     searched_directories:
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/arm-none-eabi-objcopy"
+      - "/usr/local/opt/ruby/bin/arm-none-eabi-objcopy"
       - "/usr/local/Cellar/ruby/3.3.0/bin/arm-none-eabi-objcopy"
       - "/Users/arturomena/.rbenv/shims/arm-none-eabi-objcopy"
       - "/Users/arturomena/.pyenv/shims/arm-none-eabi-objcopy"
@@ -412,6 +438,8 @@ events:
     found: "/usr/local/bin/arm-none-eabi-objcopy"
     search_context:
       ENV{PATH}:
+        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
@@ -435,15 +463,16 @@ events:
         - "/Users/arturomena/.cargo/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
+        - "/Users/arturomena/.rvm/bin"
   -
     kind: "find-v1"
     backtrace:
-      - "pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:12 (find_program)"
-      - "pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:39 (pico_find_compiler)"
-      - "pico-sdk/cmake/preload/toolchains/util/pico_arm_gcc_common.cmake:29 (pico_find_compiler_with_triples)"
-      - "pico-sdk/cmake/preload/toolchains/pico_arm_cortex_m0plus_gcc.cmake:7 (include)"
+      - "/Users/arturomena/pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:12 (find_program)"
+      - "/Users/arturomena/pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:39 (pico_find_compiler)"
+      - "/Users/arturomena/pico-sdk/cmake/preload/toolchains/util/pico_arm_gcc_common.cmake:29 (pico_find_compiler_with_triples)"
+      - "/Users/arturomena/pico-sdk/cmake/preload/toolchains/pico_arm_cortex_m0plus_gcc.cmake:7 (include)"
       - "/usr/local/share/cmake/Modules/CMakeDetermineSystem.cmake:146 (include)"
-      - "CMakeLists.txt:7 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "PICO_OBJDUMP"
     description: "Path to a program."
@@ -461,6 +490,8 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
+        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Users/arturomena/.pyenv/shims"
@@ -483,15 +514,16 @@ events:
         - "/Users/arturomena/.cargo/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
+        - "/Users/arturomena/.rvm/bin"
   -
     kind: "find-v1"
     backtrace:
-      - "pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:24 (find_program)"
-      - "pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:39 (pico_find_compiler)"
-      - "pico-sdk/cmake/preload/toolchains/util/pico_arm_gcc_common.cmake:29 (pico_find_compiler_with_triples)"
-      - "pico-sdk/cmake/preload/toolchains/pico_arm_cortex_m0plus_gcc.cmake:7 (include)"
+      - "/Users/arturomena/pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:24 (find_program)"
+      - "/Users/arturomena/pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:39 (pico_find_compiler)"
+      - "/Users/arturomena/pico-sdk/cmake/preload/toolchains/util/pico_arm_gcc_common.cmake:29 (pico_find_compiler_with_triples)"
+      - "/Users/arturomena/pico-sdk/cmake/preload/toolchains/pico_arm_cortex_m0plus_gcc.cmake:7 (include)"
       - "/usr/local/share/cmake/Modules/CMakeDetermineSystem.cmake:146 (include)"
-      - "CMakeLists.txt:7 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "PICO_OBJDUMP"
     description: "Path to a program."
@@ -507,6 +539,7 @@ events:
       - "arm-none-eabi-objdump"
     candidate_directories:
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/"
+      - "/usr/local/opt/ruby/bin/"
       - "/usr/local/Cellar/ruby/3.3.0/bin/"
       - "/Users/arturomena/.rbenv/shims/"
       - "/Users/arturomena/.pyenv/shims/"
@@ -526,6 +559,7 @@ events:
       - "/Users/arturomena/.rvm/bin/"
     searched_directories:
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/arm-none-eabi-objdump"
+      - "/usr/local/opt/ruby/bin/arm-none-eabi-objdump"
       - "/usr/local/Cellar/ruby/3.3.0/bin/arm-none-eabi-objdump"
       - "/Users/arturomena/.rbenv/shims/arm-none-eabi-objdump"
       - "/Users/arturomena/.pyenv/shims/arm-none-eabi-objdump"
@@ -533,6 +567,8 @@ events:
     found: "/usr/local/bin/arm-none-eabi-objdump"
     search_context:
       ENV{PATH}:
+        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
@@ -556,11 +592,12 @@ events:
         - "/Users/arturomena/.cargo/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
+        - "/Users/arturomena/.rvm/bin"
   -
     kind: "message-v1"
     backtrace:
       - "/usr/local/share/cmake/Modules/CMakeDetermineSystem.cmake:207 (message)"
-      - "CMakeLists.txt:7 (project)"
+      - "CMakeLists.txt:3 (project)"
     message: |
       The target system is: PICO -  - cortex-m0plus
       The host system is: Darwin - 22.6.0 - x86_64
@@ -568,7 +605,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/local/share/cmake/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
-      - "CMakeLists.txt:7 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_MAKE_PROGRAM"
     description: "Path to a program."
@@ -586,6 +623,7 @@ events:
       - "smake"
     candidate_directories:
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/"
+      - "/usr/local/opt/ruby/bin/"
       - "/usr/local/Cellar/ruby/3.3.0/bin/"
       - "/Users/arturomena/.rbenv/shims/"
       - "/Users/arturomena/.pyenv/shims/"
@@ -605,6 +643,7 @@ events:
       - "/Users/arturomena/.rvm/bin/"
     searched_directories:
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/gmake"
+      - "/usr/local/opt/ruby/bin/gmake"
       - "/usr/local/Cellar/ruby/3.3.0/bin/gmake"
       - "/Users/arturomena/.rbenv/shims/gmake"
       - "/Users/arturomena/.pyenv/shims/gmake"
@@ -623,6 +662,7 @@ events:
       - "/Users/arturomena/.cargo/bin/gmake"
       - "/Users/arturomena/.rvm/bin/gmake"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/make"
+      - "/usr/local/opt/ruby/bin/make"
       - "/usr/local/Cellar/ruby/3.3.0/bin/make"
       - "/Users/arturomena/.rbenv/shims/make"
       - "/Users/arturomena/.pyenv/shims/make"
@@ -632,6 +672,8 @@ events:
     found: "/usr/bin/make"
     search_context:
       ENV{PATH}:
+        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
@@ -655,6 +697,7 @@ events:
         - "/Users/arturomena/.cargo/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
+        - "/Users/arturomena/.rvm/bin"
       CMAKE_FIND_ROOT_PATH: "/usr/local"
   -
     kind: "find-v1"
@@ -664,7 +707,7 @@ events:
       - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
       - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/usr/local/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:7 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "file"
     variable: "src_in"
     description: "Path to a file."
@@ -680,10 +723,12 @@ events:
       - "CMakeCCompilerId.c.in"
     candidate_directories:
       - "/usr/local/share/cmake/Modules/"
-      - "/Users/arturomena/coqui-runtime/pico-sdk/cmake/"
+      - "/Users/arturomena/pico-sdk/cmake/"
     found: "/usr/local/share/cmake/Modules/CMakeCCompilerId.c.in"
     search_context:
       ENV{PATH}:
+        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
@@ -707,6 +752,7 @@ events:
         - "/Users/arturomena/.cargo/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
+        - "/Users/arturomena/.rvm/bin"
       CMAKE_FIND_ROOT_PATH: "/usr/local"
   -
     kind: "message-v1"
@@ -714,7 +760,7 @@ events:
       - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/usr/local/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:7 (project)"
+      - "CMakeLists.txt:3 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
       Compiler: /usr/local/bin/arm-none-eabi-gcc 
@@ -746,7 +792,7 @@ events:
       - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
       - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/usr/local/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:7 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "file"
     variable: "src_in"
     description: "Path to a file."
@@ -762,10 +808,12 @@ events:
       - "CMakeCCompilerId.c.in"
     candidate_directories:
       - "/usr/local/share/cmake/Modules/"
-      - "/Users/arturomena/coqui-runtime/pico-sdk/cmake/"
+      - "/Users/arturomena/pico-sdk/cmake/"
     found: "/usr/local/share/cmake/Modules/CMakeCCompilerId.c.in"
     search_context:
       ENV{PATH}:
+        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
@@ -789,6 +837,7 @@ events:
         - "/Users/arturomena/.cargo/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
+        - "/Users/arturomena/.rvm/bin"
       CMAKE_FIND_ROOT_PATH: "/usr/local"
   -
     kind: "message-v1"
@@ -796,7 +845,7 @@ events:
       - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/usr/local/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:7 (project)"
+      - "CMakeLists.txt:3 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
       Compiler: /usr/local/bin/arm-none-eabi-gcc 
@@ -817,7 +866,7 @@ events:
     backtrace:
       - "/usr/local/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "/usr/local/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:7 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_AR"
     description: "Path to a program."
@@ -835,6 +884,7 @@ events:
     candidate_directories:
       - "/usr/local/bin/"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/"
+      - "/usr/local/opt/ruby/bin/"
       - "/usr/local/Cellar/ruby/3.3.0/bin/"
       - "/Users/arturomena/.rbenv/shims/"
       - "/Users/arturomena/.pyenv/shims/"
@@ -855,6 +905,8 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
+        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Users/arturomena/.pyenv/shims"
@@ -877,13 +929,14 @@ events:
         - "/Users/arturomena/.cargo/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
+        - "/Users/arturomena/.rvm/bin"
       CMAKE_FIND_ROOT_PATH: "/usr/local"
   -
     kind: "find-v1"
     backtrace:
       - "/usr/local/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "/usr/local/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:7 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_RANLIB"
     description: "Path to a program."
@@ -901,6 +954,7 @@ events:
     candidate_directories:
       - "/usr/local/bin/"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/"
+      - "/usr/local/opt/ruby/bin/"
       - "/usr/local/Cellar/ruby/3.3.0/bin/"
       - "/Users/arturomena/.rbenv/shims/"
       - "/Users/arturomena/.pyenv/shims/"
@@ -921,6 +975,8 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
+        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Users/arturomena/.pyenv/shims"
@@ -943,13 +999,14 @@ events:
         - "/Users/arturomena/.cargo/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
+        - "/Users/arturomena/.rvm/bin"
       CMAKE_FIND_ROOT_PATH: "/usr/local"
   -
     kind: "find-v1"
     backtrace:
       - "/usr/local/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "/usr/local/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:7 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_STRIP"
     description: "Path to a program."
@@ -967,6 +1024,7 @@ events:
     candidate_directories:
       - "/usr/local/bin/"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/"
+      - "/usr/local/opt/ruby/bin/"
       - "/usr/local/Cellar/ruby/3.3.0/bin/"
       - "/Users/arturomena/.rbenv/shims/"
       - "/Users/arturomena/.pyenv/shims/"
@@ -987,6 +1045,8 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
+        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Users/arturomena/.pyenv/shims"
@@ -1009,13 +1069,14 @@ events:
         - "/Users/arturomena/.cargo/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
+        - "/Users/arturomena/.rvm/bin"
       CMAKE_FIND_ROOT_PATH: "/usr/local"
   -
     kind: "find-v1"
     backtrace:
       - "/usr/local/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "/usr/local/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:7 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_LINKER"
     description: "Path to a program."
@@ -1033,6 +1094,7 @@ events:
     candidate_directories:
       - "/usr/local/bin/"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/"
+      - "/usr/local/opt/ruby/bin/"
       - "/usr/local/Cellar/ruby/3.3.0/bin/"
       - "/Users/arturomena/.rbenv/shims/"
       - "/Users/arturomena/.pyenv/shims/"
@@ -1053,6 +1115,8 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
+        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Users/arturomena/.pyenv/shims"
@@ -1075,13 +1139,14 @@ events:
         - "/Users/arturomena/.cargo/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
+        - "/Users/arturomena/.rvm/bin"
       CMAKE_FIND_ROOT_PATH: "/usr/local"
   -
     kind: "find-v1"
     backtrace:
       - "/usr/local/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "/usr/local/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:7 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_NM"
     description: "Path to a program."
@@ -1099,6 +1164,7 @@ events:
     candidate_directories:
       - "/usr/local/bin/"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/"
+      - "/usr/local/opt/ruby/bin/"
       - "/usr/local/Cellar/ruby/3.3.0/bin/"
       - "/Users/arturomena/.rbenv/shims/"
       - "/Users/arturomena/.pyenv/shims/"
@@ -1119,6 +1185,8 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
+        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Users/arturomena/.pyenv/shims"
@@ -1141,13 +1209,14 @@ events:
         - "/Users/arturomena/.cargo/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
+        - "/Users/arturomena/.rvm/bin"
       CMAKE_FIND_ROOT_PATH: "/usr/local"
   -
     kind: "find-v1"
     backtrace:
       - "/usr/local/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "/usr/local/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:7 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_READELF"
     description: "Path to a program."
@@ -1165,6 +1234,7 @@ events:
     candidate_directories:
       - "/usr/local/bin/"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/"
+      - "/usr/local/opt/ruby/bin/"
       - "/usr/local/Cellar/ruby/3.3.0/bin/"
       - "/Users/arturomena/.rbenv/shims/"
       - "/Users/arturomena/.pyenv/shims/"
@@ -1185,6 +1255,8 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
+        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Users/arturomena/.pyenv/shims"
@@ -1207,13 +1279,14 @@ events:
         - "/Users/arturomena/.cargo/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
+        - "/Users/arturomena/.rvm/bin"
       CMAKE_FIND_ROOT_PATH: "/usr/local"
   -
     kind: "find-v1"
     backtrace:
       - "/usr/local/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "/usr/local/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:7 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_DLLTOOL"
     description: "Path to a program."
@@ -1231,6 +1304,7 @@ events:
     candidate_directories:
       - "/usr/local/bin/"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/"
+      - "/usr/local/opt/ruby/bin/"
       - "/usr/local/Cellar/ruby/3.3.0/bin/"
       - "/Users/arturomena/.rbenv/shims/"
       - "/Users/arturomena/.pyenv/shims/"
@@ -1250,6 +1324,7 @@ events:
     searched_directories:
       - "/usr/local/bin/arm-none-eabi-dlltool"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/arm-none-eabi-dlltool"
+      - "/usr/local/opt/ruby/bin/arm-none-eabi-dlltool"
       - "/usr/local/Cellar/ruby/3.3.0/bin/arm-none-eabi-dlltool"
       - "/Users/arturomena/.rbenv/shims/arm-none-eabi-dlltool"
       - "/Users/arturomena/.pyenv/shims/arm-none-eabi-dlltool"
@@ -1268,6 +1343,7 @@ events:
       - "/Users/arturomena/.rvm/bin/arm-none-eabi-dlltool"
       - "/usr/local/bin/dlltool"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/dlltool"
+      - "/usr/local/opt/ruby/bin/dlltool"
       - "/usr/local/Cellar/ruby/3.3.0/bin/dlltool"
       - "/Users/arturomena/.rbenv/shims/dlltool"
       - "/Users/arturomena/.pyenv/shims/dlltool"
@@ -1288,6 +1364,8 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
+        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Users/arturomena/.pyenv/shims"
@@ -1310,13 +1388,14 @@ events:
         - "/Users/arturomena/.cargo/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
+        - "/Users/arturomena/.rvm/bin"
       CMAKE_FIND_ROOT_PATH: "/usr/local"
   -
     kind: "find-v1"
     backtrace:
       - "/usr/local/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "/usr/local/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:7 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_ADDR2LINE"
     description: "Path to a program."
@@ -1334,6 +1413,7 @@ events:
     candidate_directories:
       - "/usr/local/bin/"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/"
+      - "/usr/local/opt/ruby/bin/"
       - "/usr/local/Cellar/ruby/3.3.0/bin/"
       - "/Users/arturomena/.rbenv/shims/"
       - "/Users/arturomena/.pyenv/shims/"
@@ -1354,6 +1434,8 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
+        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Users/arturomena/.pyenv/shims"
@@ -1376,13 +1458,14 @@ events:
         - "/Users/arturomena/.cargo/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
+        - "/Users/arturomena/.rvm/bin"
       CMAKE_FIND_ROOT_PATH: "/usr/local"
   -
     kind: "find-v1"
     backtrace:
       - "/usr/local/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "/usr/local/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:7 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_TAPI"
     description: "Path to a program."
@@ -1400,6 +1483,7 @@ events:
     candidate_directories:
       - "/usr/local/bin/"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/"
+      - "/usr/local/opt/ruby/bin/"
       - "/usr/local/Cellar/ruby/3.3.0/bin/"
       - "/Users/arturomena/.rbenv/shims/"
       - "/Users/arturomena/.pyenv/shims/"
@@ -1419,6 +1503,7 @@ events:
     searched_directories:
       - "/usr/local/bin/arm-none-eabi-tapi"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/arm-none-eabi-tapi"
+      - "/usr/local/opt/ruby/bin/arm-none-eabi-tapi"
       - "/usr/local/Cellar/ruby/3.3.0/bin/arm-none-eabi-tapi"
       - "/Users/arturomena/.rbenv/shims/arm-none-eabi-tapi"
       - "/Users/arturomena/.pyenv/shims/arm-none-eabi-tapi"
@@ -1437,6 +1522,7 @@ events:
       - "/Users/arturomena/.rvm/bin/arm-none-eabi-tapi"
       - "/usr/local/bin/tapi"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/tapi"
+      - "/usr/local/opt/ruby/bin/tapi"
       - "/usr/local/Cellar/ruby/3.3.0/bin/tapi"
       - "/Users/arturomena/.rbenv/shims/tapi"
       - "/Users/arturomena/.pyenv/shims/tapi"
@@ -1457,6 +1543,8 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
+        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Users/arturomena/.pyenv/shims"
@@ -1479,13 +1567,14 @@ events:
         - "/Users/arturomena/.cargo/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
+        - "/Users/arturomena/.rvm/bin"
       CMAKE_FIND_ROOT_PATH: "/usr/local"
   -
     kind: "find-v1"
     backtrace:
       - "/usr/local/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
       - "/usr/local/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
-      - "CMakeLists.txt:7 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_C_COMPILER_AR"
     description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
@@ -1505,6 +1594,7 @@ events:
     candidate_directories:
       - "/usr/local/bin/"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/"
+      - "/usr/local/opt/ruby/bin/"
       - "/usr/local/Cellar/ruby/3.3.0/bin/"
       - "/Users/arturomena/.rbenv/shims/"
       - "/Users/arturomena/.pyenv/shims/"
@@ -1524,6 +1614,7 @@ events:
     searched_directories:
       - "/usr/local/bin/arm-none-eabi-gcc-ar-14.2"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/usr/local/opt/ruby/bin/arm-none-eabi-gcc-ar-14.2"
       - "/usr/local/Cellar/ruby/3.3.0/bin/arm-none-eabi-gcc-ar-14.2"
       - "/Users/arturomena/.rbenv/shims/arm-none-eabi-gcc-ar-14.2"
       - "/Users/arturomena/.pyenv/shims/arm-none-eabi-gcc-ar-14.2"
@@ -1542,6 +1633,7 @@ events:
       - "/Users/arturomena/.rvm/bin/arm-none-eabi-gcc-ar-14.2"
       - "/usr/local/bin/arm-none-eabi-gcc-ar-14"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/arm-none-eabi-gcc-ar-14"
+      - "/usr/local/opt/ruby/bin/arm-none-eabi-gcc-ar-14"
       - "/usr/local/Cellar/ruby/3.3.0/bin/arm-none-eabi-gcc-ar-14"
       - "/Users/arturomena/.rbenv/shims/arm-none-eabi-gcc-ar-14"
       - "/Users/arturomena/.pyenv/shims/arm-none-eabi-gcc-ar-14"
@@ -1560,6 +1652,7 @@ events:
       - "/Users/arturomena/.rvm/bin/arm-none-eabi-gcc-ar-14"
       - "/usr/local/bin/arm-none-eabi-gcc-ar14"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/arm-none-eabi-gcc-ar14"
+      - "/usr/local/opt/ruby/bin/arm-none-eabi-gcc-ar14"
       - "/usr/local/Cellar/ruby/3.3.0/bin/arm-none-eabi-gcc-ar14"
       - "/Users/arturomena/.rbenv/shims/arm-none-eabi-gcc-ar14"
       - "/Users/arturomena/.pyenv/shims/arm-none-eabi-gcc-ar14"
@@ -1580,6 +1673,8 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
+        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Users/arturomena/.pyenv/shims"
@@ -1602,13 +1697,14 @@ events:
         - "/Users/arturomena/.cargo/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
+        - "/Users/arturomena/.rvm/bin"
       CMAKE_FIND_ROOT_PATH: "/usr/local"
   -
     kind: "find-v1"
     backtrace:
       - "/usr/local/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
       - "/usr/local/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
-      - "CMakeLists.txt:7 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_C_COMPILER_RANLIB"
     description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
@@ -1628,6 +1724,7 @@ events:
     candidate_directories:
       - "/usr/local/bin/"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/"
+      - "/usr/local/opt/ruby/bin/"
       - "/usr/local/Cellar/ruby/3.3.0/bin/"
       - "/Users/arturomena/.rbenv/shims/"
       - "/Users/arturomena/.pyenv/shims/"
@@ -1647,6 +1744,7 @@ events:
     searched_directories:
       - "/usr/local/bin/arm-none-eabi-gcc-ranlib-14.2"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/usr/local/opt/ruby/bin/arm-none-eabi-gcc-ranlib-14.2"
       - "/usr/local/Cellar/ruby/3.3.0/bin/arm-none-eabi-gcc-ranlib-14.2"
       - "/Users/arturomena/.rbenv/shims/arm-none-eabi-gcc-ranlib-14.2"
       - "/Users/arturomena/.pyenv/shims/arm-none-eabi-gcc-ranlib-14.2"
@@ -1665,6 +1763,7 @@ events:
       - "/Users/arturomena/.rvm/bin/arm-none-eabi-gcc-ranlib-14.2"
       - "/usr/local/bin/arm-none-eabi-gcc-ranlib-14"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/usr/local/opt/ruby/bin/arm-none-eabi-gcc-ranlib-14"
       - "/usr/local/Cellar/ruby/3.3.0/bin/arm-none-eabi-gcc-ranlib-14"
       - "/Users/arturomena/.rbenv/shims/arm-none-eabi-gcc-ranlib-14"
       - "/Users/arturomena/.pyenv/shims/arm-none-eabi-gcc-ranlib-14"
@@ -1683,6 +1782,7 @@ events:
       - "/Users/arturomena/.rvm/bin/arm-none-eabi-gcc-ranlib-14"
       - "/usr/local/bin/arm-none-eabi-gcc-ranlib14"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/arm-none-eabi-gcc-ranlib14"
+      - "/usr/local/opt/ruby/bin/arm-none-eabi-gcc-ranlib14"
       - "/usr/local/Cellar/ruby/3.3.0/bin/arm-none-eabi-gcc-ranlib14"
       - "/Users/arturomena/.rbenv/shims/arm-none-eabi-gcc-ranlib14"
       - "/Users/arturomena/.pyenv/shims/arm-none-eabi-gcc-ranlib14"
@@ -1703,6 +1803,8 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
+        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Users/arturomena/.pyenv/shims"
@@ -1725,6 +1827,7 @@ events:
         - "/Users/arturomena/.cargo/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
+        - "/Users/arturomena/.rvm/bin"
       CMAKE_FIND_ROOT_PATH: "/usr/local"
   -
     kind: "find-v1"
@@ -1734,7 +1837,7 @@ events:
       - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
       - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/usr/local/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:7 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "file"
     variable: "src_in"
     description: "Path to a file."
@@ -1750,10 +1853,12 @@ events:
       - "CMakeCXXCompilerId.cpp.in"
     candidate_directories:
       - "/usr/local/share/cmake/Modules/"
-      - "/Users/arturomena/coqui-runtime/pico-sdk/cmake/"
+      - "/Users/arturomena/pico-sdk/cmake/"
     found: "/usr/local/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
+        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
@@ -1777,6 +1882,7 @@ events:
         - "/Users/arturomena/.cargo/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
+        - "/Users/arturomena/.rvm/bin"
       CMAKE_FIND_ROOT_PATH: "/usr/local"
   -
     kind: "message-v1"
@@ -1784,7 +1890,7 @@ events:
       - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/usr/local/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:7 (project)"
+      - "CMakeLists.txt:3 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
       Compiler: /usr/local/bin/arm-none-eabi-g++ 
@@ -1816,7 +1922,7 @@ events:
       - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
       - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/usr/local/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:7 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "file"
     variable: "src_in"
     description: "Path to a file."
@@ -1832,10 +1938,12 @@ events:
       - "CMakeCXXCompilerId.cpp.in"
     candidate_directories:
       - "/usr/local/share/cmake/Modules/"
-      - "/Users/arturomena/coqui-runtime/pico-sdk/cmake/"
+      - "/Users/arturomena/pico-sdk/cmake/"
     found: "/usr/local/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
+        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
@@ -1859,6 +1967,7 @@ events:
         - "/Users/arturomena/.cargo/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
+        - "/Users/arturomena/.rvm/bin"
       CMAKE_FIND_ROOT_PATH: "/usr/local"
   -
     kind: "message-v1"
@@ -1866,7 +1975,7 @@ events:
       - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/usr/local/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:7 (project)"
+      - "CMakeLists.txt:3 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
       Compiler: /usr/local/bin/arm-none-eabi-g++ 
@@ -1887,7 +1996,7 @@ events:
     backtrace:
       - "/usr/local/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
       - "/usr/local/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
-      - "CMakeLists.txt:7 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_CXX_COMPILER_AR"
     description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
@@ -1907,6 +2016,7 @@ events:
     candidate_directories:
       - "/usr/local/bin/"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/"
+      - "/usr/local/opt/ruby/bin/"
       - "/usr/local/Cellar/ruby/3.3.0/bin/"
       - "/Users/arturomena/.rbenv/shims/"
       - "/Users/arturomena/.pyenv/shims/"
@@ -1926,6 +2036,7 @@ events:
     searched_directories:
       - "/usr/local/bin/arm-none-eabi-gcc-ar-14.2"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/usr/local/opt/ruby/bin/arm-none-eabi-gcc-ar-14.2"
       - "/usr/local/Cellar/ruby/3.3.0/bin/arm-none-eabi-gcc-ar-14.2"
       - "/Users/arturomena/.rbenv/shims/arm-none-eabi-gcc-ar-14.2"
       - "/Users/arturomena/.pyenv/shims/arm-none-eabi-gcc-ar-14.2"
@@ -1944,6 +2055,7 @@ events:
       - "/Users/arturomena/.rvm/bin/arm-none-eabi-gcc-ar-14.2"
       - "/usr/local/bin/arm-none-eabi-gcc-ar-14"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/arm-none-eabi-gcc-ar-14"
+      - "/usr/local/opt/ruby/bin/arm-none-eabi-gcc-ar-14"
       - "/usr/local/Cellar/ruby/3.3.0/bin/arm-none-eabi-gcc-ar-14"
       - "/Users/arturomena/.rbenv/shims/arm-none-eabi-gcc-ar-14"
       - "/Users/arturomena/.pyenv/shims/arm-none-eabi-gcc-ar-14"
@@ -1962,6 +2074,7 @@ events:
       - "/Users/arturomena/.rvm/bin/arm-none-eabi-gcc-ar-14"
       - "/usr/local/bin/arm-none-eabi-gcc-ar14"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/arm-none-eabi-gcc-ar14"
+      - "/usr/local/opt/ruby/bin/arm-none-eabi-gcc-ar14"
       - "/usr/local/Cellar/ruby/3.3.0/bin/arm-none-eabi-gcc-ar14"
       - "/Users/arturomena/.rbenv/shims/arm-none-eabi-gcc-ar14"
       - "/Users/arturomena/.pyenv/shims/arm-none-eabi-gcc-ar14"
@@ -1982,6 +2095,8 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
+        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Users/arturomena/.pyenv/shims"
@@ -2004,13 +2119,14 @@ events:
         - "/Users/arturomena/.cargo/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
+        - "/Users/arturomena/.rvm/bin"
       CMAKE_FIND_ROOT_PATH: "/usr/local"
   -
     kind: "find-v1"
     backtrace:
       - "/usr/local/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
       - "/usr/local/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
-      - "CMakeLists.txt:7 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_CXX_COMPILER_RANLIB"
     description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
@@ -2030,6 +2146,7 @@ events:
     candidate_directories:
       - "/usr/local/bin/"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/"
+      - "/usr/local/opt/ruby/bin/"
       - "/usr/local/Cellar/ruby/3.3.0/bin/"
       - "/Users/arturomena/.rbenv/shims/"
       - "/Users/arturomena/.pyenv/shims/"
@@ -2049,6 +2166,7 @@ events:
     searched_directories:
       - "/usr/local/bin/arm-none-eabi-gcc-ranlib-14.2"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/usr/local/opt/ruby/bin/arm-none-eabi-gcc-ranlib-14.2"
       - "/usr/local/Cellar/ruby/3.3.0/bin/arm-none-eabi-gcc-ranlib-14.2"
       - "/Users/arturomena/.rbenv/shims/arm-none-eabi-gcc-ranlib-14.2"
       - "/Users/arturomena/.pyenv/shims/arm-none-eabi-gcc-ranlib-14.2"
@@ -2067,6 +2185,7 @@ events:
       - "/Users/arturomena/.rvm/bin/arm-none-eabi-gcc-ranlib-14.2"
       - "/usr/local/bin/arm-none-eabi-gcc-ranlib-14"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/usr/local/opt/ruby/bin/arm-none-eabi-gcc-ranlib-14"
       - "/usr/local/Cellar/ruby/3.3.0/bin/arm-none-eabi-gcc-ranlib-14"
       - "/Users/arturomena/.rbenv/shims/arm-none-eabi-gcc-ranlib-14"
       - "/Users/arturomena/.pyenv/shims/arm-none-eabi-gcc-ranlib-14"
@@ -2085,6 +2204,7 @@ events:
       - "/Users/arturomena/.rvm/bin/arm-none-eabi-gcc-ranlib-14"
       - "/usr/local/bin/arm-none-eabi-gcc-ranlib14"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/arm-none-eabi-gcc-ranlib14"
+      - "/usr/local/opt/ruby/bin/arm-none-eabi-gcc-ranlib14"
       - "/usr/local/Cellar/ruby/3.3.0/bin/arm-none-eabi-gcc-ranlib14"
       - "/Users/arturomena/.rbenv/shims/arm-none-eabi-gcc-ranlib14"
       - "/Users/arturomena/.pyenv/shims/arm-none-eabi-gcc-ranlib14"
@@ -2105,6 +2225,8 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
+        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Users/arturomena/.pyenv/shims"
@@ -2127,13 +2249,14 @@ events:
         - "/Users/arturomena/.cargo/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
+        - "/Users/arturomena/.rvm/bin"
       CMAKE_FIND_ROOT_PATH: "/usr/local"
   -
     kind: "message-v1"
     backtrace:
       - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1296 (message)"
       - "/usr/local/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
-      - "CMakeLists.txt:7 (project)"
+      - "CMakeLists.txt:3 (project)"
     message: |
       Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
       arm-none-eabi-gcc (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) 14.2.1 20241119
@@ -2146,7 +2269,7 @@ events:
     backtrace:
       - "/usr/local/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
       - "/usr/local/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:268 (include)"
-      - "CMakeLists.txt:7 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_ASM_COMPILER_AR"
     description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
@@ -2166,6 +2289,7 @@ events:
     candidate_directories:
       - "/usr/local/bin/"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/"
+      - "/usr/local/opt/ruby/bin/"
       - "/usr/local/Cellar/ruby/3.3.0/bin/"
       - "/Users/arturomena/.rbenv/shims/"
       - "/Users/arturomena/.pyenv/shims/"
@@ -2185,6 +2309,7 @@ events:
     searched_directories:
       - "/usr/local/bin/arm-none-eabi-gcc-ar-"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/arm-none-eabi-gcc-ar-"
+      - "/usr/local/opt/ruby/bin/arm-none-eabi-gcc-ar-"
       - "/usr/local/Cellar/ruby/3.3.0/bin/arm-none-eabi-gcc-ar-"
       - "/Users/arturomena/.rbenv/shims/arm-none-eabi-gcc-ar-"
       - "/Users/arturomena/.pyenv/shims/arm-none-eabi-gcc-ar-"
@@ -2203,6 +2328,7 @@ events:
       - "/Users/arturomena/.rvm/bin/arm-none-eabi-gcc-ar-"
       - "/usr/local/bin/arm-none-eabi-gcc-ar-"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/arm-none-eabi-gcc-ar-"
+      - "/usr/local/opt/ruby/bin/arm-none-eabi-gcc-ar-"
       - "/usr/local/Cellar/ruby/3.3.0/bin/arm-none-eabi-gcc-ar-"
       - "/Users/arturomena/.rbenv/shims/arm-none-eabi-gcc-ar-"
       - "/Users/arturomena/.pyenv/shims/arm-none-eabi-gcc-ar-"
@@ -2223,6 +2349,8 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
+        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Users/arturomena/.pyenv/shims"
@@ -2245,13 +2373,14 @@ events:
         - "/Users/arturomena/.cargo/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
+        - "/Users/arturomena/.rvm/bin"
       CMAKE_FIND_ROOT_PATH: "/usr/local"
   -
     kind: "find-v1"
     backtrace:
       - "/usr/local/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
       - "/usr/local/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:268 (include)"
-      - "CMakeLists.txt:7 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_ASM_COMPILER_RANLIB"
     description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
@@ -2271,6 +2400,7 @@ events:
     candidate_directories:
       - "/usr/local/bin/"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/"
+      - "/usr/local/opt/ruby/bin/"
       - "/usr/local/Cellar/ruby/3.3.0/bin/"
       - "/Users/arturomena/.rbenv/shims/"
       - "/Users/arturomena/.pyenv/shims/"
@@ -2290,6 +2420,7 @@ events:
     searched_directories:
       - "/usr/local/bin/arm-none-eabi-gcc-ranlib-"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/arm-none-eabi-gcc-ranlib-"
+      - "/usr/local/opt/ruby/bin/arm-none-eabi-gcc-ranlib-"
       - "/usr/local/Cellar/ruby/3.3.0/bin/arm-none-eabi-gcc-ranlib-"
       - "/Users/arturomena/.rbenv/shims/arm-none-eabi-gcc-ranlib-"
       - "/Users/arturomena/.pyenv/shims/arm-none-eabi-gcc-ranlib-"
@@ -2308,6 +2439,7 @@ events:
       - "/Users/arturomena/.rvm/bin/arm-none-eabi-gcc-ranlib-"
       - "/usr/local/bin/arm-none-eabi-gcc-ranlib-"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/arm-none-eabi-gcc-ranlib-"
+      - "/usr/local/opt/ruby/bin/arm-none-eabi-gcc-ranlib-"
       - "/usr/local/Cellar/ruby/3.3.0/bin/arm-none-eabi-gcc-ranlib-"
       - "/Users/arturomena/.rbenv/shims/arm-none-eabi-gcc-ranlib-"
       - "/Users/arturomena/.pyenv/shims/arm-none-eabi-gcc-ranlib-"
@@ -2328,6 +2460,8 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
+        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Users/arturomena/.pyenv/shims"
@@ -2350,35 +2484,36 @@ events:
         - "/Users/arturomena/.cargo/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
+        - "/Users/arturomena/.rvm/bin"
       CMAKE_FIND_ROOT_PATH: "/usr/local"
   -
     kind: "try_compile-v1"
     backtrace:
       - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
       - "/usr/local/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:7 (project)"
+      - "CMakeLists.txt:3 (project)"
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/Users/arturomena/coqui-runtime/build/CMakeFiles/CMakeScratch/TryCompile-dQ8yJv"
-      binary: "/Users/arturomena/coqui-runtime/build/CMakeFiles/CMakeScratch/TryCompile-dQ8yJv"
+      source: "/Users/arturomena/coqui-runtime/build/CMakeFiles/CMakeScratch/TryCompile-mdQgK1"
+      binary: "/Users/arturomena/coqui-runtime/build/CMakeFiles/CMakeScratch/TryCompile-mdQgK1"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: "-mcpu=cortex-m0plus -mthumb"
       CMAKE_C_FLAGS_DEBUG: "-Og -g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/Users/arturomena/coqui-runtime/pico-sdk/cmake"
-      PICO_SDK_PATH: "/Users/arturomena/coqui-runtime/pico-sdk"
+      CMAKE_MODULE_PATH: "/Users/arturomena/pico-sdk/cmake"
+      PICO_SDK_PATH: "/Users/arturomena/pico-sdk"
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/arturomena/coqui-runtime/build/CMakeFiles/CMakeScratch/TryCompile-dQ8yJv'
+        Change Dir: '/Users/arturomena/coqui-runtime/build/CMakeFiles/CMakeScratch/TryCompile-mdQgK1'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ac5bc/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_ac5bc.dir/build.make CMakeFiles/cmTC_ac5bc.dir/build
-        Building C object CMakeFiles/cmTC_ac5bc.dir/CMakeCCompilerABI.c.o
-        /usr/local/bin/arm-none-eabi-gcc   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_ac5bc.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ca3ae/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_ca3ae.dir/build.make CMakeFiles/cmTC_ca3ae.dir/build
+        Building C object CMakeFiles/cmTC_ca3ae.dir/CMakeCCompilerABI.c.o
+        /usr/local/bin/arm-none-eabi-gcc   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_ca3ae.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/usr/local/bin/arm-none-eabi-gcc
         Target: arm-none-eabi
@@ -2386,8 +2521,8 @@ events:
         Thread model: single
         Supported LTO compression algorithms: zlib zstd
         gcc version 14.2.1 20241119 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) 
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_ac5bc.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_ac5bc.dir/'
-         /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet -v -imultilib thumb/v6-m/nofp -iprefix /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/ -isysroot /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ /usr/local/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_ac5bc.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o /var/folders/hc/gf3bhnr51lv0xg19_srg2lc00000gn/T//ccZkEwJC.s
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_ca3ae.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_ca3ae.dir/'
+         /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet -v -imultilib thumb/v6-m/nofp -iprefix /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/ -isysroot /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ /usr/local/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_ca3ae.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o /var/folders/hc/gf3bhnr51lv0xg19_srg2lc00000gn/T//cc2opjmB.s
         GNU C17 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) version 14.2.1 20241119 (arm-none-eabi)
         	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.29.30), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
         
@@ -2404,14 +2539,14 @@ events:
          /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include
         End of search list.
         Compiler executable checksum: 4c21e8f96ac6344ff74f74ecbf8df544
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_ac5bc.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_ac5bc.dir/'
-         /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_ac5bc.dir/CMakeCCompilerABI.c.o /var/folders/hc/gf3bhnr51lv0xg19_srg2lc00000gn/T//ccZkEwJC.s
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_ca3ae.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_ca3ae.dir/'
+         /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_ca3ae.dir/CMakeCCompilerABI.c.o /var/folders/hc/gf3bhnr51lv0xg19_srg2lc00000gn/T//cc2opjmB.s
         GNU assembler version 2.43.1 (arm-none-eabi) using BFD version (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) 2.43.1.20241119
         COMPILER_PATH=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_ac5bc.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_ac5bc.dir/CMakeCCompilerABI.c.'
-        Linking C executable cmTC_ac5bc.elf
-        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac5bc.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_ca3ae.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_ca3ae.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_ca3ae.elf
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca3ae.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/usr/local/bin/arm-none-eabi-gcc
         COLLECT_LTO_WRAPPER=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/lto-wrapper
@@ -2422,11 +2557,11 @@ events:
         gcc version 14.2.1 20241119 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) 
         COMPILER_PATH=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_ac5bc.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_ac5bc.elf.'
-         /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/collect2 -plugin /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/liblto_plugin.so -plugin-opt=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/hc/gf3bhnr51lv0xg19_srg2lc00000gn/T//ccdhIgdR.res --sysroot=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi -X -o cmTC_ac5bc.elf -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1 -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_ac5bc.dir/CMakeCCompilerABI.c.o
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_ca3ae.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_ca3ae.elf.'
+         /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/collect2 -plugin /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/liblto_plugin.so -plugin-opt=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/hc/gf3bhnr51lv0xg19_srg2lc00000gn/T//ccuNDb9S.res --sysroot=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi -X -o cmTC_ca3ae.elf -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1 -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_ca3ae.dir/CMakeCCompilerABI.c.o
         /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start; defaulting to 00008000
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_ac5bc.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_ac5bc.elf.'
-        /usr/local/bin/arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb  -Wl,--build-id=none -nostdlib  -v CMakeFiles/cmTC_ac5bc.dir/CMakeCCompilerABI.c.o -o cmTC_ac5bc.elf
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_ca3ae.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_ca3ae.elf.'
+        /usr/local/bin/arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb  -Wl,--build-id=none -nostdlib  -v CMakeFiles/cmTC_ca3ae.dir/CMakeCCompilerABI.c.o -o cmTC_ca3ae.elf
         
       exitCode: 0
   -
@@ -2434,7 +2569,7 @@ events:
     backtrace:
       - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
       - "/usr/local/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:7 (project)"
+      - "CMakeLists.txt:3 (project)"
     message: |
       Parsed C implicit include dir info: rv=done
         found start of include info
@@ -2454,17 +2589,17 @@ events:
     backtrace:
       - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
       - "/usr/local/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:7 (project)"
+      - "CMakeLists.txt:3 (project)"
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/arturomena/coqui-runtime/build/CMakeFiles/CMakeScratch/TryCompile-dQ8yJv']
+        ignore line: [Change Dir: '/Users/arturomena/coqui-runtime/build/CMakeFiles/CMakeScratch/TryCompile-mdQgK1']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ac5bc/fast]
-        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_ac5bc.dir/build.make CMakeFiles/cmTC_ac5bc.dir/build]
-        ignore line: [Building C object CMakeFiles/cmTC_ac5bc.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/local/bin/arm-none-eabi-gcc   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_ac5bc.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ca3ae/fast]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_ca3ae.dir/build.make CMakeFiles/cmTC_ca3ae.dir/build]
+        ignore line: [Building C object CMakeFiles/cmTC_ca3ae.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/local/bin/arm-none-eabi-gcc   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_ca3ae.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/local/bin/arm-none-eabi-gcc]
         ignore line: [Target: arm-none-eabi]
@@ -2472,8 +2607,8 @@ events:
         ignore line: [Thread model: single]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 14.2.1 20241119 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_ac5bc.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_ac5bc.dir/']
-        ignore line: [ /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet -v -imultilib thumb/v6-m/nofp -iprefix /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/ -isysroot /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ /usr/local/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_ac5bc.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o /var/folders/hc/gf3bhnr51lv0xg19_srg2lc00000gn/T//ccZkEwJC.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_ca3ae.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_ca3ae.dir/']
+        ignore line: [ /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet -v -imultilib thumb/v6-m/nofp -iprefix /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/ -isysroot /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ /usr/local/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_ca3ae.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o /var/folders/hc/gf3bhnr51lv0xg19_srg2lc00000gn/T//cc2opjmB.s]
         ignore line: [GNU C17 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) version 14.2.1 20241119 (arm-none-eabi)]
         ignore line: [	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.29.30)  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
         ignore line: []
@@ -2490,14 +2625,14 @@ events:
         ignore line: [ /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 4c21e8f96ac6344ff74f74ecbf8df544]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_ac5bc.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_ac5bc.dir/']
-        ignore line: [ /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_ac5bc.dir/CMakeCCompilerABI.c.o /var/folders/hc/gf3bhnr51lv0xg19_srg2lc00000gn/T//ccZkEwJC.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_ca3ae.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_ca3ae.dir/']
+        ignore line: [ /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_ca3ae.dir/CMakeCCompilerABI.c.o /var/folders/hc/gf3bhnr51lv0xg19_srg2lc00000gn/T//cc2opjmB.s]
         ignore line: [GNU assembler version 2.43.1 (arm-none-eabi) using BFD version (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) 2.43.1.20241119]
         ignore line: [COMPILER_PATH=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/]
         ignore line: [LIBRARY_PATH=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_ac5bc.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_ac5bc.dir/CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_ac5bc.elf]
-        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac5bc.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_ca3ae.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_ca3ae.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_ca3ae.elf]
+        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca3ae.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/local/bin/arm-none-eabi-gcc]
         ignore line: [COLLECT_LTO_WRAPPER=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/lto-wrapper]
@@ -2508,17 +2643,17 @@ events:
         ignore line: [gcc version 14.2.1 20241119 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) ]
         ignore line: [COMPILER_PATH=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/]
         ignore line: [LIBRARY_PATH=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_ac5bc.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_ac5bc.elf.']
-        link line: [ /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/collect2 -plugin /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/liblto_plugin.so -plugin-opt=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/hc/gf3bhnr51lv0xg19_srg2lc00000gn/T//ccdhIgdR.res --sysroot=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi -X -o cmTC_ac5bc.elf -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1 -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_ac5bc.dir/CMakeCCompilerABI.c.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_ca3ae.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_ca3ae.elf.']
+        link line: [ /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/collect2 -plugin /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/liblto_plugin.so -plugin-opt=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/hc/gf3bhnr51lv0xg19_srg2lc00000gn/T//ccuNDb9S.res --sysroot=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi -X -o cmTC_ca3ae.elf -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1 -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_ca3ae.dir/CMakeCCompilerABI.c.o]
           arg [/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/var/folders/hc/gf3bhnr51lv0xg19_srg2lc00000gn/T//ccdhIgdR.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/var/folders/hc/gf3bhnr51lv0xg19_srg2lc00000gn/T//ccuNDb9S.res] ==> ignore
           arg [--sysroot=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi] ==> ignore
           arg [-X] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_ac5bc.elf] ==> ignore
+          arg [cmTC_ca3ae.elf] ==> ignore
           arg [-L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp] ==> dir [/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp]
           arg [-L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp]
           arg [-L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp]
@@ -2527,11 +2662,11 @@ events:
           arg [-L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib] ==> dir [/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib]
           arg [-L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib] ==> dir [/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib]
           arg [--build-id=none] ==> ignore
-          arg [CMakeFiles/cmTC_ac5bc.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_ca3ae.dir/CMakeCCompilerABI.c.o] ==> ignore
         ignore line: [/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start]
         ignore line: [ defaulting to 00008000]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_ac5bc.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_ac5bc.elf.']
-        ignore line: [/usr/local/bin/arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb  -Wl --build-id=none -nostdlib  -v CMakeFiles/cmTC_ac5bc.dir/CMakeCCompilerABI.c.o -o cmTC_ac5bc.elf]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_ca3ae.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_ca3ae.elf.']
+        ignore line: [/usr/local/bin/arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb  -Wl --build-id=none -nostdlib  -v CMakeFiles/cmTC_ca3ae.dir/CMakeCCompilerABI.c.o -o cmTC_ca3ae.elf]
         ignore line: []
         ignore line: []
         collapse library dir [/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp] ==> [/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp]
@@ -2552,30 +2687,30 @@ events:
     backtrace:
       - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
       - "/usr/local/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:7 (project)"
+      - "CMakeLists.txt:3 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/Users/arturomena/coqui-runtime/build/CMakeFiles/CMakeScratch/TryCompile-Y6Wrpg"
-      binary: "/Users/arturomena/coqui-runtime/build/CMakeFiles/CMakeScratch/TryCompile-Y6Wrpg"
+      source: "/Users/arturomena/coqui-runtime/build/CMakeFiles/CMakeScratch/TryCompile-2dhLSS"
+      binary: "/Users/arturomena/coqui-runtime/build/CMakeFiles/CMakeScratch/TryCompile-2dhLSS"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "-mcpu=cortex-m0plus -mthumb"
       CMAKE_CXX_FLAGS_DEBUG: "-Og -g"
       CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/Users/arturomena/coqui-runtime/pico-sdk/cmake"
-      PICO_SDK_PATH: "/Users/arturomena/coqui-runtime/pico-sdk"
+      CMAKE_MODULE_PATH: "/Users/arturomena/pico-sdk/cmake"
+      PICO_SDK_PATH: "/Users/arturomena/pico-sdk"
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/arturomena/coqui-runtime/build/CMakeFiles/CMakeScratch/TryCompile-Y6Wrpg'
+        Change Dir: '/Users/arturomena/coqui-runtime/build/CMakeFiles/CMakeScratch/TryCompile-2dhLSS'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c5fe6/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_c5fe6.dir/build.make CMakeFiles/cmTC_c5fe6.dir/build
-        Building CXX object CMakeFiles/cmTC_c5fe6.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/local/bin/arm-none-eabi-g++   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_c5fe6.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5f9a2/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_5f9a2.dir/build.make CMakeFiles/cmTC_5f9a2.dir/build
+        Building CXX object CMakeFiles/cmTC_5f9a2.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/local/bin/arm-none-eabi-g++   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_5f9a2.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/local/bin/arm-none-eabi-g++
         Target: arm-none-eabi
@@ -2583,8 +2718,8 @@ events:
         Thread model: single
         Supported LTO compression algorithms: zlib zstd
         gcc version 14.2.1 20241119 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) 
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_c5fe6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_c5fe6.dir/'
-         /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1plus -quiet -v -imultilib thumb/v6-m/nofp -iprefix /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/ -isysroot /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_c5fe6.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o /var/folders/hc/gf3bhnr51lv0xg19_srg2lc00000gn/T//cc0aBlfJ.s
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_5f9a2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_5f9a2.dir/'
+         /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1plus -quiet -v -imultilib thumb/v6-m/nofp -iprefix /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/ -isysroot /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_5f9a2.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o /var/folders/hc/gf3bhnr51lv0xg19_srg2lc00000gn/T//ccQEvaxZ.s
         GNU C++17 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) version 14.2.1 20241119 (arm-none-eabi)
         	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.29.30), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
         
@@ -2607,14 +2742,14 @@ events:
          /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include
         End of search list.
         Compiler executable checksum: 15bb57c730974a845f657689944af157
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_c5fe6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_c5fe6.dir/'
-         /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_c5fe6.dir/CMakeCXXCompilerABI.cpp.o /var/folders/hc/gf3bhnr51lv0xg19_srg2lc00000gn/T//cc0aBlfJ.s
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_5f9a2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_5f9a2.dir/'
+         /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_5f9a2.dir/CMakeCXXCompilerABI.cpp.o /var/folders/hc/gf3bhnr51lv0xg19_srg2lc00000gn/T//ccQEvaxZ.s
         GNU assembler version 2.43.1 (arm-none-eabi) using BFD version (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) 2.43.1.20241119
         COMPILER_PATH=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_c5fe6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_c5fe6.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_c5fe6.elf
-        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5fe6.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_5f9a2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_5f9a2.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_5f9a2.elf
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f9a2.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/usr/local/bin/arm-none-eabi-g++
         COLLECT_LTO_WRAPPER=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/lto-wrapper
@@ -2625,11 +2760,11 @@ events:
         gcc version 14.2.1 20241119 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) 
         COMPILER_PATH=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_c5fe6.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_c5fe6.elf.'
-         /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/collect2 -plugin /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/liblto_plugin.so -plugin-opt=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/hc/gf3bhnr51lv0xg19_srg2lc00000gn/T//cccfuWBE.res --sysroot=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi -X -o cmTC_c5fe6.elf -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1 -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_c5fe6.dir/CMakeCXXCompilerABI.cpp.o
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_5f9a2.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_5f9a2.elf.'
+         /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/collect2 -plugin /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/liblto_plugin.so -plugin-opt=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/hc/gf3bhnr51lv0xg19_srg2lc00000gn/T//ccSxPH11.res --sysroot=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi -X -o cmTC_5f9a2.elf -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1 -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_5f9a2.dir/CMakeCXXCompilerABI.cpp.o
         /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start; defaulting to 00008000
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_c5fe6.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_c5fe6.elf.'
-        /usr/local/bin/arm-none-eabi-g++ -mcpu=cortex-m0plus -mthumb  -Wl,--build-id=none -nostdlib  -v CMakeFiles/cmTC_c5fe6.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_c5fe6.elf
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_5f9a2.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_5f9a2.elf.'
+        /usr/local/bin/arm-none-eabi-g++ -mcpu=cortex-m0plus -mthumb  -Wl,--build-id=none -nostdlib  -v CMakeFiles/cmTC_5f9a2.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_5f9a2.elf
         
       exitCode: 0
   -
@@ -2637,7 +2772,7 @@ events:
     backtrace:
       - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
       - "/usr/local/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:7 (project)"
+      - "CMakeLists.txt:3 (project)"
     message: |
       Parsed CXX implicit include dir info: rv=done
         found start of include info
@@ -2663,17 +2798,17 @@ events:
     backtrace:
       - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
       - "/usr/local/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:7 (project)"
+      - "CMakeLists.txt:3 (project)"
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/arturomena/coqui-runtime/build/CMakeFiles/CMakeScratch/TryCompile-Y6Wrpg']
+        ignore line: [Change Dir: '/Users/arturomena/coqui-runtime/build/CMakeFiles/CMakeScratch/TryCompile-2dhLSS']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c5fe6/fast]
-        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_c5fe6.dir/build.make CMakeFiles/cmTC_c5fe6.dir/build]
-        ignore line: [Building CXX object CMakeFiles/cmTC_c5fe6.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/local/bin/arm-none-eabi-g++   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_c5fe6.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5f9a2/fast]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_5f9a2.dir/build.make CMakeFiles/cmTC_5f9a2.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_5f9a2.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/local/bin/arm-none-eabi-g++   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_5f9a2.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/local/bin/arm-none-eabi-g++]
         ignore line: [Target: arm-none-eabi]
@@ -2681,8 +2816,8 @@ events:
         ignore line: [Thread model: single]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 14.2.1 20241119 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_c5fe6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_c5fe6.dir/']
-        ignore line: [ /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1plus -quiet -v -imultilib thumb/v6-m/nofp -iprefix /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/ -isysroot /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_c5fe6.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o /var/folders/hc/gf3bhnr51lv0xg19_srg2lc00000gn/T//cc0aBlfJ.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_5f9a2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_5f9a2.dir/']
+        ignore line: [ /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1plus -quiet -v -imultilib thumb/v6-m/nofp -iprefix /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/ -isysroot /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_5f9a2.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o /var/folders/hc/gf3bhnr51lv0xg19_srg2lc00000gn/T//ccQEvaxZ.s]
         ignore line: [GNU C++17 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) version 14.2.1 20241119 (arm-none-eabi)]
         ignore line: [	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.29.30)  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
         ignore line: []
@@ -2705,14 +2840,14 @@ events:
         ignore line: [ /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 15bb57c730974a845f657689944af157]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_c5fe6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_c5fe6.dir/']
-        ignore line: [ /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_c5fe6.dir/CMakeCXXCompilerABI.cpp.o /var/folders/hc/gf3bhnr51lv0xg19_srg2lc00000gn/T//cc0aBlfJ.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_5f9a2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_5f9a2.dir/']
+        ignore line: [ /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_5f9a2.dir/CMakeCXXCompilerABI.cpp.o /var/folders/hc/gf3bhnr51lv0xg19_srg2lc00000gn/T//ccQEvaxZ.s]
         ignore line: [GNU assembler version 2.43.1 (arm-none-eabi) using BFD version (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) 2.43.1.20241119]
         ignore line: [COMPILER_PATH=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/]
         ignore line: [LIBRARY_PATH=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_c5fe6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_c5fe6.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_c5fe6.elf]
-        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5fe6.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_5f9a2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_5f9a2.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_5f9a2.elf]
+        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f9a2.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/local/bin/arm-none-eabi-g++]
         ignore line: [COLLECT_LTO_WRAPPER=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/lto-wrapper]
@@ -2723,17 +2858,17 @@ events:
         ignore line: [gcc version 14.2.1 20241119 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) ]
         ignore line: [COMPILER_PATH=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/]
         ignore line: [LIBRARY_PATH=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_c5fe6.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_c5fe6.elf.']
-        link line: [ /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/collect2 -plugin /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/liblto_plugin.so -plugin-opt=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/hc/gf3bhnr51lv0xg19_srg2lc00000gn/T//cccfuWBE.res --sysroot=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi -X -o cmTC_c5fe6.elf -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1 -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_c5fe6.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_5f9a2.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_5f9a2.elf.']
+        link line: [ /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/collect2 -plugin /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/liblto_plugin.so -plugin-opt=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/hc/gf3bhnr51lv0xg19_srg2lc00000gn/T//ccSxPH11.res --sysroot=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi -X -o cmTC_5f9a2.elf -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1 -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_5f9a2.dir/CMakeCXXCompilerABI.cpp.o]
           arg [/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/var/folders/hc/gf3bhnr51lv0xg19_srg2lc00000gn/T//cccfuWBE.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/var/folders/hc/gf3bhnr51lv0xg19_srg2lc00000gn/T//ccSxPH11.res] ==> ignore
           arg [--sysroot=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi] ==> ignore
           arg [-X] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_c5fe6.elf] ==> ignore
+          arg [cmTC_5f9a2.elf] ==> ignore
           arg [-L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp] ==> dir [/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp]
           arg [-L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp]
           arg [-L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp]
@@ -2742,11 +2877,11 @@ events:
           arg [-L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib] ==> dir [/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib]
           arg [-L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib] ==> dir [/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib]
           arg [--build-id=none] ==> ignore
-          arg [CMakeFiles/cmTC_c5fe6.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_5f9a2.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
         ignore line: [/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start]
         ignore line: [ defaulting to 00008000]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_c5fe6.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_c5fe6.elf.']
-        ignore line: [/usr/local/bin/arm-none-eabi-g++ -mcpu=cortex-m0plus -mthumb  -Wl --build-id=none -nostdlib  -v CMakeFiles/cmTC_c5fe6.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_c5fe6.elf]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_5f9a2.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_5f9a2.elf.']
+        ignore line: [/usr/local/bin/arm-none-eabi-g++ -mcpu=cortex-m0plus -mthumb  -Wl --build-id=none -nostdlib  -v CMakeFiles/cmTC_5f9a2.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_5f9a2.elf]
         ignore line: []
         ignore line: []
         collapse library dir [/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp] ==> [/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp]
@@ -2765,10 +2900,111 @@ events:
   -
     kind: "find-v1"
     backtrace:
+      - "CMakeLists.txt:6 (find_program)"
+    mode: "program"
+    variable: "CCACHE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ccache"
+    candidate_directories:
+      - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/"
+      - "/usr/local/opt/ruby/bin/"
+      - "/usr/local/Cellar/ruby/3.3.0/bin/"
+      - "/Users/arturomena/.rbenv/shims/"
+      - "/Users/arturomena/.pyenv/shims/"
+      - "/Library/Frameworks/Python.framework/Versions/3.14/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Users/arturomena/.cargo/bin/"
+      - "/Users/arturomena/.rvm/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+    searched_directories:
+      - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/ccache"
+      - "/usr/local/opt/ruby/bin/ccache"
+      - "/usr/local/Cellar/ruby/3.3.0/bin/ccache"
+      - "/Users/arturomena/.rbenv/shims/ccache"
+      - "/Users/arturomena/.pyenv/shims/ccache"
+      - "/Library/Frameworks/Python.framework/Versions/3.14/bin/ccache"
+    found: "/usr/local/bin/ccache"
+    search_context:
+      ENV{PATH}:
+        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
+        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/Cellar/ruby/3.3.0/bin"
+        - "/Users/arturomena/.rbenv/shims"
+        - "/Users/arturomena/.pyenv/shims"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/Cellar/ruby/3.3.0/bin"
+        - "/Users/arturomena/.rbenv/shims"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Users/arturomena/.cargo/bin"
+        - "/Users/arturomena/.rvm/bin"
+        - "/Users/arturomena/.rvm/bin"
+        - "/Users/arturomena/.rvm/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr/local"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_FIND_ROOT_PATH: "/usr/local"
+  -
+    kind: "find-v1"
+    backtrace:
       - "/usr/local/share/cmake/Modules/FindPython/Support.cmake:2148 (find_program)"
       - "/usr/local/share/cmake/Modules/FindPython3.cmake:671 (include)"
-      - "pico-sdk/src/rp2040/boot_stage2/CMakeLists.txt:69 (find_package)"
-      - "pico-sdk/src/rp2040/boot_stage2/CMakeLists.txt:104 (pico_define_boot_stage2)"
+      - "/Users/arturomena/pico-sdk/src/rp2040/boot_stage2/CMakeLists.txt:69 (find_package)"
+      - "/Users/arturomena/pico-sdk/src/rp2040/boot_stage2/CMakeLists.txt:104 (pico_define_boot_stage2)"
     mode: "program"
     variable: "_Python3_EXECUTABLE"
     description: "Path to a program."
@@ -2937,6 +3173,8 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
+        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Users/arturomena/.pyenv/shims"
@@ -2959,6 +3197,7 @@ events:
         - "/Users/arturomena/.cargo/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
+        - "/Users/arturomena/.rvm/bin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
@@ -2973,9 +3212,9 @@ events:
   -
     kind: "find_package-v1"
     backtrace:
-      - "pico-sdk/tools/CMakeLists.txt:116 (find_package)"
-      - "pico-sdk/tools/CMakeLists.txt:224 (pico_init_pioasm)"
-      - "pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeLists.txt:51 (pico_generate_pio_header)"
+      - "/Users/arturomena/pico-sdk/tools/CMakeLists.txt:116 (find_package)"
+      - "/Users/arturomena/pico-sdk/tools/CMakeLists.txt:224 (pico_init_pioasm)"
+      - "/Users/arturomena/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeLists.txt:51 (pico_generate_pio_header)"
     name: "pioasm"
     configs:
       -
@@ -3053,6 +3292,26 @@ events:
         mode: "cps"
         reason: "no_exist"
       -
+        path: "/usr/local/opt/ruby/pioasmConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/opt/ruby/pioasm-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/opt/ruby/lib32/cps/pioasm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/opt/ruby/lib/cps/pioasm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/opt/ruby/share/cps/pioasm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
         path: "/usr/local/Cellar/ruby/3.3.0/pioasmConfig.cmake"
         mode: "config"
         reason: "no_exist"
@@ -3110,26 +3369,6 @@ events:
         reason: "no_exist"
       -
         path: "/Users/arturomena/.pyenv/shims/share/cps/pioasm.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Library/Frameworks/Python.framework/Versions/3.14/pioasmConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Library/Frameworks/Python.framework/Versions/3.14/pioasm-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Library/Frameworks/Python.framework/Versions/3.14/lib32/cps/pioasm.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Library/Frameworks/Python.framework/Versions/3.14/lib/cps/pioasm.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Library/Frameworks/Python.framework/Versions/3.14/share/cps/pioasm.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -3316,6 +3555,8 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
+        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Users/arturomena/.pyenv/shims"
@@ -3338,6 +3579,7 @@ events:
         - "/Users/arturomena/.cargo/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
+        - "/Users/arturomena/.rvm/bin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
@@ -3354,7 +3596,7 @@ events:
     backtrace:
       - "/usr/local/share/cmake/Modules/FindDoxygen.cmake:770 (find_program)"
       - "/usr/local/share/cmake/Modules/FindDoxygen.cmake:955 (_Doxygen_find_doxygen)"
-      - "pico-sdk/docs/CMakeLists.txt:1 (find_package)"
+      - "/Users/arturomena/pico-sdk/docs/CMakeLists.txt:1 (find_package)"
     mode: "program"
     variable: "DOXYGEN_EXECUTABLE"
     description: "Doxygen documentation generation tool (https://www.doxygen.nl)"
@@ -3370,6 +3612,7 @@ events:
       - "doxygen"
     candidate_directories:
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/"
+      - "/usr/local/opt/ruby/bin/"
       - "/usr/local/Cellar/ruby/3.3.0/bin/"
       - "/Users/arturomena/.rbenv/shims/"
       - "/Users/arturomena/.pyenv/shims/"
@@ -3410,6 +3653,7 @@ events:
       - "/Applications/Utilities/Doxygen.app/Contents/MacOS/"
     searched_directories:
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/doxygen"
+      - "/usr/local/opt/ruby/bin/doxygen"
       - "/usr/local/Cellar/ruby/3.3.0/bin/doxygen"
       - "/Users/arturomena/.rbenv/shims/doxygen"
       - "/Users/arturomena/.pyenv/shims/doxygen"
@@ -3452,6 +3696,8 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
+        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Users/arturomena/.pyenv/shims"
@@ -3474,6 +3720,7 @@ events:
         - "/Users/arturomena/.cargo/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
+        - "/Users/arturomena/.rvm/bin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
@@ -3490,7 +3737,7 @@ events:
     backtrace:
       - "/usr/local/share/cmake/Modules/FindDoxygen.cmake:858 (find_program)"
       - "/usr/local/share/cmake/Modules/FindDoxygen.cmake:959 (_Doxygen_find_dot)"
-      - "pico-sdk/docs/CMakeLists.txt:1 (find_package)"
+      - "/Users/arturomena/pico-sdk/docs/CMakeLists.txt:1 (find_package)"
     mode: "program"
     variable: "DOXYGEN_DOT_EXECUTABLE"
     description: "Dot tool for use with Doxygen"
@@ -3506,6 +3753,7 @@ events:
       - "dot"
     candidate_directories:
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/"
+      - "/usr/local/opt/ruby/bin/"
       - "/usr/local/Cellar/ruby/3.3.0/bin/"
       - "/Users/arturomena/.rbenv/shims/"
       - "/Users/arturomena/.pyenv/shims/"
@@ -3550,6 +3798,7 @@ events:
       - "/Applications/Utilities/Doxygen.app/Contents/MacOS/"
     searched_directories:
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/dot"
+      - "/usr/local/opt/ruby/bin/dot"
       - "/usr/local/Cellar/ruby/3.3.0/bin/dot"
       - "/Users/arturomena/.rbenv/shims/dot"
       - "/Users/arturomena/.pyenv/shims/dot"
@@ -3596,6 +3845,8 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
+        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Users/arturomena/.pyenv/shims"
@@ -3616,6 +3867,233 @@ events:
         - "/Users/arturomena/.rbenv/shims"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/Users/arturomena/.cargo/bin"
+        - "/Users/arturomena/.rvm/bin"
+        - "/Users/arturomena/.rvm/bin"
+        - "/Users/arturomena/.rvm/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr/local"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_FIND_ROOT_PATH: "/usr/local"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/Users/arturomena/pico-sdk/tools/CMakeLists.txt:153 (find_package)"
+      - "/Users/arturomena/pico-sdk/tools/CMakeLists.txt:688 (pico_init_picotool)"
+      - "/Users/arturomena/pico-sdk/src/cmake/on_device.cmake:81 (picotool_postprocess_binary)"
+      - "CMakeLists.txt:42 (pico_add_extra_outputs)"
+    name: "picotool"
+    configs:
+      -
+        filename: "picotool.cps"
+        kind: "cps"
+      -
+        filename: "picotoolConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "picotool-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "2.1.1"
+      version_complete: "2.1.1"
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "picotool"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "NEVER"
+    candidates:
+      -
+        path: "/Users/arturomena/coqui-runtime/build/CMakeFiles/pkgRedirects/picotoolConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/arturomena/coqui-runtime/build/CMakeFiles/pkgRedirects/picotool-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/arturomena/coqui-runtime/build/CMakeFiles/pkgRedirects/lib32/cps/picotool.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/Users/arturomena/coqui-runtime/build/CMakeFiles/pkgRedirects/lib/cps/picotool.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/Users/arturomena/coqui-runtime/build/CMakeFiles/pkgRedirects/share/cps/picotool.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/Users/arturomena/.nvm/versions/node/v10.24.1/picotoolConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/arturomena/.nvm/versions/node/v10.24.1/picotool-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/arturomena/.nvm/versions/node/v10.24.1/lib32/cps/picotool.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/Users/arturomena/.nvm/versions/node/v10.24.1/lib/cps/picotool.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/Users/arturomena/.nvm/versions/node/v10.24.1/share/cps/picotool.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/opt/ruby/picotoolConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/opt/ruby/picotool-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/opt/ruby/lib32/cps/picotool.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/opt/ruby/lib/cps/picotool.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/opt/ruby/share/cps/picotool.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/Cellar/ruby/3.3.0/picotoolConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/Cellar/ruby/3.3.0/picotool-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/Cellar/ruby/3.3.0/lib32/cps/picotool.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/Cellar/ruby/3.3.0/lib/cps/picotool.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/Cellar/ruby/3.3.0/share/cps/picotool.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/Users/arturomena/.rbenv/shims/picotoolConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/arturomena/.rbenv/shims/picotool-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/arturomena/.rbenv/shims/lib32/cps/picotool.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/Users/arturomena/.rbenv/shims/lib/cps/picotool.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/Users/arturomena/.rbenv/shims/share/cps/picotool.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/Users/arturomena/.pyenv/shims/picotoolConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/arturomena/.pyenv/shims/picotool-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/arturomena/.pyenv/shims/lib32/cps/picotool.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/Users/arturomena/.pyenv/shims/lib/cps/picotool.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/Users/arturomena/.pyenv/shims/share/cps/picotool.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/picotoolConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/picotool-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/lib32/cps/picotool.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/lib/cps/picotool.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/share/cps/picotool.cps"
+        mode: "cps"
+        reason: "no_exist"
+    found:
+      path: "/usr/local/lib/cmake/picotool/picotoolConfig.cmake"
+      mode: "config"
+      version: "2.2.0"
+    search_context:
+      ENV{PATH}:
+        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
+        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/Cellar/ruby/3.3.0/bin"
+        - "/Users/arturomena/.rbenv/shims"
+        - "/Users/arturomena/.pyenv/shims"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/Cellar/ruby/3.3.0/bin"
+        - "/Users/arturomena/.rbenv/shims"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Users/arturomena/.cargo/bin"
+        - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
       CMAKE_INSTALL_PREFIX: "/usr/local"

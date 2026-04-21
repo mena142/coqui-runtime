@@ -16,17 +16,14 @@ CMakeFiles/coqui_mjs.dir/main.c.o: /Users/arturomena/coqui-runtime/main.c \
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_types.h \
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/lock.h \
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/stdio.h \
- /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/stdlib.h \
- /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/stdlib.h \
- /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/alloca.h \
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/string.h \
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_locale.h \
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/strings.h \
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/string.h \
- /Users/arturomena/coqui-runtime/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h \
- /Users/arturomena/coqui-runtime/pico-sdk/src/common/pico_base_headers/include/pico.h \
- /Users/arturomena/coqui-runtime/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
- /Users/arturomena/coqui-runtime/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+ /Users/arturomena/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h \
+ /Users/arturomena/pico-sdk/src/common/pico_base_headers/include/pico.h \
+ /Users/arturomena/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+ /Users/arturomena/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
@@ -34,48 +31,48 @@ CMakeFiles/coqui_mjs.dir/main.c.o: /Users/arturomena/coqui-runtime/main.c \
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
  /Users/arturomena/coqui-runtime/build/generated/pico_base/pico/version.h \
- /Users/arturomena/coqui-runtime/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+ /Users/arturomena/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
  /Users/arturomena/coqui-runtime/build/generated/pico_base/pico/config_autogen.h \
- /Users/arturomena/coqui-runtime/pico-sdk/src/boards/include/boards/pico.h \
- /Users/arturomena/coqui-runtime/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
- /Users/arturomena/coqui-runtime/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
- /Users/arturomena/coqui-runtime/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
- /Users/arturomena/coqui-runtime/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
- /Users/arturomena/coqui-runtime/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
- /Users/arturomena/coqui-runtime/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
- /Users/arturomena/coqui-runtime/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
- /Users/arturomena/coqui-runtime/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
- /Users/arturomena/coqui-runtime/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
- /Users/arturomena/coqui-runtime/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
- /Users/arturomena/coqui-runtime/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
- /Users/arturomena/coqui-runtime/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
- /Users/arturomena/coqui-runtime/pico-sdk/src/common/pico_time/include/pico/time.h \
- /Users/arturomena/coqui-runtime/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
- /Users/arturomena/coqui-runtime/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
- /Users/arturomena/coqui-runtime/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
- /Users/arturomena/coqui-runtime/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
- /Users/arturomena/coqui-runtime/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
- /Users/arturomena/coqui-runtime/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
- /Users/arturomena/coqui-runtime/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
- /Users/arturomena/coqui-runtime/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
- /Users/arturomena/coqui-runtime/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
- /Users/arturomena/coqui-runtime/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
- /Users/arturomena/coqui-runtime/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
- /Users/arturomena/coqui-runtime/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
- /Users/arturomena/coqui-runtime/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
- /Users/arturomena/coqui-runtime/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
- /Users/arturomena/coqui-runtime/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
- /Users/arturomena/coqui-runtime/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
- /Users/arturomena/coqui-runtime/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
- /Users/arturomena/coqui-runtime/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
- /Users/arturomena/coqui-runtime/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
- /Users/arturomena/coqui-runtime/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
- /Users/arturomena/coqui-runtime/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
- /Users/arturomena/coqui-runtime/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
- /Users/arturomena/coqui-runtime/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
- /Users/arturomena/coqui-runtime/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
- /Users/arturomena/coqui-runtime/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
- /Users/arturomena/coqui-runtime/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+ /Users/arturomena/pico-sdk/src/boards/include/boards/pico.h \
+ /Users/arturomena/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+ /Users/arturomena/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+ /Users/arturomena/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+ /Users/arturomena/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+ /Users/arturomena/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+ /Users/arturomena/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+ /Users/arturomena/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+ /Users/arturomena/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+ /Users/arturomena/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+ /Users/arturomena/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+ /Users/arturomena/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+ /Users/arturomena/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+ /Users/arturomena/pico-sdk/src/common/pico_time/include/pico/time.h \
+ /Users/arturomena/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+ /Users/arturomena/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+ /Users/arturomena/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+ /Users/arturomena/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+ /Users/arturomena/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+ /Users/arturomena/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+ /Users/arturomena/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
+ /Users/arturomena/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
+ /Users/arturomena/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
+ /Users/arturomena/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
+ /Users/arturomena/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
+ /Users/arturomena/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
+ /Users/arturomena/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+ /Users/arturomena/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
+ /Users/arturomena/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+ /Users/arturomena/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
+ /Users/arturomena/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
+ /Users/arturomena/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
+ /Users/arturomena/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
+ /Users/arturomena/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
+ /Users/arturomena/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
+ /Users/arturomena/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
+ /Users/arturomena/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+ /Users/arturomena/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
+ /Users/arturomena/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
+ /Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
+ /Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
  /Users/arturomena/coqui-runtime/mquickjs/mquickjs.h \
- /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/inttypes.h \
- /Users/arturomena/coqui-runtime/hardware.h
+ /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/inttypes.h

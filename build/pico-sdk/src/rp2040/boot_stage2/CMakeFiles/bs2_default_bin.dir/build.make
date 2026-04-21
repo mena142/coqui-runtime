@@ -89,6 +89,6 @@ pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/clean:
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/clean
 
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/depend:
-	cd /Users/arturomena/coqui-runtime/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/arturomena/coqui-runtime /Users/arturomena/coqui-runtime/pico-sdk/src/rp2040/boot_stage2 /Users/arturomena/coqui-runtime/build /Users/arturomena/coqui-runtime/build/pico-sdk/src/rp2040/boot_stage2 /Users/arturomena/coqui-runtime/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/DependInfo.cmake "--color=$(COLOR)" bs2_default_bin
+	cd /Users/arturomena/coqui-runtime/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/arturomena/coqui-runtime /Users/arturomena/pico-sdk/src/rp2040/boot_stage2 /Users/arturomena/coqui-runtime/build /Users/arturomena/coqui-runtime/build/pico-sdk/src/rp2040/boot_stage2 /Users/arturomena/coqui-runtime/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/DependInfo.cmake "--color=$(COLOR)" bs2_default_bin
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/depend
 

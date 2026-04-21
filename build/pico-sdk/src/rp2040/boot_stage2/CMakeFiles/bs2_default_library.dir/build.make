@@ -71,7 +71,7 @@ include pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/flags
 
 pico-sdk/src/rp2040/boot_stage2/bs2_default_padded_checksummed.S: pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/arturomena/coqui-runtime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating bs2_default_padded_checksummed.S"
-	cd /Users/arturomena/coqui-runtime/build/pico-sdk/src/rp2040/boot_stage2 && /usr/local/Frameworks/Python.framework/Versions/3.14/bin/python3.14 /Users/arturomena/coqui-runtime/pico-sdk/src/rp2040/boot_stage2/pad_checksum -s 0xffffffff /Users/arturomena/coqui-runtime/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.bin /Users/arturomena/coqui-runtime/build/pico-sdk/src/rp2040/boot_stage2/bs2_default_padded_checksummed.S
+	cd /Users/arturomena/coqui-runtime/build/pico-sdk/src/rp2040/boot_stage2 && /usr/local/Frameworks/Python.framework/Versions/3.14/bin/python3.14 /Users/arturomena/pico-sdk/src/rp2040/boot_stage2/pad_checksum -s 0xffffffff /Users/arturomena/coqui-runtime/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.bin /Users/arturomena/coqui-runtime/build/pico-sdk/src/rp2040/boot_stage2/bs2_default_padded_checksummed.S
 
 pico-sdk/src/rp2040/boot_stage2/bs2_default.bin: pico-sdk/src/rp2040/boot_stage2/bs2_default.elf
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/arturomena/coqui-runtime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating bs2_default.bin"
@@ -107,6 +107,6 @@ pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/clean:
 
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/depend: pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/depend: pico-sdk/src/rp2040/boot_stage2/bs2_default_padded_checksummed.S
-	cd /Users/arturomena/coqui-runtime/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/arturomena/coqui-runtime /Users/arturomena/coqui-runtime/pico-sdk/src/rp2040/boot_stage2 /Users/arturomena/coqui-runtime/build /Users/arturomena/coqui-runtime/build/pico-sdk/src/rp2040/boot_stage2 /Users/arturomena/coqui-runtime/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/DependInfo.cmake "--color=$(COLOR)" bs2_default_library
+	cd /Users/arturomena/coqui-runtime/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/arturomena/coqui-runtime /Users/arturomena/pico-sdk/src/rp2040/boot_stage2 /Users/arturomena/coqui-runtime/build /Users/arturomena/coqui-runtime/build/pico-sdk/src/rp2040/boot_stage2 /Users/arturomena/coqui-runtime/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/DependInfo.cmake "--color=$(COLOR)" bs2_default_library
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/depend
 
