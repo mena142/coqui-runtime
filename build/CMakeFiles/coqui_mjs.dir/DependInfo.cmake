@@ -153,6 +153,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "/Users/arturomena/pico-sdk/src/rp2_common/pico_mem_ops/include"
   "/Users/arturomena/pico-sdk/src/rp2040/boot_stage2/include"
   "/Users/arturomena/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include"
+  "/Users/arturomena/pico-sdk/src/rp2_common/hardware_adc/include"
   )
 
 # The set of dependency files which are needed:
@@ -186,6 +187,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/arturomena/pico-sdk/src/common/pico_util/pheap.c" "CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/common/pico_util/pheap.c.o" "gcc" "CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/common/pico_util/pheap.c.o.d"
   "/Users/arturomena/pico-sdk/src/common/pico_util/queue.c" "CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/common/pico_util/queue.c.o" "gcc" "CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/common/pico_util/queue.c.o.d"
   "/Users/arturomena/pico-sdk/src/rp2040/pico_platform/platform.c" "CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2040/pico_platform/platform.c.o" "gcc" "CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2040/pico_platform/platform.c.o.d"
+  "/Users/arturomena/pico-sdk/src/rp2_common/hardware_adc/adc.c" "CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_adc/adc.c.o" "gcc" "CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_adc/adc.c.o.d"
   "/Users/arturomena/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c" "CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o" "gcc" "CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o.d"
   "/Users/arturomena/pico-sdk/src/rp2_common/hardware_clocks/clocks.c" "CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o" "gcc" "CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o.d"
   "/Users/arturomena/pico-sdk/src/rp2_common/hardware_flash/flash.c" "CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_flash/flash.c.o" "gcc" "CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_flash/flash.c.o.d"

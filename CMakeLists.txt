@@ -33,6 +33,6 @@ target_compile_options(coqui_mjs PRIVATE
     -fno-inline -fno-optimize-sibling-calls -mno-unaligned-access
 )
 
-target_link_libraries(coqui_mjs pico_stdlib hardware_gpio pico_float pico_double m)
+target_link_libraries(coqui_mjs pico_stdlib hardware_gpio hardware_adc pico_float pico_double m)
 pico_enable_stdio_usb(coqui_mjs 1)
 pico_add_extra_outputs(coqui_mjs)

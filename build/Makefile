@@ -903,6 +903,30 @@ Users/arturomena/pico-sdk/src/rp2040/pico_platform/platform.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2040/pico_platform/platform.c.s
 .PHONY : Users/arturomena/pico-sdk/src/rp2040/pico_platform/platform.c.s
 
+Users/arturomena/pico-sdk/src/rp2_common/hardware_adc/adc.o: Users/arturomena/pico-sdk/src/rp2_common/hardware_adc/adc.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_adc/adc.o
+
+# target to build an object file
+Users/arturomena/pico-sdk/src/rp2_common/hardware_adc/adc.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_adc/adc.c.o
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_adc/adc.c.o
+
+Users/arturomena/pico-sdk/src/rp2_common/hardware_adc/adc.i: Users/arturomena/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_adc/adc.i
+
+# target to preprocess a source file
+Users/arturomena/pico-sdk/src/rp2_common/hardware_adc/adc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+
+Users/arturomena/pico-sdk/src/rp2_common/hardware_adc/adc.s: Users/arturomena/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_adc/adc.s
+
+# target to generate assembly for a file
+Users/arturomena/pico-sdk/src/rp2_common/hardware_adc/adc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coqui_mjs.dir/build.make CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
+.PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
+
 Users/arturomena/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.o: Users/arturomena/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
 .PHONY : Users/arturomena/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.o
 
@@ -2221,6 +2245,9 @@ help:
 	@echo "... Users/arturomena/pico-sdk/src/rp2040/pico_platform/platform.o"
 	@echo "... Users/arturomena/pico-sdk/src/rp2040/pico_platform/platform.i"
 	@echo "... Users/arturomena/pico-sdk/src/rp2040/pico_platform/platform.s"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/hardware_adc/adc.o"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/hardware_adc/adc.i"
+	@echo "... Users/arturomena/pico-sdk/src/rp2_common/hardware_adc/adc.s"
 	@echo "... Users/arturomena/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.o"
 	@echo "... Users/arturomena/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.i"
 	@echo "... Users/arturomena/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.s"

@@ -21,7 +21,6 @@ events:
       - "uname"
     candidate_directories:
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/"
-      - "/usr/local/opt/ruby/bin/"
       - "/usr/local/Cellar/ruby/3.3.0/bin/"
       - "/Users/arturomena/.rbenv/shims/"
       - "/Users/arturomena/.pyenv/shims/"
@@ -37,11 +36,11 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/usr/local/opt/ruby/bin/"
       - "/Users/arturomena/.cargo/bin/"
       - "/Users/arturomena/.rvm/bin/"
     searched_directories:
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/uname"
-      - "/usr/local/opt/ruby/bin/uname"
       - "/usr/local/Cellar/ruby/3.3.0/bin/uname"
       - "/Users/arturomena/.rbenv/shims/uname"
       - "/Users/arturomena/.pyenv/shims/uname"
@@ -52,8 +51,6 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
-        - "/usr/local/opt/ruby/bin"
-        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Users/arturomena/.pyenv/shims"
@@ -70,11 +67,11 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/Users/arturomena/.cargo/bin"
-        - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
   -
@@ -103,8 +100,6 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
-        - "/usr/local/opt/ruby/bin"
-        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Users/arturomena/.pyenv/shims"
@@ -121,11 +116,11 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/Users/arturomena/.cargo/bin"
-        - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
   -
@@ -152,7 +147,6 @@ events:
       - "arm-none-eabi-gcc"
     candidate_directories:
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/"
-      - "/usr/local/opt/ruby/bin/"
       - "/usr/local/Cellar/ruby/3.3.0/bin/"
       - "/Users/arturomena/.rbenv/shims/"
       - "/Users/arturomena/.pyenv/shims/"
@@ -168,11 +162,11 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/usr/local/opt/ruby/bin/"
       - "/Users/arturomena/.cargo/bin/"
       - "/Users/arturomena/.rvm/bin/"
     searched_directories:
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/arm-none-eabi-gcc"
-      - "/usr/local/opt/ruby/bin/arm-none-eabi-gcc"
       - "/usr/local/Cellar/ruby/3.3.0/bin/arm-none-eabi-gcc"
       - "/Users/arturomena/.rbenv/shims/arm-none-eabi-gcc"
       - "/Users/arturomena/.pyenv/shims/arm-none-eabi-gcc"
@@ -181,8 +175,6 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
-        - "/usr/local/opt/ruby/bin"
-        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Users/arturomena/.pyenv/shims"
@@ -199,11 +191,11 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/Users/arturomena/.cargo/bin"
-        - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
   -
@@ -232,8 +224,6 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
-        - "/usr/local/opt/ruby/bin"
-        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Users/arturomena/.pyenv/shims"
@@ -250,11 +240,11 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/Users/arturomena/.cargo/bin"
-        - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
   -
@@ -281,7 +271,6 @@ events:
       - "arm-none-eabi-g++"
     candidate_directories:
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/"
-      - "/usr/local/opt/ruby/bin/"
       - "/usr/local/Cellar/ruby/3.3.0/bin/"
       - "/Users/arturomena/.rbenv/shims/"
       - "/Users/arturomena/.pyenv/shims/"
@@ -297,11 +286,11 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/usr/local/opt/ruby/bin/"
       - "/Users/arturomena/.cargo/bin/"
       - "/Users/arturomena/.rvm/bin/"
     searched_directories:
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/arm-none-eabi-g++"
-      - "/usr/local/opt/ruby/bin/arm-none-eabi-g++"
       - "/usr/local/Cellar/ruby/3.3.0/bin/arm-none-eabi-g++"
       - "/Users/arturomena/.rbenv/shims/arm-none-eabi-g++"
       - "/Users/arturomena/.pyenv/shims/arm-none-eabi-g++"
@@ -310,8 +299,6 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
-        - "/usr/local/opt/ruby/bin"
-        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Users/arturomena/.pyenv/shims"
@@ -328,11 +315,11 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/Users/arturomena/.cargo/bin"
-        - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
   -
@@ -361,8 +348,6 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
-        - "/usr/local/opt/ruby/bin"
-        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Users/arturomena/.pyenv/shims"
@@ -379,11 +364,11 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/Users/arturomena/.cargo/bin"
-        - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
   -
@@ -410,7 +395,6 @@ events:
       - "arm-none-eabi-objcopy"
     candidate_directories:
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/"
-      - "/usr/local/opt/ruby/bin/"
       - "/usr/local/Cellar/ruby/3.3.0/bin/"
       - "/Users/arturomena/.rbenv/shims/"
       - "/Users/arturomena/.pyenv/shims/"
@@ -426,11 +410,11 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/usr/local/opt/ruby/bin/"
       - "/Users/arturomena/.cargo/bin/"
       - "/Users/arturomena/.rvm/bin/"
     searched_directories:
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/arm-none-eabi-objcopy"
-      - "/usr/local/opt/ruby/bin/arm-none-eabi-objcopy"
       - "/usr/local/Cellar/ruby/3.3.0/bin/arm-none-eabi-objcopy"
       - "/Users/arturomena/.rbenv/shims/arm-none-eabi-objcopy"
       - "/Users/arturomena/.pyenv/shims/arm-none-eabi-objcopy"
@@ -439,8 +423,6 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
-        - "/usr/local/opt/ruby/bin"
-        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Users/arturomena/.pyenv/shims"
@@ -457,11 +439,11 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/Users/arturomena/.cargo/bin"
-        - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
   -
@@ -490,8 +472,6 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
-        - "/usr/local/opt/ruby/bin"
-        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Users/arturomena/.pyenv/shims"
@@ -508,11 +488,11 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/Users/arturomena/.cargo/bin"
-        - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
   -
@@ -539,7 +519,6 @@ events:
       - "arm-none-eabi-objdump"
     candidate_directories:
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/"
-      - "/usr/local/opt/ruby/bin/"
       - "/usr/local/Cellar/ruby/3.3.0/bin/"
       - "/Users/arturomena/.rbenv/shims/"
       - "/Users/arturomena/.pyenv/shims/"
@@ -555,11 +534,11 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/usr/local/opt/ruby/bin/"
       - "/Users/arturomena/.cargo/bin/"
       - "/Users/arturomena/.rvm/bin/"
     searched_directories:
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/arm-none-eabi-objdump"
-      - "/usr/local/opt/ruby/bin/arm-none-eabi-objdump"
       - "/usr/local/Cellar/ruby/3.3.0/bin/arm-none-eabi-objdump"
       - "/Users/arturomena/.rbenv/shims/arm-none-eabi-objdump"
       - "/Users/arturomena/.pyenv/shims/arm-none-eabi-objdump"
@@ -567,8 +546,6 @@ events:
     found: "/usr/local/bin/arm-none-eabi-objdump"
     search_context:
       ENV{PATH}:
-        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
-        - "/usr/local/opt/ruby/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
@@ -586,11 +563,11 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/Users/arturomena/.cargo/bin"
-        - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
   -
@@ -623,7 +600,6 @@ events:
       - "smake"
     candidate_directories:
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/"
-      - "/usr/local/opt/ruby/bin/"
       - "/usr/local/Cellar/ruby/3.3.0/bin/"
       - "/Users/arturomena/.rbenv/shims/"
       - "/Users/arturomena/.pyenv/shims/"
@@ -639,11 +615,11 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/usr/local/opt/ruby/bin/"
       - "/Users/arturomena/.cargo/bin/"
       - "/Users/arturomena/.rvm/bin/"
     searched_directories:
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/gmake"
-      - "/usr/local/opt/ruby/bin/gmake"
       - "/usr/local/Cellar/ruby/3.3.0/bin/gmake"
       - "/Users/arturomena/.rbenv/shims/gmake"
       - "/Users/arturomena/.pyenv/shims/gmake"
@@ -659,10 +635,10 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/gmake"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/gmake"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/gmake"
+      - "/usr/local/opt/ruby/bin/gmake"
       - "/Users/arturomena/.cargo/bin/gmake"
       - "/Users/arturomena/.rvm/bin/gmake"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/make"
-      - "/usr/local/opt/ruby/bin/make"
       - "/usr/local/Cellar/ruby/3.3.0/bin/make"
       - "/Users/arturomena/.rbenv/shims/make"
       - "/Users/arturomena/.pyenv/shims/make"
@@ -672,8 +648,6 @@ events:
     found: "/usr/bin/make"
     search_context:
       ENV{PATH}:
-        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
-        - "/usr/local/opt/ruby/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
@@ -691,11 +665,11 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/Users/arturomena/.cargo/bin"
-        - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
       CMAKE_FIND_ROOT_PATH: "/usr/local"
@@ -728,8 +702,6 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
-        - "/usr/local/opt/ruby/bin"
-        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Users/arturomena/.pyenv/shims"
@@ -746,11 +718,11 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/Users/arturomena/.cargo/bin"
-        - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
       CMAKE_FIND_ROOT_PATH: "/usr/local"
@@ -813,8 +785,6 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
-        - "/usr/local/opt/ruby/bin"
-        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Users/arturomena/.pyenv/shims"
@@ -831,11 +801,11 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/Users/arturomena/.cargo/bin"
-        - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
       CMAKE_FIND_ROOT_PATH: "/usr/local"
@@ -859,7 +829,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
       
       The C compiler identification is GNU, found in:
-        /Users/arturomena/coqui-runtime/build/CMakeFiles/4.3.1/CompilerIdC/CMakeCCompilerId.o
+        /Users/arturomena/coqui-runtime/build/CMakeFiles/4.3.2/CompilerIdC/CMakeCCompilerId.o
       
   -
     kind: "find-v1"
@@ -884,7 +854,6 @@ events:
     candidate_directories:
       - "/usr/local/bin/"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/"
-      - "/usr/local/opt/ruby/bin/"
       - "/usr/local/Cellar/ruby/3.3.0/bin/"
       - "/Users/arturomena/.rbenv/shims/"
       - "/Users/arturomena/.pyenv/shims/"
@@ -899,13 +868,12 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/usr/local/opt/ruby/bin/"
       - "/Users/arturomena/.cargo/bin/"
       - "/Users/arturomena/.rvm/bin/"
     found: "/usr/local/bin/arm-none-eabi-ar"
     search_context:
       ENV{PATH}:
-        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
-        - "/usr/local/opt/ruby/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
@@ -923,11 +891,11 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/Users/arturomena/.cargo/bin"
-        - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
       CMAKE_FIND_ROOT_PATH: "/usr/local"
@@ -954,7 +922,6 @@ events:
     candidate_directories:
       - "/usr/local/bin/"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/"
-      - "/usr/local/opt/ruby/bin/"
       - "/usr/local/Cellar/ruby/3.3.0/bin/"
       - "/Users/arturomena/.rbenv/shims/"
       - "/Users/arturomena/.pyenv/shims/"
@@ -969,13 +936,12 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/usr/local/opt/ruby/bin/"
       - "/Users/arturomena/.cargo/bin/"
       - "/Users/arturomena/.rvm/bin/"
     found: "/usr/local/bin/arm-none-eabi-ranlib"
     search_context:
       ENV{PATH}:
-        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
-        - "/usr/local/opt/ruby/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
@@ -993,11 +959,11 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/Users/arturomena/.cargo/bin"
-        - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
       CMAKE_FIND_ROOT_PATH: "/usr/local"
@@ -1024,7 +990,6 @@ events:
     candidate_directories:
       - "/usr/local/bin/"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/"
-      - "/usr/local/opt/ruby/bin/"
       - "/usr/local/Cellar/ruby/3.3.0/bin/"
       - "/Users/arturomena/.rbenv/shims/"
       - "/Users/arturomena/.pyenv/shims/"
@@ -1039,13 +1004,12 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/usr/local/opt/ruby/bin/"
       - "/Users/arturomena/.cargo/bin/"
       - "/Users/arturomena/.rvm/bin/"
     found: "/usr/local/bin/arm-none-eabi-strip"
     search_context:
       ENV{PATH}:
-        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
-        - "/usr/local/opt/ruby/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
@@ -1063,11 +1027,11 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/Users/arturomena/.cargo/bin"
-        - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
       CMAKE_FIND_ROOT_PATH: "/usr/local"
@@ -1094,7 +1058,6 @@ events:
     candidate_directories:
       - "/usr/local/bin/"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/"
-      - "/usr/local/opt/ruby/bin/"
       - "/usr/local/Cellar/ruby/3.3.0/bin/"
       - "/Users/arturomena/.rbenv/shims/"
       - "/Users/arturomena/.pyenv/shims/"
@@ -1109,13 +1072,12 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/usr/local/opt/ruby/bin/"
       - "/Users/arturomena/.cargo/bin/"
       - "/Users/arturomena/.rvm/bin/"
     found: "/usr/local/bin/arm-none-eabi-ld"
     search_context:
       ENV{PATH}:
-        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
-        - "/usr/local/opt/ruby/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
@@ -1133,11 +1095,11 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/Users/arturomena/.cargo/bin"
-        - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
       CMAKE_FIND_ROOT_PATH: "/usr/local"
@@ -1164,7 +1126,6 @@ events:
     candidate_directories:
       - "/usr/local/bin/"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/"
-      - "/usr/local/opt/ruby/bin/"
       - "/usr/local/Cellar/ruby/3.3.0/bin/"
       - "/Users/arturomena/.rbenv/shims/"
       - "/Users/arturomena/.pyenv/shims/"
@@ -1179,13 +1140,12 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/usr/local/opt/ruby/bin/"
       - "/Users/arturomena/.cargo/bin/"
       - "/Users/arturomena/.rvm/bin/"
     found: "/usr/local/bin/arm-none-eabi-nm"
     search_context:
       ENV{PATH}:
-        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
-        - "/usr/local/opt/ruby/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
@@ -1203,11 +1163,11 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/Users/arturomena/.cargo/bin"
-        - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
       CMAKE_FIND_ROOT_PATH: "/usr/local"
@@ -1234,7 +1194,6 @@ events:
     candidate_directories:
       - "/usr/local/bin/"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/"
-      - "/usr/local/opt/ruby/bin/"
       - "/usr/local/Cellar/ruby/3.3.0/bin/"
       - "/Users/arturomena/.rbenv/shims/"
       - "/Users/arturomena/.pyenv/shims/"
@@ -1249,13 +1208,12 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/usr/local/opt/ruby/bin/"
       - "/Users/arturomena/.cargo/bin/"
       - "/Users/arturomena/.rvm/bin/"
     found: "/usr/local/bin/arm-none-eabi-readelf"
     search_context:
       ENV{PATH}:
-        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
-        - "/usr/local/opt/ruby/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
@@ -1273,11 +1231,11 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/Users/arturomena/.cargo/bin"
-        - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
       CMAKE_FIND_ROOT_PATH: "/usr/local"
@@ -1304,7 +1262,6 @@ events:
     candidate_directories:
       - "/usr/local/bin/"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/"
-      - "/usr/local/opt/ruby/bin/"
       - "/usr/local/Cellar/ruby/3.3.0/bin/"
       - "/Users/arturomena/.rbenv/shims/"
       - "/Users/arturomena/.pyenv/shims/"
@@ -1319,12 +1276,12 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/usr/local/opt/ruby/bin/"
       - "/Users/arturomena/.cargo/bin/"
       - "/Users/arturomena/.rvm/bin/"
     searched_directories:
       - "/usr/local/bin/arm-none-eabi-dlltool"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/arm-none-eabi-dlltool"
-      - "/usr/local/opt/ruby/bin/arm-none-eabi-dlltool"
       - "/usr/local/Cellar/ruby/3.3.0/bin/arm-none-eabi-dlltool"
       - "/Users/arturomena/.rbenv/shims/arm-none-eabi-dlltool"
       - "/Users/arturomena/.pyenv/shims/arm-none-eabi-dlltool"
@@ -1339,11 +1296,11 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-dlltool"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-dlltool"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-dlltool"
+      - "/usr/local/opt/ruby/bin/arm-none-eabi-dlltool"
       - "/Users/arturomena/.cargo/bin/arm-none-eabi-dlltool"
       - "/Users/arturomena/.rvm/bin/arm-none-eabi-dlltool"
       - "/usr/local/bin/dlltool"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/dlltool"
-      - "/usr/local/opt/ruby/bin/dlltool"
       - "/usr/local/Cellar/ruby/3.3.0/bin/dlltool"
       - "/Users/arturomena/.rbenv/shims/dlltool"
       - "/Users/arturomena/.pyenv/shims/dlltool"
@@ -1358,13 +1315,12 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/dlltool"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/dlltool"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/dlltool"
+      - "/usr/local/opt/ruby/bin/dlltool"
       - "/Users/arturomena/.cargo/bin/dlltool"
       - "/Users/arturomena/.rvm/bin/dlltool"
     found: false
     search_context:
       ENV{PATH}:
-        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
-        - "/usr/local/opt/ruby/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
@@ -1382,11 +1338,11 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/Users/arturomena/.cargo/bin"
-        - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
       CMAKE_FIND_ROOT_PATH: "/usr/local"
@@ -1413,7 +1369,6 @@ events:
     candidate_directories:
       - "/usr/local/bin/"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/"
-      - "/usr/local/opt/ruby/bin/"
       - "/usr/local/Cellar/ruby/3.3.0/bin/"
       - "/Users/arturomena/.rbenv/shims/"
       - "/Users/arturomena/.pyenv/shims/"
@@ -1428,13 +1383,12 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/usr/local/opt/ruby/bin/"
       - "/Users/arturomena/.cargo/bin/"
       - "/Users/arturomena/.rvm/bin/"
     found: "/usr/local/bin/arm-none-eabi-addr2line"
     search_context:
       ENV{PATH}:
-        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
-        - "/usr/local/opt/ruby/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
@@ -1452,11 +1406,11 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/Users/arturomena/.cargo/bin"
-        - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
       CMAKE_FIND_ROOT_PATH: "/usr/local"
@@ -1483,7 +1437,6 @@ events:
     candidate_directories:
       - "/usr/local/bin/"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/"
-      - "/usr/local/opt/ruby/bin/"
       - "/usr/local/Cellar/ruby/3.3.0/bin/"
       - "/Users/arturomena/.rbenv/shims/"
       - "/Users/arturomena/.pyenv/shims/"
@@ -1498,12 +1451,12 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/usr/local/opt/ruby/bin/"
       - "/Users/arturomena/.cargo/bin/"
       - "/Users/arturomena/.rvm/bin/"
     searched_directories:
       - "/usr/local/bin/arm-none-eabi-tapi"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/arm-none-eabi-tapi"
-      - "/usr/local/opt/ruby/bin/arm-none-eabi-tapi"
       - "/usr/local/Cellar/ruby/3.3.0/bin/arm-none-eabi-tapi"
       - "/Users/arturomena/.rbenv/shims/arm-none-eabi-tapi"
       - "/Users/arturomena/.pyenv/shims/arm-none-eabi-tapi"
@@ -1518,11 +1471,11 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-tapi"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-tapi"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-tapi"
+      - "/usr/local/opt/ruby/bin/arm-none-eabi-tapi"
       - "/Users/arturomena/.cargo/bin/arm-none-eabi-tapi"
       - "/Users/arturomena/.rvm/bin/arm-none-eabi-tapi"
       - "/usr/local/bin/tapi"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/tapi"
-      - "/usr/local/opt/ruby/bin/tapi"
       - "/usr/local/Cellar/ruby/3.3.0/bin/tapi"
       - "/Users/arturomena/.rbenv/shims/tapi"
       - "/Users/arturomena/.pyenv/shims/tapi"
@@ -1537,13 +1490,12 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/tapi"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/tapi"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/tapi"
+      - "/usr/local/opt/ruby/bin/tapi"
       - "/Users/arturomena/.cargo/bin/tapi"
       - "/Users/arturomena/.rvm/bin/tapi"
     found: false
     search_context:
       ENV{PATH}:
-        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
-        - "/usr/local/opt/ruby/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
@@ -1561,11 +1513,11 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/Users/arturomena/.cargo/bin"
-        - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
       CMAKE_FIND_ROOT_PATH: "/usr/local"
@@ -1594,7 +1546,6 @@ events:
     candidate_directories:
       - "/usr/local/bin/"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/"
-      - "/usr/local/opt/ruby/bin/"
       - "/usr/local/Cellar/ruby/3.3.0/bin/"
       - "/Users/arturomena/.rbenv/shims/"
       - "/Users/arturomena/.pyenv/shims/"
@@ -1609,12 +1560,12 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/usr/local/opt/ruby/bin/"
       - "/Users/arturomena/.cargo/bin/"
       - "/Users/arturomena/.rvm/bin/"
     searched_directories:
       - "/usr/local/bin/arm-none-eabi-gcc-ar-14.2"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/arm-none-eabi-gcc-ar-14.2"
-      - "/usr/local/opt/ruby/bin/arm-none-eabi-gcc-ar-14.2"
       - "/usr/local/Cellar/ruby/3.3.0/bin/arm-none-eabi-gcc-ar-14.2"
       - "/Users/arturomena/.rbenv/shims/arm-none-eabi-gcc-ar-14.2"
       - "/Users/arturomena/.pyenv/shims/arm-none-eabi-gcc-ar-14.2"
@@ -1629,11 +1580,11 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ar-14.2"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ar-14.2"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/usr/local/opt/ruby/bin/arm-none-eabi-gcc-ar-14.2"
       - "/Users/arturomena/.cargo/bin/arm-none-eabi-gcc-ar-14.2"
       - "/Users/arturomena/.rvm/bin/arm-none-eabi-gcc-ar-14.2"
       - "/usr/local/bin/arm-none-eabi-gcc-ar-14"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/arm-none-eabi-gcc-ar-14"
-      - "/usr/local/opt/ruby/bin/arm-none-eabi-gcc-ar-14"
       - "/usr/local/Cellar/ruby/3.3.0/bin/arm-none-eabi-gcc-ar-14"
       - "/Users/arturomena/.rbenv/shims/arm-none-eabi-gcc-ar-14"
       - "/Users/arturomena/.pyenv/shims/arm-none-eabi-gcc-ar-14"
@@ -1648,11 +1599,11 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ar-14"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ar-14"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ar-14"
+      - "/usr/local/opt/ruby/bin/arm-none-eabi-gcc-ar-14"
       - "/Users/arturomena/.cargo/bin/arm-none-eabi-gcc-ar-14"
       - "/Users/arturomena/.rvm/bin/arm-none-eabi-gcc-ar-14"
       - "/usr/local/bin/arm-none-eabi-gcc-ar14"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/arm-none-eabi-gcc-ar14"
-      - "/usr/local/opt/ruby/bin/arm-none-eabi-gcc-ar14"
       - "/usr/local/Cellar/ruby/3.3.0/bin/arm-none-eabi-gcc-ar14"
       - "/Users/arturomena/.rbenv/shims/arm-none-eabi-gcc-ar14"
       - "/Users/arturomena/.pyenv/shims/arm-none-eabi-gcc-ar14"
@@ -1667,13 +1618,12 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ar14"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ar14"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ar14"
+      - "/usr/local/opt/ruby/bin/arm-none-eabi-gcc-ar14"
       - "/Users/arturomena/.cargo/bin/arm-none-eabi-gcc-ar14"
       - "/Users/arturomena/.rvm/bin/arm-none-eabi-gcc-ar14"
     found: "/usr/local/bin/arm-none-eabi-gcc-ar"
     search_context:
       ENV{PATH}:
-        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
-        - "/usr/local/opt/ruby/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
@@ -1691,11 +1641,11 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/Users/arturomena/.cargo/bin"
-        - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
       CMAKE_FIND_ROOT_PATH: "/usr/local"
@@ -1724,7 +1674,6 @@ events:
     candidate_directories:
       - "/usr/local/bin/"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/"
-      - "/usr/local/opt/ruby/bin/"
       - "/usr/local/Cellar/ruby/3.3.0/bin/"
       - "/Users/arturomena/.rbenv/shims/"
       - "/Users/arturomena/.pyenv/shims/"
@@ -1739,12 +1688,12 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/usr/local/opt/ruby/bin/"
       - "/Users/arturomena/.cargo/bin/"
       - "/Users/arturomena/.rvm/bin/"
     searched_directories:
       - "/usr/local/bin/arm-none-eabi-gcc-ranlib-14.2"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/arm-none-eabi-gcc-ranlib-14.2"
-      - "/usr/local/opt/ruby/bin/arm-none-eabi-gcc-ranlib-14.2"
       - "/usr/local/Cellar/ruby/3.3.0/bin/arm-none-eabi-gcc-ranlib-14.2"
       - "/Users/arturomena/.rbenv/shims/arm-none-eabi-gcc-ranlib-14.2"
       - "/Users/arturomena/.pyenv/shims/arm-none-eabi-gcc-ranlib-14.2"
@@ -1759,11 +1708,11 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ranlib-14.2"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ranlib-14.2"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/usr/local/opt/ruby/bin/arm-none-eabi-gcc-ranlib-14.2"
       - "/Users/arturomena/.cargo/bin/arm-none-eabi-gcc-ranlib-14.2"
       - "/Users/arturomena/.rvm/bin/arm-none-eabi-gcc-ranlib-14.2"
       - "/usr/local/bin/arm-none-eabi-gcc-ranlib-14"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/arm-none-eabi-gcc-ranlib-14"
-      - "/usr/local/opt/ruby/bin/arm-none-eabi-gcc-ranlib-14"
       - "/usr/local/Cellar/ruby/3.3.0/bin/arm-none-eabi-gcc-ranlib-14"
       - "/Users/arturomena/.rbenv/shims/arm-none-eabi-gcc-ranlib-14"
       - "/Users/arturomena/.pyenv/shims/arm-none-eabi-gcc-ranlib-14"
@@ -1778,11 +1727,11 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ranlib-14"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ranlib-14"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/usr/local/opt/ruby/bin/arm-none-eabi-gcc-ranlib-14"
       - "/Users/arturomena/.cargo/bin/arm-none-eabi-gcc-ranlib-14"
       - "/Users/arturomena/.rvm/bin/arm-none-eabi-gcc-ranlib-14"
       - "/usr/local/bin/arm-none-eabi-gcc-ranlib14"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/arm-none-eabi-gcc-ranlib14"
-      - "/usr/local/opt/ruby/bin/arm-none-eabi-gcc-ranlib14"
       - "/usr/local/Cellar/ruby/3.3.0/bin/arm-none-eabi-gcc-ranlib14"
       - "/Users/arturomena/.rbenv/shims/arm-none-eabi-gcc-ranlib14"
       - "/Users/arturomena/.pyenv/shims/arm-none-eabi-gcc-ranlib14"
@@ -1797,13 +1746,12 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ranlib14"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ranlib14"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ranlib14"
+      - "/usr/local/opt/ruby/bin/arm-none-eabi-gcc-ranlib14"
       - "/Users/arturomena/.cargo/bin/arm-none-eabi-gcc-ranlib14"
       - "/Users/arturomena/.rvm/bin/arm-none-eabi-gcc-ranlib14"
     found: "/usr/local/bin/arm-none-eabi-gcc-ranlib"
     search_context:
       ENV{PATH}:
-        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
-        - "/usr/local/opt/ruby/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
@@ -1821,11 +1769,11 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/Users/arturomena/.cargo/bin"
-        - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
       CMAKE_FIND_ROOT_PATH: "/usr/local"
@@ -1858,8 +1806,6 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
-        - "/usr/local/opt/ruby/bin"
-        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Users/arturomena/.pyenv/shims"
@@ -1876,11 +1822,11 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/Users/arturomena/.cargo/bin"
-        - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
       CMAKE_FIND_ROOT_PATH: "/usr/local"
@@ -1943,8 +1889,6 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
-        - "/usr/local/opt/ruby/bin"
-        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Users/arturomena/.pyenv/shims"
@@ -1961,11 +1905,11 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/Users/arturomena/.cargo/bin"
-        - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
       CMAKE_FIND_ROOT_PATH: "/usr/local"
@@ -1989,7 +1933,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
       
       The CXX compiler identification is GNU, found in:
-        /Users/arturomena/coqui-runtime/build/CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.o
+        /Users/arturomena/coqui-runtime/build/CMakeFiles/4.3.2/CompilerIdCXX/CMakeCXXCompilerId.o
       
   -
     kind: "find-v1"
@@ -2016,7 +1960,6 @@ events:
     candidate_directories:
       - "/usr/local/bin/"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/"
-      - "/usr/local/opt/ruby/bin/"
       - "/usr/local/Cellar/ruby/3.3.0/bin/"
       - "/Users/arturomena/.rbenv/shims/"
       - "/Users/arturomena/.pyenv/shims/"
@@ -2031,12 +1974,12 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/usr/local/opt/ruby/bin/"
       - "/Users/arturomena/.cargo/bin/"
       - "/Users/arturomena/.rvm/bin/"
     searched_directories:
       - "/usr/local/bin/arm-none-eabi-gcc-ar-14.2"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/arm-none-eabi-gcc-ar-14.2"
-      - "/usr/local/opt/ruby/bin/arm-none-eabi-gcc-ar-14.2"
       - "/usr/local/Cellar/ruby/3.3.0/bin/arm-none-eabi-gcc-ar-14.2"
       - "/Users/arturomena/.rbenv/shims/arm-none-eabi-gcc-ar-14.2"
       - "/Users/arturomena/.pyenv/shims/arm-none-eabi-gcc-ar-14.2"
@@ -2051,11 +1994,11 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ar-14.2"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ar-14.2"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/usr/local/opt/ruby/bin/arm-none-eabi-gcc-ar-14.2"
       - "/Users/arturomena/.cargo/bin/arm-none-eabi-gcc-ar-14.2"
       - "/Users/arturomena/.rvm/bin/arm-none-eabi-gcc-ar-14.2"
       - "/usr/local/bin/arm-none-eabi-gcc-ar-14"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/arm-none-eabi-gcc-ar-14"
-      - "/usr/local/opt/ruby/bin/arm-none-eabi-gcc-ar-14"
       - "/usr/local/Cellar/ruby/3.3.0/bin/arm-none-eabi-gcc-ar-14"
       - "/Users/arturomena/.rbenv/shims/arm-none-eabi-gcc-ar-14"
       - "/Users/arturomena/.pyenv/shims/arm-none-eabi-gcc-ar-14"
@@ -2070,11 +2013,11 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ar-14"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ar-14"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ar-14"
+      - "/usr/local/opt/ruby/bin/arm-none-eabi-gcc-ar-14"
       - "/Users/arturomena/.cargo/bin/arm-none-eabi-gcc-ar-14"
       - "/Users/arturomena/.rvm/bin/arm-none-eabi-gcc-ar-14"
       - "/usr/local/bin/arm-none-eabi-gcc-ar14"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/arm-none-eabi-gcc-ar14"
-      - "/usr/local/opt/ruby/bin/arm-none-eabi-gcc-ar14"
       - "/usr/local/Cellar/ruby/3.3.0/bin/arm-none-eabi-gcc-ar14"
       - "/Users/arturomena/.rbenv/shims/arm-none-eabi-gcc-ar14"
       - "/Users/arturomena/.pyenv/shims/arm-none-eabi-gcc-ar14"
@@ -2089,13 +2032,12 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ar14"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ar14"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ar14"
+      - "/usr/local/opt/ruby/bin/arm-none-eabi-gcc-ar14"
       - "/Users/arturomena/.cargo/bin/arm-none-eabi-gcc-ar14"
       - "/Users/arturomena/.rvm/bin/arm-none-eabi-gcc-ar14"
     found: "/usr/local/bin/arm-none-eabi-gcc-ar"
     search_context:
       ENV{PATH}:
-        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
-        - "/usr/local/opt/ruby/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
@@ -2113,11 +2055,11 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/Users/arturomena/.cargo/bin"
-        - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
       CMAKE_FIND_ROOT_PATH: "/usr/local"
@@ -2146,7 +2088,6 @@ events:
     candidate_directories:
       - "/usr/local/bin/"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/"
-      - "/usr/local/opt/ruby/bin/"
       - "/usr/local/Cellar/ruby/3.3.0/bin/"
       - "/Users/arturomena/.rbenv/shims/"
       - "/Users/arturomena/.pyenv/shims/"
@@ -2161,12 +2102,12 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/usr/local/opt/ruby/bin/"
       - "/Users/arturomena/.cargo/bin/"
       - "/Users/arturomena/.rvm/bin/"
     searched_directories:
       - "/usr/local/bin/arm-none-eabi-gcc-ranlib-14.2"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/arm-none-eabi-gcc-ranlib-14.2"
-      - "/usr/local/opt/ruby/bin/arm-none-eabi-gcc-ranlib-14.2"
       - "/usr/local/Cellar/ruby/3.3.0/bin/arm-none-eabi-gcc-ranlib-14.2"
       - "/Users/arturomena/.rbenv/shims/arm-none-eabi-gcc-ranlib-14.2"
       - "/Users/arturomena/.pyenv/shims/arm-none-eabi-gcc-ranlib-14.2"
@@ -2181,11 +2122,11 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ranlib-14.2"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ranlib-14.2"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/usr/local/opt/ruby/bin/arm-none-eabi-gcc-ranlib-14.2"
       - "/Users/arturomena/.cargo/bin/arm-none-eabi-gcc-ranlib-14.2"
       - "/Users/arturomena/.rvm/bin/arm-none-eabi-gcc-ranlib-14.2"
       - "/usr/local/bin/arm-none-eabi-gcc-ranlib-14"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/arm-none-eabi-gcc-ranlib-14"
-      - "/usr/local/opt/ruby/bin/arm-none-eabi-gcc-ranlib-14"
       - "/usr/local/Cellar/ruby/3.3.0/bin/arm-none-eabi-gcc-ranlib-14"
       - "/Users/arturomena/.rbenv/shims/arm-none-eabi-gcc-ranlib-14"
       - "/Users/arturomena/.pyenv/shims/arm-none-eabi-gcc-ranlib-14"
@@ -2200,11 +2141,11 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ranlib-14"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ranlib-14"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/usr/local/opt/ruby/bin/arm-none-eabi-gcc-ranlib-14"
       - "/Users/arturomena/.cargo/bin/arm-none-eabi-gcc-ranlib-14"
       - "/Users/arturomena/.rvm/bin/arm-none-eabi-gcc-ranlib-14"
       - "/usr/local/bin/arm-none-eabi-gcc-ranlib14"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/arm-none-eabi-gcc-ranlib14"
-      - "/usr/local/opt/ruby/bin/arm-none-eabi-gcc-ranlib14"
       - "/usr/local/Cellar/ruby/3.3.0/bin/arm-none-eabi-gcc-ranlib14"
       - "/Users/arturomena/.rbenv/shims/arm-none-eabi-gcc-ranlib14"
       - "/Users/arturomena/.pyenv/shims/arm-none-eabi-gcc-ranlib14"
@@ -2219,13 +2160,12 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ranlib14"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ranlib14"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ranlib14"
+      - "/usr/local/opt/ruby/bin/arm-none-eabi-gcc-ranlib14"
       - "/Users/arturomena/.cargo/bin/arm-none-eabi-gcc-ranlib14"
       - "/Users/arturomena/.rvm/bin/arm-none-eabi-gcc-ranlib14"
     found: "/usr/local/bin/arm-none-eabi-gcc-ranlib"
     search_context:
       ENV{PATH}:
-        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
-        - "/usr/local/opt/ruby/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
@@ -2243,11 +2183,11 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/Users/arturomena/.cargo/bin"
-        - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
       CMAKE_FIND_ROOT_PATH: "/usr/local"
@@ -2289,7 +2229,6 @@ events:
     candidate_directories:
       - "/usr/local/bin/"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/"
-      - "/usr/local/opt/ruby/bin/"
       - "/usr/local/Cellar/ruby/3.3.0/bin/"
       - "/Users/arturomena/.rbenv/shims/"
       - "/Users/arturomena/.pyenv/shims/"
@@ -2304,12 +2243,12 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/usr/local/opt/ruby/bin/"
       - "/Users/arturomena/.cargo/bin/"
       - "/Users/arturomena/.rvm/bin/"
     searched_directories:
       - "/usr/local/bin/arm-none-eabi-gcc-ar-"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/arm-none-eabi-gcc-ar-"
-      - "/usr/local/opt/ruby/bin/arm-none-eabi-gcc-ar-"
       - "/usr/local/Cellar/ruby/3.3.0/bin/arm-none-eabi-gcc-ar-"
       - "/Users/arturomena/.rbenv/shims/arm-none-eabi-gcc-ar-"
       - "/Users/arturomena/.pyenv/shims/arm-none-eabi-gcc-ar-"
@@ -2324,11 +2263,11 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ar-"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ar-"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ar-"
+      - "/usr/local/opt/ruby/bin/arm-none-eabi-gcc-ar-"
       - "/Users/arturomena/.cargo/bin/arm-none-eabi-gcc-ar-"
       - "/Users/arturomena/.rvm/bin/arm-none-eabi-gcc-ar-"
       - "/usr/local/bin/arm-none-eabi-gcc-ar-"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/arm-none-eabi-gcc-ar-"
-      - "/usr/local/opt/ruby/bin/arm-none-eabi-gcc-ar-"
       - "/usr/local/Cellar/ruby/3.3.0/bin/arm-none-eabi-gcc-ar-"
       - "/Users/arturomena/.rbenv/shims/arm-none-eabi-gcc-ar-"
       - "/Users/arturomena/.pyenv/shims/arm-none-eabi-gcc-ar-"
@@ -2343,13 +2282,12 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ar-"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ar-"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ar-"
+      - "/usr/local/opt/ruby/bin/arm-none-eabi-gcc-ar-"
       - "/Users/arturomena/.cargo/bin/arm-none-eabi-gcc-ar-"
       - "/Users/arturomena/.rvm/bin/arm-none-eabi-gcc-ar-"
     found: "/usr/local/bin/arm-none-eabi-gcc-ar"
     search_context:
       ENV{PATH}:
-        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
-        - "/usr/local/opt/ruby/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
@@ -2367,11 +2305,11 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/Users/arturomena/.cargo/bin"
-        - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
       CMAKE_FIND_ROOT_PATH: "/usr/local"
@@ -2400,7 +2338,6 @@ events:
     candidate_directories:
       - "/usr/local/bin/"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/"
-      - "/usr/local/opt/ruby/bin/"
       - "/usr/local/Cellar/ruby/3.3.0/bin/"
       - "/Users/arturomena/.rbenv/shims/"
       - "/Users/arturomena/.pyenv/shims/"
@@ -2415,12 +2352,12 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/usr/local/opt/ruby/bin/"
       - "/Users/arturomena/.cargo/bin/"
       - "/Users/arturomena/.rvm/bin/"
     searched_directories:
       - "/usr/local/bin/arm-none-eabi-gcc-ranlib-"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/arm-none-eabi-gcc-ranlib-"
-      - "/usr/local/opt/ruby/bin/arm-none-eabi-gcc-ranlib-"
       - "/usr/local/Cellar/ruby/3.3.0/bin/arm-none-eabi-gcc-ranlib-"
       - "/Users/arturomena/.rbenv/shims/arm-none-eabi-gcc-ranlib-"
       - "/Users/arturomena/.pyenv/shims/arm-none-eabi-gcc-ranlib-"
@@ -2435,11 +2372,11 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ranlib-"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ranlib-"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ranlib-"
+      - "/usr/local/opt/ruby/bin/arm-none-eabi-gcc-ranlib-"
       - "/Users/arturomena/.cargo/bin/arm-none-eabi-gcc-ranlib-"
       - "/Users/arturomena/.rvm/bin/arm-none-eabi-gcc-ranlib-"
       - "/usr/local/bin/arm-none-eabi-gcc-ranlib-"
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/arm-none-eabi-gcc-ranlib-"
-      - "/usr/local/opt/ruby/bin/arm-none-eabi-gcc-ranlib-"
       - "/usr/local/Cellar/ruby/3.3.0/bin/arm-none-eabi-gcc-ranlib-"
       - "/Users/arturomena/.rbenv/shims/arm-none-eabi-gcc-ranlib-"
       - "/Users/arturomena/.pyenv/shims/arm-none-eabi-gcc-ranlib-"
@@ -2454,13 +2391,12 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ranlib-"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ranlib-"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ranlib-"
+      - "/usr/local/opt/ruby/bin/arm-none-eabi-gcc-ranlib-"
       - "/Users/arturomena/.cargo/bin/arm-none-eabi-gcc-ranlib-"
       - "/Users/arturomena/.rvm/bin/arm-none-eabi-gcc-ranlib-"
     found: "/usr/local/bin/arm-none-eabi-gcc-ranlib"
     search_context:
       ENV{PATH}:
-        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
-        - "/usr/local/opt/ruby/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
@@ -2478,11 +2414,11 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/Users/arturomena/.cargo/bin"
-        - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
       CMAKE_FIND_ROOT_PATH: "/usr/local"
@@ -2495,8 +2431,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/Users/arturomena/coqui-runtime/build/CMakeFiles/CMakeScratch/TryCompile-vbKcFh"
-      binary: "/Users/arturomena/coqui-runtime/build/CMakeFiles/CMakeScratch/TryCompile-vbKcFh"
+      source: "/Users/arturomena/coqui-runtime/build/CMakeFiles/CMakeScratch/TryCompile-b0uhyZ"
+      binary: "/Users/arturomena/coqui-runtime/build/CMakeFiles/CMakeScratch/TryCompile-b0uhyZ"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: "-mcpu=cortex-m0plus -mthumb"
@@ -2508,12 +2444,12 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/arturomena/coqui-runtime/build/CMakeFiles/CMakeScratch/TryCompile-vbKcFh'
+        Change Dir: '/Users/arturomena/coqui-runtime/build/CMakeFiles/CMakeScratch/TryCompile-b0uhyZ'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_bc671/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_bc671.dir/build.make CMakeFiles/cmTC_bc671.dir/build
-        Building C object CMakeFiles/cmTC_bc671.dir/CMakeCCompilerABI.c.o
-        /usr/local/bin/arm-none-eabi-gcc   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_bc671.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_90d67/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_90d67.dir/build.make CMakeFiles/cmTC_90d67.dir/build
+        Building C object CMakeFiles/cmTC_90d67.dir/CMakeCCompilerABI.c.o
+        /usr/local/bin/arm-none-eabi-gcc   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_90d67.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/usr/local/bin/arm-none-eabi-gcc
         Target: arm-none-eabi
@@ -2521,8 +2457,8 @@ events:
         Thread model: single
         Supported LTO compression algorithms: zlib zstd
         gcc version 14.2.1 20241119 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) 
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_bc671.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_bc671.dir/'
-         /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet -v -imultilib thumb/v6-m/nofp -iprefix /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/ -isysroot /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ /usr/local/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_bc671.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o /var/folders/hc/gf3bhnr51lv0xg19_srg2lc00000gn/T//ccOlFMb1.s
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_90d67.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_90d67.dir/'
+         /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet -v -imultilib thumb/v6-m/nofp -iprefix /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/ -isysroot /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ /usr/local/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_90d67.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o /var/folders/hc/gf3bhnr51lv0xg19_srg2lc00000gn/T//cc7uFTiE.s
         GNU C17 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) version 14.2.1 20241119 (arm-none-eabi)
         	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.29.30), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
         
@@ -2539,14 +2475,14 @@ events:
          /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include
         End of search list.
         Compiler executable checksum: 4c21e8f96ac6344ff74f74ecbf8df544
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_bc671.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_bc671.dir/'
-         /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_bc671.dir/CMakeCCompilerABI.c.o /var/folders/hc/gf3bhnr51lv0xg19_srg2lc00000gn/T//ccOlFMb1.s
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_90d67.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_90d67.dir/'
+         /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_90d67.dir/CMakeCCompilerABI.c.o /var/folders/hc/gf3bhnr51lv0xg19_srg2lc00000gn/T//cc7uFTiE.s
         GNU assembler version 2.43.1 (arm-none-eabi) using BFD version (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) 2.43.1.20241119
         COMPILER_PATH=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_bc671.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_bc671.dir/CMakeCCompilerABI.c.'
-        Linking C executable cmTC_bc671.elf
-        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc671.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_90d67.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_90d67.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_90d67.elf
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90d67.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/usr/local/bin/arm-none-eabi-gcc
         COLLECT_LTO_WRAPPER=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/lto-wrapper
@@ -2557,11 +2493,11 @@ events:
         gcc version 14.2.1 20241119 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) 
         COMPILER_PATH=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_bc671.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_bc671.elf.'
-         /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/collect2 -plugin /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/liblto_plugin.so -plugin-opt=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/hc/gf3bhnr51lv0xg19_srg2lc00000gn/T//ccUgDJzm.res --sysroot=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi -X -o cmTC_bc671.elf -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1 -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_bc671.dir/CMakeCCompilerABI.c.o
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_90d67.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_90d67.elf.'
+         /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/collect2 -plugin /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/liblto_plugin.so -plugin-opt=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/hc/gf3bhnr51lv0xg19_srg2lc00000gn/T//ccvNxKjx.res --sysroot=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi -X -o cmTC_90d67.elf -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1 -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_90d67.dir/CMakeCCompilerABI.c.o
         /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start; defaulting to 00008000
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_bc671.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_bc671.elf.'
-        /usr/local/bin/arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb  -Wl,--build-id=none -nostdlib  -v CMakeFiles/cmTC_bc671.dir/CMakeCCompilerABI.c.o -o cmTC_bc671.elf
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_90d67.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_90d67.elf.'
+        /usr/local/bin/arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb  -Wl,--build-id=none -nostdlib  -v CMakeFiles/cmTC_90d67.dir/CMakeCCompilerABI.c.o -o cmTC_90d67.elf
         
       exitCode: 0
   -
@@ -2594,12 +2530,12 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/arturomena/coqui-runtime/build/CMakeFiles/CMakeScratch/TryCompile-vbKcFh']
+        ignore line: [Change Dir: '/Users/arturomena/coqui-runtime/build/CMakeFiles/CMakeScratch/TryCompile-b0uhyZ']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_bc671/fast]
-        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_bc671.dir/build.make CMakeFiles/cmTC_bc671.dir/build]
-        ignore line: [Building C object CMakeFiles/cmTC_bc671.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/local/bin/arm-none-eabi-gcc   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_bc671.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_90d67/fast]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_90d67.dir/build.make CMakeFiles/cmTC_90d67.dir/build]
+        ignore line: [Building C object CMakeFiles/cmTC_90d67.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/local/bin/arm-none-eabi-gcc   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_90d67.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/local/bin/arm-none-eabi-gcc]
         ignore line: [Target: arm-none-eabi]
@@ -2607,8 +2543,8 @@ events:
         ignore line: [Thread model: single]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 14.2.1 20241119 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_bc671.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_bc671.dir/']
-        ignore line: [ /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet -v -imultilib thumb/v6-m/nofp -iprefix /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/ -isysroot /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ /usr/local/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_bc671.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o /var/folders/hc/gf3bhnr51lv0xg19_srg2lc00000gn/T//ccOlFMb1.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_90d67.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_90d67.dir/']
+        ignore line: [ /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet -v -imultilib thumb/v6-m/nofp -iprefix /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/ -isysroot /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ /usr/local/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_90d67.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o /var/folders/hc/gf3bhnr51lv0xg19_srg2lc00000gn/T//cc7uFTiE.s]
         ignore line: [GNU C17 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) version 14.2.1 20241119 (arm-none-eabi)]
         ignore line: [	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.29.30)  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
         ignore line: []
@@ -2625,14 +2561,14 @@ events:
         ignore line: [ /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 4c21e8f96ac6344ff74f74ecbf8df544]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_bc671.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_bc671.dir/']
-        ignore line: [ /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_bc671.dir/CMakeCCompilerABI.c.o /var/folders/hc/gf3bhnr51lv0xg19_srg2lc00000gn/T//ccOlFMb1.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_90d67.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_90d67.dir/']
+        ignore line: [ /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_90d67.dir/CMakeCCompilerABI.c.o /var/folders/hc/gf3bhnr51lv0xg19_srg2lc00000gn/T//cc7uFTiE.s]
         ignore line: [GNU assembler version 2.43.1 (arm-none-eabi) using BFD version (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) 2.43.1.20241119]
         ignore line: [COMPILER_PATH=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/]
         ignore line: [LIBRARY_PATH=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_bc671.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_bc671.dir/CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_bc671.elf]
-        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc671.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_90d67.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_90d67.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_90d67.elf]
+        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90d67.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/local/bin/arm-none-eabi-gcc]
         ignore line: [COLLECT_LTO_WRAPPER=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/lto-wrapper]
@@ -2643,17 +2579,17 @@ events:
         ignore line: [gcc version 14.2.1 20241119 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) ]
         ignore line: [COMPILER_PATH=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/]
         ignore line: [LIBRARY_PATH=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_bc671.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_bc671.elf.']
-        link line: [ /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/collect2 -plugin /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/liblto_plugin.so -plugin-opt=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/hc/gf3bhnr51lv0xg19_srg2lc00000gn/T//ccUgDJzm.res --sysroot=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi -X -o cmTC_bc671.elf -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1 -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_bc671.dir/CMakeCCompilerABI.c.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_90d67.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_90d67.elf.']
+        link line: [ /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/collect2 -plugin /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/liblto_plugin.so -plugin-opt=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/hc/gf3bhnr51lv0xg19_srg2lc00000gn/T//ccvNxKjx.res --sysroot=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi -X -o cmTC_90d67.elf -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1 -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_90d67.dir/CMakeCCompilerABI.c.o]
           arg [/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/var/folders/hc/gf3bhnr51lv0xg19_srg2lc00000gn/T//ccUgDJzm.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/var/folders/hc/gf3bhnr51lv0xg19_srg2lc00000gn/T//ccvNxKjx.res] ==> ignore
           arg [--sysroot=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi] ==> ignore
           arg [-X] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_bc671.elf] ==> ignore
+          arg [cmTC_90d67.elf] ==> ignore
           arg [-L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp] ==> dir [/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp]
           arg [-L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp]
           arg [-L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp]
@@ -2662,11 +2598,11 @@ events:
           arg [-L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib] ==> dir [/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib]
           arg [-L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib] ==> dir [/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib]
           arg [--build-id=none] ==> ignore
-          arg [CMakeFiles/cmTC_bc671.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_90d67.dir/CMakeCCompilerABI.c.o] ==> ignore
         ignore line: [/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start]
         ignore line: [ defaulting to 00008000]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_bc671.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_bc671.elf.']
-        ignore line: [/usr/local/bin/arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb  -Wl --build-id=none -nostdlib  -v CMakeFiles/cmTC_bc671.dir/CMakeCCompilerABI.c.o -o cmTC_bc671.elf]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_90d67.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_90d67.elf.']
+        ignore line: [/usr/local/bin/arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb  -Wl --build-id=none -nostdlib  -v CMakeFiles/cmTC_90d67.dir/CMakeCCompilerABI.c.o -o cmTC_90d67.elf]
         ignore line: []
         ignore line: []
         collapse library dir [/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp] ==> [/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp]
@@ -2691,8 +2627,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/Users/arturomena/coqui-runtime/build/CMakeFiles/CMakeScratch/TryCompile-59crqM"
-      binary: "/Users/arturomena/coqui-runtime/build/CMakeFiles/CMakeScratch/TryCompile-59crqM"
+      source: "/Users/arturomena/coqui-runtime/build/CMakeFiles/CMakeScratch/TryCompile-szEikU"
+      binary: "/Users/arturomena/coqui-runtime/build/CMakeFiles/CMakeScratch/TryCompile-szEikU"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "-mcpu=cortex-m0plus -mthumb"
       CMAKE_CXX_FLAGS_DEBUG: "-Og -g"
@@ -2705,12 +2641,12 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/arturomena/coqui-runtime/build/CMakeFiles/CMakeScratch/TryCompile-59crqM'
+        Change Dir: '/Users/arturomena/coqui-runtime/build/CMakeFiles/CMakeScratch/TryCompile-szEikU'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0370a/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_0370a.dir/build.make CMakeFiles/cmTC_0370a.dir/build
-        Building CXX object CMakeFiles/cmTC_0370a.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/local/bin/arm-none-eabi-g++   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_0370a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ef6fe/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_ef6fe.dir/build.make CMakeFiles/cmTC_ef6fe.dir/build
+        Building CXX object CMakeFiles/cmTC_ef6fe.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/local/bin/arm-none-eabi-g++   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_ef6fe.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/local/bin/arm-none-eabi-g++
         Target: arm-none-eabi
@@ -2718,8 +2654,8 @@ events:
         Thread model: single
         Supported LTO compression algorithms: zlib zstd
         gcc version 14.2.1 20241119 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) 
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_0370a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_0370a.dir/'
-         /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1plus -quiet -v -imultilib thumb/v6-m/nofp -iprefix /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/ -isysroot /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_0370a.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o /var/folders/hc/gf3bhnr51lv0xg19_srg2lc00000gn/T//ccQNtrIS.s
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_ef6fe.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_ef6fe.dir/'
+         /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1plus -quiet -v -imultilib thumb/v6-m/nofp -iprefix /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/ -isysroot /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_ef6fe.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o /var/folders/hc/gf3bhnr51lv0xg19_srg2lc00000gn/T//ccm2cJi5.s
         GNU C++17 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) version 14.2.1 20241119 (arm-none-eabi)
         	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.29.30), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
         
@@ -2742,14 +2678,14 @@ events:
          /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include
         End of search list.
         Compiler executable checksum: 15bb57c730974a845f657689944af157
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_0370a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_0370a.dir/'
-         /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_0370a.dir/CMakeCXXCompilerABI.cpp.o /var/folders/hc/gf3bhnr51lv0xg19_srg2lc00000gn/T//ccQNtrIS.s
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_ef6fe.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_ef6fe.dir/'
+         /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_ef6fe.dir/CMakeCXXCompilerABI.cpp.o /var/folders/hc/gf3bhnr51lv0xg19_srg2lc00000gn/T//ccm2cJi5.s
         GNU assembler version 2.43.1 (arm-none-eabi) using BFD version (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) 2.43.1.20241119
         COMPILER_PATH=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_0370a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_0370a.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_0370a.elf
-        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0370a.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_ef6fe.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_ef6fe.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_ef6fe.elf
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef6fe.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/usr/local/bin/arm-none-eabi-g++
         COLLECT_LTO_WRAPPER=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/lto-wrapper
@@ -2760,11 +2696,11 @@ events:
         gcc version 14.2.1 20241119 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) 
         COMPILER_PATH=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_0370a.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_0370a.elf.'
-         /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/collect2 -plugin /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/liblto_plugin.so -plugin-opt=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/hc/gf3bhnr51lv0xg19_srg2lc00000gn/T//ccTvL0gd.res --sysroot=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi -X -o cmTC_0370a.elf -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1 -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_0370a.dir/CMakeCXXCompilerABI.cpp.o
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_ef6fe.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_ef6fe.elf.'
+         /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/collect2 -plugin /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/liblto_plugin.so -plugin-opt=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/hc/gf3bhnr51lv0xg19_srg2lc00000gn/T//ccNPfr9O.res --sysroot=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi -X -o cmTC_ef6fe.elf -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1 -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_ef6fe.dir/CMakeCXXCompilerABI.cpp.o
         /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start; defaulting to 00008000
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_0370a.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_0370a.elf.'
-        /usr/local/bin/arm-none-eabi-g++ -mcpu=cortex-m0plus -mthumb  -Wl,--build-id=none -nostdlib  -v CMakeFiles/cmTC_0370a.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_0370a.elf
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_ef6fe.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_ef6fe.elf.'
+        /usr/local/bin/arm-none-eabi-g++ -mcpu=cortex-m0plus -mthumb  -Wl,--build-id=none -nostdlib  -v CMakeFiles/cmTC_ef6fe.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ef6fe.elf
         
       exitCode: 0
   -
@@ -2803,12 +2739,12 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/arturomena/coqui-runtime/build/CMakeFiles/CMakeScratch/TryCompile-59crqM']
+        ignore line: [Change Dir: '/Users/arturomena/coqui-runtime/build/CMakeFiles/CMakeScratch/TryCompile-szEikU']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0370a/fast]
-        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_0370a.dir/build.make CMakeFiles/cmTC_0370a.dir/build]
-        ignore line: [Building CXX object CMakeFiles/cmTC_0370a.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/local/bin/arm-none-eabi-g++   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_0370a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ef6fe/fast]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_ef6fe.dir/build.make CMakeFiles/cmTC_ef6fe.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_ef6fe.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/local/bin/arm-none-eabi-g++   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_ef6fe.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/local/bin/arm-none-eabi-g++]
         ignore line: [Target: arm-none-eabi]
@@ -2816,8 +2752,8 @@ events:
         ignore line: [Thread model: single]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 14.2.1 20241119 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_0370a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_0370a.dir/']
-        ignore line: [ /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1plus -quiet -v -imultilib thumb/v6-m/nofp -iprefix /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/ -isysroot /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_0370a.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o /var/folders/hc/gf3bhnr51lv0xg19_srg2lc00000gn/T//ccQNtrIS.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_ef6fe.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_ef6fe.dir/']
+        ignore line: [ /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1plus -quiet -v -imultilib thumb/v6-m/nofp -iprefix /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/ -isysroot /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_ef6fe.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o /var/folders/hc/gf3bhnr51lv0xg19_srg2lc00000gn/T//ccm2cJi5.s]
         ignore line: [GNU C++17 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) version 14.2.1 20241119 (arm-none-eabi)]
         ignore line: [	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.29.30)  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
         ignore line: []
@@ -2840,14 +2776,14 @@ events:
         ignore line: [ /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 15bb57c730974a845f657689944af157]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_0370a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_0370a.dir/']
-        ignore line: [ /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_0370a.dir/CMakeCXXCompilerABI.cpp.o /var/folders/hc/gf3bhnr51lv0xg19_srg2lc00000gn/T//ccQNtrIS.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_ef6fe.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_ef6fe.dir/']
+        ignore line: [ /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_ef6fe.dir/CMakeCXXCompilerABI.cpp.o /var/folders/hc/gf3bhnr51lv0xg19_srg2lc00000gn/T//ccm2cJi5.s]
         ignore line: [GNU assembler version 2.43.1 (arm-none-eabi) using BFD version (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) 2.43.1.20241119]
         ignore line: [COMPILER_PATH=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/]
         ignore line: [LIBRARY_PATH=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_0370a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_0370a.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_0370a.elf]
-        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0370a.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_ef6fe.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_ef6fe.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_ef6fe.elf]
+        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef6fe.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/local/bin/arm-none-eabi-g++]
         ignore line: [COLLECT_LTO_WRAPPER=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/lto-wrapper]
@@ -2858,17 +2794,17 @@ events:
         ignore line: [gcc version 14.2.1 20241119 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) ]
         ignore line: [COMPILER_PATH=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/]
         ignore line: [LIBRARY_PATH=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/:/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_0370a.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_0370a.elf.']
-        link line: [ /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/collect2 -plugin /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/liblto_plugin.so -plugin-opt=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/hc/gf3bhnr51lv0xg19_srg2lc00000gn/T//ccTvL0gd.res --sysroot=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi -X -o cmTC_0370a.elf -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1 -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_0370a.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_ef6fe.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_ef6fe.elf.']
+        link line: [ /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/collect2 -plugin /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/liblto_plugin.so -plugin-opt=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/hc/gf3bhnr51lv0xg19_srg2lc00000gn/T//ccNPfr9O.res --sysroot=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi -X -o cmTC_ef6fe.elf -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1 -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib -L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_ef6fe.dir/CMakeCXXCompilerABI.cpp.o]
           arg [/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.2.1/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/var/folders/hc/gf3bhnr51lv0xg19_srg2lc00000gn/T//ccTvL0gd.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/var/folders/hc/gf3bhnr51lv0xg19_srg2lc00000gn/T//ccNPfr9O.res] ==> ignore
           arg [--sysroot=/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi] ==> ignore
           arg [-X] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_0370a.elf] ==> ignore
+          arg [cmTC_ef6fe.elf] ==> ignore
           arg [-L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp] ==> dir [/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp]
           arg [-L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp]
           arg [-L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp]
@@ -2877,11 +2813,11 @@ events:
           arg [-L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib] ==> dir [/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib]
           arg [-L/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib] ==> dir [/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib]
           arg [--build-id=none] ==> ignore
-          arg [CMakeFiles/cmTC_0370a.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_ef6fe.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
         ignore line: [/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start]
         ignore line: [ defaulting to 00008000]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_0370a.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_0370a.elf.']
-        ignore line: [/usr/local/bin/arm-none-eabi-g++ -mcpu=cortex-m0plus -mthumb  -Wl --build-id=none -nostdlib  -v CMakeFiles/cmTC_0370a.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_0370a.elf]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_ef6fe.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_ef6fe.elf.']
+        ignore line: [/usr/local/bin/arm-none-eabi-g++ -mcpu=cortex-m0plus -mthumb  -Wl --build-id=none -nostdlib  -v CMakeFiles/cmTC_ef6fe.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ef6fe.elf]
         ignore line: []
         ignore line: []
         collapse library dir [/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp] ==> [/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp]
@@ -2916,7 +2852,6 @@ events:
       - "ccache"
     candidate_directories:
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/"
-      - "/usr/local/opt/ruby/bin/"
       - "/usr/local/Cellar/ruby/3.3.0/bin/"
       - "/Users/arturomena/.rbenv/shims/"
       - "/Users/arturomena/.pyenv/shims/"
@@ -2932,6 +2867,7 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/usr/local/opt/ruby/bin/"
       - "/Users/arturomena/.cargo/bin/"
       - "/Users/arturomena/.rvm/bin/"
       - "/usr/local/bin/"
@@ -2953,7 +2889,6 @@ events:
       - "/opt/"
     searched_directories:
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/ccache"
-      - "/usr/local/opt/ruby/bin/ccache"
       - "/usr/local/Cellar/ruby/3.3.0/bin/ccache"
       - "/Users/arturomena/.rbenv/shims/ccache"
       - "/Users/arturomena/.pyenv/shims/ccache"
@@ -2961,8 +2896,6 @@ events:
     found: "/usr/local/bin/ccache"
     search_context:
       ENV{PATH}:
-        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
-        - "/usr/local/opt/ruby/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
@@ -2980,11 +2913,11 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/Users/arturomena/.cargo/bin"
-        - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
@@ -3173,8 +3106,6 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
-        - "/usr/local/opt/ruby/bin"
-        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Users/arturomena/.pyenv/shims"
@@ -3191,11 +3122,11 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/Users/arturomena/.cargo/bin"
-        - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
@@ -3289,26 +3220,6 @@ events:
         reason: "no_exist"
       -
         path: "/Users/arturomena/.nvm/versions/node/v10.24.1/share/cps/pioasm.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/usr/local/opt/ruby/pioasmConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/usr/local/opt/ruby/pioasm-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/usr/local/opt/ruby/lib32/cps/pioasm.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/usr/local/opt/ruby/lib/cps/pioasm.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/usr/local/opt/ruby/share/cps/pioasm.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -3492,6 +3403,26 @@ events:
         mode: "cps"
         reason: "no_exist"
       -
+        path: "/usr/local/opt/ruby/pioasmConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/opt/ruby/pioasm-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/opt/ruby/lib32/cps/pioasm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/opt/ruby/lib/cps/pioasm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/opt/ruby/share/cps/pioasm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
         path: "/Users/arturomena/.cargo/pioasmConfig.cmake"
         mode: "config"
         reason: "no_exist"
@@ -3555,8 +3486,6 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
-        - "/usr/local/opt/ruby/bin"
-        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Users/arturomena/.pyenv/shims"
@@ -3573,11 +3502,11 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/Users/arturomena/.cargo/bin"
-        - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
@@ -3612,7 +3541,6 @@ events:
       - "doxygen"
     candidate_directories:
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/"
-      - "/usr/local/opt/ruby/bin/"
       - "/usr/local/Cellar/ruby/3.3.0/bin/"
       - "/Users/arturomena/.rbenv/shims/"
       - "/Users/arturomena/.pyenv/shims/"
@@ -3628,6 +3556,7 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/usr/local/opt/ruby/bin/"
       - "/Users/arturomena/.cargo/bin/"
       - "/Users/arturomena/.rvm/bin/"
       - "/usr/local/bin/"
@@ -3653,7 +3582,6 @@ events:
       - "/Applications/Utilities/Doxygen.app/Contents/MacOS/"
     searched_directories:
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/doxygen"
-      - "/usr/local/opt/ruby/bin/doxygen"
       - "/usr/local/Cellar/ruby/3.3.0/bin/doxygen"
       - "/Users/arturomena/.rbenv/shims/doxygen"
       - "/Users/arturomena/.pyenv/shims/doxygen"
@@ -3669,6 +3597,7 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/doxygen"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/doxygen"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/doxygen"
+      - "/usr/local/opt/ruby/bin/doxygen"
       - "/Users/arturomena/.cargo/bin/doxygen"
       - "/Users/arturomena/.rvm/bin/doxygen"
       - "/usr/local/bin/doxygen"
@@ -3696,8 +3625,6 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
-        - "/usr/local/opt/ruby/bin"
-        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Users/arturomena/.pyenv/shims"
@@ -3714,11 +3641,11 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/Users/arturomena/.cargo/bin"
-        - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
@@ -3753,7 +3680,6 @@ events:
       - "dot"
     candidate_directories:
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/"
-      - "/usr/local/opt/ruby/bin/"
       - "/usr/local/Cellar/ruby/3.3.0/bin/"
       - "/Users/arturomena/.rbenv/shims/"
       - "/Users/arturomena/.pyenv/shims/"
@@ -3769,6 +3695,7 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/usr/local/opt/ruby/bin/"
       - "/Users/arturomena/.cargo/bin/"
       - "/Users/arturomena/.rvm/bin/"
       - "/usr/local/bin/"
@@ -3798,7 +3725,6 @@ events:
       - "/Applications/Utilities/Doxygen.app/Contents/MacOS/"
     searched_directories:
       - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin/dot"
-      - "/usr/local/opt/ruby/bin/dot"
       - "/usr/local/Cellar/ruby/3.3.0/bin/dot"
       - "/Users/arturomena/.rbenv/shims/dot"
       - "/Users/arturomena/.pyenv/shims/dot"
@@ -3814,6 +3740,7 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/dot"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/dot"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/dot"
+      - "/usr/local/opt/ruby/bin/dot"
       - "/Users/arturomena/.cargo/bin/dot"
       - "/Users/arturomena/.rvm/bin/dot"
       - "/usr/local/bin/dot"
@@ -3845,8 +3772,6 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
-        - "/usr/local/opt/ruby/bin"
-        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Users/arturomena/.pyenv/shims"
@@ -3863,11 +3788,11 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/Users/arturomena/.cargo/bin"
-        - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
@@ -3965,26 +3890,6 @@ events:
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/usr/local/opt/ruby/picotoolConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/usr/local/opt/ruby/picotool-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/usr/local/opt/ruby/lib32/cps/picotool.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/usr/local/opt/ruby/lib/cps/picotool.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/usr/local/opt/ruby/share/cps/picotool.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
         path: "/usr/local/Cellar/ruby/3.3.0/picotoolConfig.cmake"
         mode: "config"
         reason: "no_exist"
@@ -4071,8 +3976,6 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
-        - "/usr/local/opt/ruby/bin"
-        - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Users/arturomena/.pyenv/shims"
@@ -4089,11 +3992,11 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Users/arturomena/.nvm/versions/node/v10.24.1/bin"
+        - "/usr/local/opt/ruby/bin"
         - "/usr/local/Cellar/ruby/3.3.0/bin"
         - "/Users/arturomena/.rbenv/shims"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/Users/arturomena/.cargo/bin"
-        - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
         - "/Users/arturomena/.rvm/bin"
       CMAKE_INSTALL_PREFIX: "/usr/local"

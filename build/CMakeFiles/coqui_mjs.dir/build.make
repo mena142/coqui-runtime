@@ -1279,6 +1279,20 @@ CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_fix/rp204
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/arturomena/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c -o CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 
+CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_adc/adc.c.o: CMakeFiles/coqui_mjs.dir/flags.make
+CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_adc/adc.c.o: /Users/arturomena/pico-sdk/src/rp2_common/hardware_adc/adc.c
+CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_adc/adc.c.o: CMakeFiles/coqui_mjs.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/arturomena/coqui-runtime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_adc/adc.c.o"
+	/usr/local/bin/ccache /usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_adc/adc.c.o -MF CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_adc/adc.c.o.d -o CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_adc/adc.c.o -c /Users/arturomena/pico-sdk/src/rp2_common/hardware_adc/adc.c
+
+CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_adc/adc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_adc/adc.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/arturomena/pico-sdk/src/rp2_common/hardware_adc/adc.c > CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+
+CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_adc/adc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_adc/adc.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/arturomena/pico-sdk/src/rp2_common/hardware_adc/adc.c -o CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
+
 # Object files for target coqui_mjs
 coqui_mjs_OBJECTS = \
 "CMakeFiles/coqui_mjs.dir/main.c.o" \
@@ -1367,7 +1381,8 @@ coqui_mjs_OBJECTS = \
 "CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o" \
 "CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/tusb.c.o" \
 "CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o" \
-"CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o"
+"CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o" \
+"CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_adc/adc.c.o"
 
 # External object files for target coqui_mjs
 coqui_mjs_EXTERNAL_OBJECTS =
@@ -1459,11 +1474,12 @@ coqui_mjs.elf: CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/sr
 coqui_mjs.elf: CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/tusb.c.o
 coqui_mjs.elf: CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
 coqui_mjs.elf: CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
+coqui_mjs.elf: CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_adc/adc.c.o
 coqui_mjs.elf: CMakeFiles/coqui_mjs.dir/build.make
 coqui_mjs.elf: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.o
 coqui_mjs.elf: /Users/arturomena/pico-sdk/src/rp2_common/pico_crt0/rp2040/memmap_default.ld
 coqui_mjs.elf: CMakeFiles/coqui_mjs.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/arturomena/coqui-runtime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Linking CXX executable coqui_mjs.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/arturomena/coqui-runtime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Linking CXX executable coqui_mjs.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/coqui_mjs.dir/link.txt --verbose=$(VERBOSE)
 	/usr/local/bin/arm-none-eabi-objdump -h /Users/arturomena/coqui-runtime/build/coqui_mjs.elf > coqui_mjs.dis
 	/usr/local/bin/arm-none-eabi-objdump -d /Users/arturomena/coqui-runtime/build/coqui_mjs.elf >> coqui_mjs.dis

@@ -57,6 +57,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/common/pico_util/queue.c.o.d"
   "CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2040/pico_platform/platform.c.o"
   "CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2040/pico_platform/platform.c.o.d"
+  "CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_adc/adc.c.o"
+  "CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_adc/adc.c.o.d"
   "CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o"
   "CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o.d"
   "CMakeFiles/coqui_mjs.dir/Users/arturomena/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o"

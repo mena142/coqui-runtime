@@ -1,97 +1,127 @@
 #!/bin/bash
 
-# --- CONFIGURATION ---
+# --- BRAND COLORS ---
+C_MAIN="\033[38;2;73;193;209m"    # #49c1d1
+C_ACCENT="\033[38;2;234;35;124m"  # #ea237c
+C_COMP="\033[38;2;247;189;14m"    # #f7bd0e
+C_GRAY="\033[38;5;244m"           
+C_TEXT="\033[38;2;49;74;97m"      
+C_BOLD="\033[1m"
+NC_COL="\033[0m"
+
 TARGET="coqui_mjs"
-LOG_DIR="logs"
-mkdir -p "$LOG_DIR"
+VERSION="0.9.5-beta"
+IP_ADDR=$(ifconfig | grep "inet " | grep -v 127.0.0.1 | awk '{print $2}' | head -n 1)
+STATUS="🟢 READY"
+TEMP_VAL="--"
 
-# Function to handle the actual build process
-perform_build() {
-    VERSION_HASH=$(date +%s | md5 | head -c 7)
-    LOG_FILE="$LOG_DIR/build_$VERSION_HASH.log"
+# --- TMUX BOOT ---
+if [ -z "$TMUX" ]; then
+    tmux kill-server 2>/dev/null
+    sleep 1 # Give the OS a second to release the TTYs
+    tmux new-session -d -s coqui_dev
+    tmux split-window -h -p 45
     
-    echo "------------------------------------------------"
-    echo "🛠  BUILDING: $VERSION_HASH"
-    echo "------------------------------------------------"
+    # Left Pane: Clear and hard-reset the shell before sending the loop
+    tmux send-keys -t coqui_dev:0.0 "reset" C-m
+    sleep 0.5
+    tmux send-keys -t coqui_dev:0.0 "while true; do for p in /dev/tty.usbmodem*; do if [ -e \"\$p\" ]; then minicom -D \"\$p\" -b 115200; fi; done; sleep 2; done" C-m
     
-    START_TIME=$(date +%s)
-    
-    mkdir -p build && cd build
-    # Clean everything except dependencies to keep it fast
-    find . -maxdepth 1 ! -name '_deps' -exec rm -rf {} + 
-    
-    cmake .. -DCMAKE_BUILD_TYPE=Release 2>&1 | tee -a "../$LOG_FILE"
-    make -j$(sysctl -n hw.ncpu) 2>&1 | tee -a "../$LOG_FILE"
-    
-    BUILD_EXIT=${PIPESTATUS[0]}
-    cd ..
+    tmux send-keys -t coqui_dev:0.1 "export IN_TMUX=1; ./deploy.sh" C-m
+    tmux attach-session -t coqui_dev
+    exit 0
+fi
 
-    if [ $BUILD_EXIT -ne 0 ]; then
-        echo "❌ BUILD FAILED. Check $LOG_FILE"
-        return 1
+draw_header() {
+    clear
+    # Stylized Frog from your guide
+    echo -e "   ${C_MAIN}▄████▄${NC_COL}"
+    echo -e "  ${C_MAIN}██${C_ACCENT}█${C_MAIN}██${C_ACCENT}█${C_MAIN}██    ${C_BOLD}${C_MAIN}Welcome to coquiOS v$VERSION${NC_COL}"
+    echo -e "  ${C_MAIN}████████    ${C_TEXT}Hardware-JS Environment${NC_COL}"
+    echo -e " ${C_COMP}▄${C_MAIN}██${C_COMP}▄${C_MAIN}██${C_COMP}▄${C_MAIN}██${C_COMP}▄   ${C_COMP}Published by Cohoba Digital${NC_COL}"
+    echo -e " ${C_ACCENT}█${C_MAIN}██${C_ACCENT}█${C_MAIN}██${C_ACCENT}█${C_MAIN}██${C_ACCENT}█   ${C_GRAY}https://cohoba.digital${NC_COL}"
+}
+
+draw_divider() {
+    echo -e "\n\n${C_GRAY}==== ${C_TEXT}[ $1 ] ${C_MAIN}==============================${NC_COL}\n"
+}
+
+draw_dashboard() {
+    draw_header
+    
+    draw_divider "SYSTEM"
+    echo -e "  ${C_TEXT}CHIP:      ${C_MAIN}RP2040${NC_COL} | ${C_ACCENT}Dual-Core ARM Cortex-M0+${NC_COL}"
+    echo -e "  ${C_TEXT}SPEED:     ${C_COMP}133MHz${NC_COL} | ${C_TEXT}RAM: ${C_MAIN}264KB${NC_COL} | ${C_TEXT}QSPI: ${C_MAIN}16MB${NC_COL}"
+    echo -e "  ${C_TEXT}IP ADDR:   ${C_COMP}${IP_ADDR:-DISCONNECTED}${NC_COL}"
+    echo -e "  ${C_TEXT}STATUS:    ${C_ACCENT}${STATUS}${NC_COL}   ${C_TEXT}TEMP: ${C_COMP}${TEMP_VAL}°C${NC_COL}"
+    
+    if [ -f "build/$TARGET.bin" ]; then
+        SIZE=$(stat -f%z "build/$TARGET.bin")
+        PER=$(( (SIZE * 100) / 16777216 ))
+        BAR_W=$((PER / 5)); BAR=$(printf '█%.0s' $(seq 1 $BAR_W)); EMPTY=$(printf '░%.0s' $(seq 1 $((20 - BAR_W))))
+        echo -e "  ${C_TEXT}FLASH:     [${C_MAIN}${BAR}${EMPTY}${C_TEXT}] ${C_ACCENT}${PER}% used${NC_COL}"
+    fi
+
+    draw_divider "MENU"
+    echo -e "  1️⃣  ${C_TEXT}Rebuild Project${NC_COL}     2️⃣  ${C_TEXT}Flash USB (UF2)${NC_COL}"
+    echo -e ""
+    echo -e "  3️⃣  ${C_TEXT}Flash (nc)${NC_COL}          4️⃣  ${C_TEXT}Dump Memory${NC_COL}"
+    echo -e ""
+    echo -e "  5️⃣  ${C_TEXT}Reset Board${NC_COL}         6️⃣  ${C_ACCENT}${BOLD}HALT / UNHALT${NC_COL}"
+    echo -e ""
+    echo -e "  7️⃣  ${C_MAIN}${BOLD}🚀 FULL DEPLOY (BUILD + NC FLASH)${NC_COL}"
+    
+    echo -e "\n\n  ${C_GRAY}[q] Exit & Shutdown Session${NC_COL}"
+    echo -ne "\n${C_ACCENT}${BOLD}COMMAND > ${NC_COL}"
+}
+
+# --- ACTIONS ---
+perform_nc_flash() {
+    STATUS="🚀 FLASHING"
+    draw_dashboard
+    echo -e "${C_MAIN}⚡ Connecting to OpenOCD via Netcat...${NC_COL}"
+    
+    if ! pgrep -x "openocd" > /dev/null; then
+        openocd -f interface/cmsis-dap.cfg -f target/rp2040.cfg > openocd.log 2>&1 &
+        sleep 2
+    fi
+
+    ( echo "halt"; echo "program build/$TARGET.elf verify reset"; echo "exit" ) | nc -w 5 localhost 4444 | tee flash.log
+
+    if grep -q "Verified OK" flash.log; then
+        echo -e "\n${C_MAIN}✅ FLASH SUCCESSFUL${NC_COL}"
+        STATUS="🟢 SUCCESS"
     else
-        DURATION=$(( $(date +%s) - START_TIME ))
-        echo "✅ BUILD SUCCESSFUL (${DURATION}s)"
-        return 0
+        echo -e "\n${C_ACCENT}❌ FLASH FAILED${NC_COL}"
+        STATUS="🔴 FAILED"
+        read -n 1 -p "Check logs. Press any key..."
     fi
 }
 
-# Function to handle the flashing process
-perform_flash() {
-    DEST=$(ls -d /Volumes/RPI-RP2 2>/dev/null)
-    if [ -z "$DEST" ]; then
-        echo "⚠️  PICO NOT FOUND! (Hold BOOTSEL while plugging in)"
-        return 1
-    else
-        echo "🚀 Flashing build/$TARGET.uf2 to $DEST..."
-        cp "build/$TARGET.uf2" "$DEST/"
-        echo "✅ FLASH COMPLETE. Pico is rebooting."
-        return 0
-    fi
-}
-
-# Initial Build
-perform_build
-
-# --- INTERACTIVE LOOP ---
 while true; do
-    echo ""
-    echo "================================================"
-    echo "  COQUI-RUNTIME COMMAND CENTER"
-    echo "================================================"
-    echo " 1) Flash Existing Build"
-    echo " 2) Rebuild Only"
-    echo " 3) Zip for Distribution"
-    echo " 4) [QUICK] Rebuild AND Flash"
-    echo " 5) Exit"
-    echo "================================================"
-    read -p "Select option: " opt
-
+    draw_dashboard
+    read -n 1 -r opt
     case $opt in
-        1)
-            perform_flash
-            ;;
+        1) 
+            STATUS="🛠 BUILDING"
+            draw_dashboard
+            mkdir -p build && cd build && cmake .. && make -j4
+            [ $? -ne 0 ] && read -n 1 -p "Build Error..."
+            cd ..; STATUS="🟢 READY" ;;
         2)
-            perform_build
-            ;;
-        3)
-            ZIP_NAME="dist_${TARGET}_$(date +%Y%m%d_%H%M).zip"
-            zip -j "$ZIP_NAME" "build/$TARGET.uf2" "build/$TARGET.elf"
-            echo "📦 Created $ZIP_NAME"
-            ;;
-        4)
-            if perform_build; then
-                # Small delay to give you time to hold the button if needed
-                sleep 1
-                perform_flash
+            cp build/$TARGET.uf2 /Volumes/RPI-RP2/ 2>/dev/null && STATUS="📂 USB COPIED" || STATUS="🔴 USB ERROR" ;;
+        3|7) 
+            if [ "$opt" == "7" ]; then
+                STATUS="🛠 BUILDING"
+                draw_dashboard
+                mkdir -p build && cd build && cmake .. && make -j4 
+                [ $? -ne 0 ] && cd .. && continue
+                arm-none-eabi-objcopy -O binary "$TARGET.elf" "$TARGET.bin"
+                cd ..
             fi
-            ;;
-        5)
-            echo "Exiting..."
-            exit 0
-            ;;
-        *)
-            echo "Invalid option."
-            ;;
+            perform_nc_flash ;;
+        5) (echo "reset run"; echo "exit") | nc localhost 4444 ;;
+        6) (echo "halt"; echo "exit") | nc localhost 4444 ;;
+        q|Q) tmux kill-server; exit ;;
     esac
 done

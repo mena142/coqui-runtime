@@ -16,10 +16,6 @@ CMakeFiles/coqui_mjs.dir/main.c.o: /Users/arturomena/coqui-runtime/main.c \
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_types.h \
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/lock.h \
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/stdio.h \
- /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/string.h \
- /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_locale.h \
- /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/strings.h \
- /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/string.h \
  /Users/arturomena/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h \
  /Users/arturomena/pico-sdk/src/common/pico_base_headers/include/pico.h \
  /Users/arturomena/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
@@ -74,5 +70,10 @@ CMakeFiles/coqui_mjs.dir/main.c.o: /Users/arturomena/coqui-runtime/main.c \
  /Users/arturomena/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
  /Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
  /Users/arturomena/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+ /Users/arturomena/coqui-runtime/hardware.h \
  /Users/arturomena/coqui-runtime/mquickjs/mquickjs.h \
- /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/inttypes.h
+ /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/inttypes.h \
+ /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_locale.h \
+ /Users/arturomena/pico-sdk/src/rp2_common/hardware_adc/include/hardware/adc.h \
+ /Users/arturomena/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/adc.h \
+ /Users/arturomena/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/adc.h
